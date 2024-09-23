@@ -290,15 +290,11 @@ def question_screen():
         unsafe_allow_html=True
     )
     
-    # Render the radio button with custom class for the label
     #st.markdown("<div class='radio-label'>Choose an option:</div>", unsafe_allow_html=True)
     #user_choice = st.radio("", options, key=st.session_state["question_attempts"])
 
-    # Provide a non-empty label but hide it using label_visibility
-    user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"], label_visibility="collapsed")
-
-    # Render the custom label with larger font size
     st.markdown("<div class='radio-label'>Choose an option:</div>", unsafe_allow_html=True)
+    user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"], label_visibility="collapsed")
 
     #user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"])
     st.markdown('</div>', unsafe_allow_html=True)
