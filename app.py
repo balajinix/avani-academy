@@ -1,10 +1,22 @@
 import streamlit as st
+import base64
 import time
 import json
 import os
 import random
 import pandas as pd
 
+# Function to play audio using base64 encoding
+def autoplay_audio(file_path: str):
+    with open(file_path, "rb") as f:
+        data = f.read()
+        b64 = base64.b64encode(data).decode()
+        md = f"""
+            <audio autoplay="true">
+            <source src="data:audio/mp3;base64,{b64}" type="audio/mp3">
+            </audio>
+            """
+        st.markdown(md, unsafe_allow_html=True)
 
 # Paths to data directories
 USERS_FILE = './data/users.json'
@@ -277,12 +289,9 @@ def question_screen():
                 st.info("Correct! This was a previously answered question, so no points are added.")
             else:
                 st.success("Bravo! That is correct.")
-                st.markdown("""
-                    <script>
-                    var audio = new Audio('./sounds/correct_answer.mp3');
-                    audio.play();
-                    </script>
-                    """, unsafe_allow_html=True)
+                # Play the correct answer sound using base64
+                autoplay_audio('./sounds/correct_answer.mp3')
+                
                 # Update user's score for new or incorrect questions only
                 users = load_users()
                 for u in users:
@@ -297,7 +306,10 @@ def question_screen():
             progress[subject] = {"attempted": attempted_questions}
             save_user_progress(user, progress)
 
-            # Move to the next question (and change the color)
+            # Pause for a few seconds to ensure the audio is played before moving to the next question
+            time.sleep(3)  # Adjust the time based on the length of the audio
+
+            # Move to the next question
             st.session_state["current_question"] = None
             st.session_state["question_attempts"] = 0
             st.rerun()
@@ -305,20 +317,12 @@ def question_screen():
         else:
             if st.session_state["question_attempts"] < 2:
                 st.error("That is not correct. Try again.")
-                st.markdown("""
-                    <script>
-                    var audio = new Audio('./sounds/incorrect_answer.mp3');
-                    audio.play();
-                    </script>
-                    """, unsafe_allow_html=True)
+                # Play the incorrect answer sound using base64
+                autoplay_audio('./sounds/incorrect_answer.mp3')
             else:
                 st.error("That is not correct. Let's come back to this later.")
-                st.markdown("""
-                    <script>
-                    var audio = new Audio('./sounds/incorrect_answer.mp3');
-                    audio.play();
-                    </script>
-                    """, unsafe_allow_html=True)
+                # Play the incorrect answer sound using base64
+                autoplay_audio('./sounds/incorrect_answer.mp3')
                 
                 # Update user progress
                 attempted_questions[question['id']] = False
