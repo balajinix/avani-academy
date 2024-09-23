@@ -1,0 +1,283 @@
+{
+  "questions": [
+    {
+      "id": "English_1",
+      "chapter": "A Faithful Act",
+      "question": "having a very pleasant taste or smell",
+      "options": ["delicous", "delicious", "deliciuos", "delisious"],
+      "answer": "delicious"
+    },
+    {
+      "id": "English_2",
+      "chapter": "A Faithful Act",
+      "question": "a person in authority, especially over a body of troops or a military operation",
+      "options": ["commmander", "comander", "commander", "commader"],
+      "answer": "commander"
+    },
+    {
+      "id": "English_3",
+      "chapter": "A Faithful Act",
+      "question": "to move rapidly downward through the air",
+      "options": ["swoope", "swoop", "swop", "swoopt"],
+      "answer": "swoop"
+    },
+    {
+      "id": "English_4",
+      "chapter": "A Faithful Act",
+      "question": "resting in a high place",
+      "options": ["perchd", "perched", "percheed", "percht"],
+      "answer": "perched"
+    },
+    {
+      "id": "English_5",
+      "chapter": "A Faithful Act",
+      "question": "a situation involving exposure to danger",
+      "options": ["risck", "risk", "risq", "risc"],
+      "answer": "risk"
+    },
+    {
+      "id": "English_6",
+      "chapter": "A Faithful Act",
+      "question": "make (someone) feel annoyed or dissatisfied",
+      "options": ["displese", "displease", "displeas", "displeese"],
+      "answer": "displease"
+    },
+    {
+      "id": "English_7",
+      "chapter": "A Faithful Act",
+      "question": "a gesture of respect or polite recognition, especially one made to or by a person when arriving or departing",
+      "options": ["salute", "salut", "salue", "saloot"],
+      "answer": "salute"
+    },{
+  "id": "English_8",
+      "chapter": "A Faithful Act",
+  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
+  "question": "Write the collective noun for soldiers.",
+  "options": ["Team", "Army", "Fleet", "Class"],
+  "answer": "Army"
+},
+{
+  "id": "English_9",
+      "chapter": "A Faithful Act",
+  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
+  "question": "Write the collective noun for players.",
+  "options": ["School", "Fleet", "Team", "Bunch"],
+  "answer": "Team"
+},
+{
+  "id": "English_10",
+      "chapter": "A Faithful Act",
+  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
+  "question": "Write the collective noun for students.",
+  "options": ["Class", "Bunch", "Fleet", "Army"],
+  "answer": "Class"
+},
+{
+  "id": "English_11",
+      "chapter": "A Faithful Act",
+  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
+  "question": "Write the collective noun for grapes.",
+  "options": ["Class", "Bunch", "School", "Team"],
+  "answer": "Bunch"
+},
+{
+  "id": "English_12",
+      "chapter": "A Faithful Act",
+  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
+  "question": "Write the collective noun for fish.",
+  "options": ["Fleet", "School", "Army", "Team"],
+  "answer": "School"
+},
+{
+  "id": "English_13",
+      "chapter": "A Faithful Act",
+  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
+  "question": "Write the collective noun for ships.",
+  "options": ["Class", "Army", "Fleet", "Bunch"],
+  "answer": "Fleet"
+},
+    {
+      "id": "English_14",
+      "chapter": "A Faithful Act",
+      "question": "Generate the binomial pair for buyer.",
+      "options": ["manager", "seller", "worker", "owner"],
+      "answer": "seller"
+    },
+    {
+      "id": "English_15",
+      "chapter": "A Faithful Act",
+      "question": "Generate the binomial pair for husband.",
+      "options": ["wife", "daughter", "mother", "sister"],
+      "answer": "wife"
+    },
+    {
+      "id": "English_16",
+      "chapter": "A Faithful Act",
+      "question": "Generate the binomial pair for parent.",
+      "options": ["teacher", "child", "adult", "brother"],
+      "answer": "child"
+    },
+    {
+      "id": "English_17",
+      "chapter": "A Faithful Act",
+      "question": "Generate the binomial pair for teacher.",
+      "options": ["parent", "worker", "child", "student"],
+      "answer": "student"
+    },
+    {
+      "id": "English_18",
+      "chapter": "A Faithful Act",
+      "question": "Generate the binomial pair for brother.",
+      "options": ["father", "sister", "teacher", "aunt"],
+      "answer": "sister"
+    },
+    {
+      "id": "English_19",
+      "chapter": "A Faithful Act",
+      "question": "Generate the binomial pair for doctor.",
+      "options": ["nurse", "surgeon", "patient", "teacher"],
+      "answer": "patient"
+    },
+    {
+      "id": "English_20",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nGopal eats two bananas every day.",
+      "options": ["eats", "Gopal", "bananas", "every day"],
+      "answer": "Gopal"
+    },
+    {
+      "id": "English_21",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nTom ran after Jerry.",
+      "options": ["ran", "Tom", "Jerry", "after"],
+      "answer": "Tom"
+    },
+    {
+      "id": "English_22",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nMama Bear brought honey for Baby Bear.",
+      "options": ["Mama Bear", "brought", "honey", "Baby Bear"],
+      "answer": "Mama Bear"
+    },
+    {
+      "id": "English_23",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nAlice went to Wonderland.",
+      "options": ["went", "Alice", "Wonderland", "to"],
+      "answer": "Alice"
+    },
+    {
+      "id": "English_24",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nAnts collect food for winter.",
+      "options": ["collect", "Ants", "food", "for winter"],
+      "answer": "Ants"
+    },
+    {
+      "id": "English_25",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nWe like to read books.",
+      "options": ["We", "like", "read", "books"],
+      "answer": "We"
+    },
+    {
+      "id": "English_26",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nI can make tea.",
+      "options": ["tea", "make", "I", "can"],
+      "answer": "I"
+    },
+    {
+      "id": "English_27",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nPinku broke my doll yesterday.",
+      "options": ["broke", "my doll", "Pinku", "yesterday"],
+      "answer": "Pinku"
+    },
+    {
+      "id": "English_28",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nHarry Potter defeated the evil wizard.",
+      "options": ["the", "Harry Potter", "defeated", "evil wizard"],
+      "answer": "Harry Potter"
+    },
+    {
+      "id": "English_29",
+      "chapter": "The Subject and the Predicate",
+      "question": "The subject in the following sentence is:\n\nA dragon was guarding the treasure.",
+      "options": ["guarding", "was", "dragon", "treasure"],
+      "answer": "dragon"
+    },
+    {
+      "id": "English_11",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nGopal eats two bananas every day.",
+      "options": ["Gopal", "eats two bananas every day", "bananas", "two"],
+      "answer": "eats two bananas every day"
+    },
+    {
+      "id": "English_12",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nTom ran after Jerry.",
+      "options": ["Tom", "ran after Jerry", "Jerry", "after"],
+      "answer": "ran after Jerry"
+    },
+    {
+      "id": "English_13",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nMama Bear brought honey for Baby Bear.",
+      "options": ["Mama Bear", "brought honey for Baby Bear", "honey", "Baby Bear"],
+      "answer": "brought honey for Baby Bear"
+    },
+    {
+      "id": "English_14",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nAlice went to Wonderland.",
+      "options": ["Alice", "went to Wonderland", "Wonderland", "to"],
+      "answer": "went to Wonderland"
+    },
+    {
+      "id": "English_15",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nAnts collect food for winter.",
+      "options": ["Ants", "collect food for winter", "food", "for winter"],
+      "answer": "collect food for winter"
+    },
+    {
+      "id": "English_16",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nWe like to read books.",
+      "options": ["We", "like to read books", "books", "read"],
+      "answer": "like to read books"
+    },
+    {
+      "id": "English_17",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nI can make tea.",
+      "options": ["I", "can make tea", "tea", "make"],
+      "answer": "can make tea"
+    },
+    {
+      "id": "English_18",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nPinku broke my doll yesterday.",
+      "options": ["Pinku", "broke my doll yesterday", "my doll", "yesterday"],
+      "answer": "broke my doll yesterday"
+    },
+    {
+      "id": "English_19",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nHarry Potter defeated the evil wizard.",
+      "options": ["Harry Potter", "defeated the evil wizard", "evil wizard", "defeated"],
+      "answer": "defeated the evil wizard"
+    },
+    {
+      "id": "English_20",
+      "chapter": "The Subject and the Predicate",
+      "question": "The predicate in the following sentence is:\n\nA dragon was guarding the treasure.",
+      "options": ["A dragon", "was guarding the treasure", "guarding", "treasure"],
+      "answer": "was guarding the treasure"
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "username": "avani",
+            "scores": {
+                "Maths": 2,
+                "English": 29
+            }
+        },
+        {
+            "username": "balaji",
+            "scores": {
+                "English": 23,
+                "Maths": 2
+            }
+        }
+    ]
+}

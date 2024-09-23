@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "id": "Maths_1",
+      "question": "What is 2 + 2?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "Maths_2",
+      "question": "What is 5 x 3?",
+      "options": ["15", "10", "8", "20"],
+      "answer": "15"
+    }
+  ]
+}
+
