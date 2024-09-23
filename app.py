@@ -79,16 +79,16 @@ def login_screen():
             st.rerun()
 
     # Smaller font for New User signup
-    st.markdown(
-        '<p style="font-size: 14px;">New User? Sign up below.</p>',
-        unsafe_allow_html=True
-    )
-    new_username = st.text_input("Enter your name to sign up")
-    if st.button("Sign up"):
-        if new_username and not any(user['username'] == new_username for user in users):
-            signup_user(new_username)
-        else:
-            st.error("Username already exists or input is empty.")
+    #st.markdown(
+    #    '<p style="font-size: 14px;">New User? Sign up below.</p>',
+    #    unsafe_allow_html=True
+    #)
+    #new_username = st.text_input("Enter your name to sign up")
+    #if st.button("Sign up"):
+    #    if new_username and not any(user['username'] == new_username for user in users):
+    #        signup_user(new_username)
+    #    else:
+    #        st.error("Username already exists or input is empty.")
 
 
 def subject_selection_screen():

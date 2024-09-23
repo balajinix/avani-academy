@@ -1,14 +1,19 @@
 {
     "users": [
         {
-            "username": "avani",
+            "username": "Avani",
             "scores": {
                 "Maths": 2,
                 "English": 29
             }
         },
         {
-            "username": "balaji",
+            "username": "Shradha",
+            "scores": {
+            }
+        },
+        {
+            "username": "Balaji",
             "scores": {
                 "English": 23,
                 "Maths": 2
