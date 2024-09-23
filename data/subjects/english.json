@@ -312,6 +312,34 @@
       "question": "Do ___________ like dancing?",
       "options": ["you", "he", "them", "us"],
       "answer": "you"
+    },
+    {
+      "id": "English_45",
+      "chapter": "The Sentence",
+      "question": "Rearrange the following words to form a meaningful sentence:\n\ntoys of full The is bag",
+      "options": ["is full bag toys of The", "The bag is full of toys", "toys bag full The is of", "full is The toys bag of"],
+      "answer": "The bag is full of toys"
+    },
+    {
+      "id": "English_46",
+      "chapter": "Questions",
+      "question": "Rearrange the following words to form a meaningful question:\n\nbook Henu is a reading?",
+      "options": ["Henu is reading a book?", "Is reading Henu a book?", "book Henu is reading a?", "Is Henu reading a book?"],
+      "answer": "Is Henu reading a book?"
+    },
+    {
+      "id": "English_47",
+      "chapter": "Questions",
+      "question": "Rearrange the following words to form a meaningful question:\n\nthe ships harbour in are the?",
+      "options": ["The ships are in the harbour?", "Are in the harbour ships the?", "Are the ships in the harbour?", "Harbour the are ships in?"],
+      "answer": "Are the ships in the harbour?"
+    },
+    {
+      "id": "English_48",
+      "chapter": "Questions",
+      "question": "Rearrange the following words to form a meaningful question:\n\nfor they party a going are?",
+      "options": ["Are they going for a party?", "They are going for a party?", "For a party they going are?", "Going they for a party are?"],
+      "answer": "Are they going for a party?"
     }
   ]
 }
