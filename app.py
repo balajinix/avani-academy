@@ -137,9 +137,35 @@ def subject_selection_screen():
     st.table(score_df)
 
 
-
 # Function to get the next question
 def get_next_question(username, subject):
+    questions = load_subject_questions(subject)
+    if not questions:
+        st.error("No questions available for this subject.")
+        return None
+
+    # Load user progress
+    progress = load_user_progress(username)
+    attempted_questions = progress.get(subject, {}).get("attempted", {})
+
+    # Separate questions into new and incorrect questions
+    new_questions = [q for q in questions if q['id'] not in attempted_questions]
+    incorrect_questions = [q for q in questions if q['id'] in attempted_questions and not attempted_questions[q['id']]]
+
+    # Prioritize incorrectly answered questions
+    if incorrect_questions:
+        question = random.choice(incorrect_questions)
+        st.session_state["old_question"] = False  # Incorrect questions can update the score
+    elif new_questions:
+        question = random.choice(new_questions)
+        st.session_state["old_question"] = False  # New question, so it can update the score
+    else:
+        st.success("You've completed all questions for this subject!")
+        return None
+
+    return question
+
+def get_next_question_fancy(username, subject):
     questions = load_subject_questions(subject)
     if not questions:
         st.error("No questions available for this subject.")
@@ -187,7 +213,6 @@ def question_screen():
     col1, col2 = st.columns(2)
     with col1:
         if st.button("Home"):
-            # Reset session state to go back to home screen
             st.session_state.pop("selected_subject", None)
             st.session_state.pop("current_question", None)
             st.session_state.pop("question_attempts", None)
@@ -252,6 +277,12 @@ def question_screen():
                 st.info("Correct! This was a previously answered question, so no points are added.")
             else:
                 st.success("Bravo! That is correct.")
+                st.markdown("""
+                    <script>
+                    var audio = new Audio('./sounds/correct_answer.mp3');
+                    audio.play();
+                    </script>
+                    """, unsafe_allow_html=True)
                 # Update user's score for new or incorrect questions only
                 users = load_users()
                 for u in users:
@@ -274,8 +305,21 @@ def question_screen():
         else:
             if st.session_state["question_attempts"] < 2:
                 st.error("That is not correct. Try again.")
+                st.markdown("""
+                    <script>
+                    var audio = new Audio('./sounds/incorrect_answer.mp3');
+                    audio.play();
+                    </script>
+                    """, unsafe_allow_html=True)
             else:
                 st.error("That is not correct. Let's come back to this later.")
+                st.markdown("""
+                    <script>
+                    var audio = new Audio('./sounds/incorrect_answer.mp3');
+                    audio.play();
+                    </script>
+                    """, unsafe_allow_html=True)
+                
                 # Update user progress
                 attempted_questions[question['id']] = False
                 progress[subject] = {"attempted": attempted_questions}

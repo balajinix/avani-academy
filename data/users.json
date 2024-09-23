@@ -9,13 +9,12 @@
         },
         {
             "username": "Shradha",
-            "scores": {
-            }
+            "scores": {}
         },
         {
             "username": "Balaji",
             "scores": {
-                "English": 23,
+                "English": 28,
                 "Maths": 2
             }
         }
