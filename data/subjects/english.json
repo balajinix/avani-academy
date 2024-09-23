@@ -277,6 +277,41 @@
       "question": "The predicate in the following sentence is:\n\nA dragon was guarding the treasure.",
       "options": ["A dragon", "was guarding the treasure", "guarding", "treasure"],
       "answer": "was guarding the treasure"
+    },
+    {
+      "id": "English_40",
+      "chapter": "Grammar Preliminaries",
+      "question": "____________ will watch a film.",
+      "options": ["us", "ourselves", "we", "ours"],
+      "answer": "we"
+    },
+    {
+      "id": "English_41",
+      "chapter": "Grammar Preliminaries",
+      "question": "_______________ have a pet dog.",
+      "options": ["he", "she", "us", "I"],
+      "answer": "I"
+    },
+    {
+      "id": "English_42",
+      "chapter": "Grammar Preliminaries",
+      "question": "________________ are coming to our house on Sunday.",
+      "options": ["us", "they", "them", "it"],
+      "answer": "they"
+    },
+    {
+      "id": "English_43",
+      "chapter": "Grammar Preliminaries",
+      "question": "Whose pencil is this? I found ___________ on the floor.",
+      "options": ["he", "she", "them", "it"],
+      "answer": "it"
+    },
+    {
+      "id": "English_44",
+      "chapter": "Grammar Preliminaries",
+      "question": "Do ___________ like dancing?",
+      "options": ["you", "he", "them", "us"],
+      "answer": "you"
     }
   ]
 }
