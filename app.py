@@ -6,6 +6,9 @@ import os
 import random
 import pandas as pd
 
+# Enable wide mode
+st.set_page_config(layout="wide")
+
 # Function to play audio using base64 encoding
 def autoplay_audio(file_path: str):
     with open(file_path, "rb") as f:
@@ -27,9 +30,11 @@ USER_PROGRESS_DIR = './data/user_progress/'
 os.makedirs(SUBJECTS_DIR, exist_ok=True)
 os.makedirs(USER_PROGRESS_DIR, exist_ok=True)
 
-# Utility function to display the title "Avani Academy" on all screens
-def show_title():
-    st.title("Avani Academy")
+# Utility function to display the title "Avani Academy" and the username on the left rail
+def show_left_rail():
+    st.sidebar.title("Avani Academy")
+    if "logged_in_user" in st.session_state:
+        st.sidebar.subheader(f"User: {st.session_state['logged_in_user']}")
 
 # Load users from JSON file
 def load_users():
@@ -76,45 +81,30 @@ def save_user_progress(username, progress):
         json.dump(progress, file, indent=4)
 
 def login_screen():
-    show_title()
-    st.subheader("Login or Signup")
+    show_left_rail()
+    st.sidebar.subheader("Login")
 
     users = load_users()
 
     if users:
         user_list = [user['username'] for user in users]
-        selected_user = st.selectbox("Select your name", options=user_list)
+        selected_user = st.sidebar.selectbox("Select your name", options=user_list)
 
-        if st.button("Login"):
+        if st.sidebar.button("Login"):
             st.session_state["logged_in_user"] = selected_user
             st.success(f"Welcome back, {selected_user}!")
             st.rerun()
 
-    # Smaller font for New User signup
-    #st.markdown(
-    #    '<p style="font-size: 14px;">New User? Sign up below.</p>',
-    #    unsafe_allow_html=True
-    #)
-    #new_username = st.text_input("Enter your name to sign up")
-    #if st.button("Sign up"):
-    #    if new_username and not any(user['username'] == new_username for user in users):
-    #        signup_user(new_username)
-    #    else:
-    #        st.error("Username already exists or input is empty.")
-
-
 def subject_selection_screen():
-    show_title()
+    show_left_rail()
     user = st.session_state["logged_in_user"]
-    st.title(f"Welcome, {user}!")
-    st.subheader("What would you like to learn today?")
+    st.sidebar.subheader(f"Welcome, {user}!")
+    st.sidebar.subheader("What would you like to learn today?")
 
     # Add 'Logout' button
-    col1, col2 = st.columns([4, 1])  # Adjust column width to place logout button on the right
-    with col2:
-        if st.button("Logout"):
-            st.session_state.clear()
-            st.rerun()
+    if st.sidebar.button("Logout"):
+        st.session_state.clear()
+        st.rerun()
 
     # Load user scores
     users = load_users()
@@ -127,15 +117,15 @@ def subject_selection_screen():
     subjects = ["English", "Maths", "Science", "Social Studies", "Hindi", "Computer Science", "Kannada"]
 
     # Subject selection
-    selected_subject = st.selectbox("Choose a subject", options=subjects)
-    if st.button("Start Learning"):
+    selected_subject = st.sidebar.selectbox("Choose a subject", options=subjects)
+    if st.sidebar.button("Start Learning"):
         st.session_state["selected_subject"] = selected_subject
         st.session_state["question_attempts"] = 0  # Reset attempt counter
         st.session_state["current_question"] = None
         st.rerun()
 
     # Display leaderboard in table format
-    st.subheader("Your Scores:")
+    st.sidebar.subheader("Your Scores:")
     scores = user_data.get("scores", {})
 
     # Create a DataFrame for the table
@@ -146,7 +136,7 @@ def subject_selection_screen():
     score_df = pd.DataFrame(score_data)
 
     # Display the DataFrame as a table
-    st.table(score_df)
+    st.sidebar.table(score_df)
 
 
 # Function to get the next question
@@ -215,11 +205,9 @@ def get_next_question_fancy(username, subject):
 
 # Question and answer screen
 def question_screen():
-    show_title()
+    show_left_rail()
     user = st.session_state["logged_in_user"]
     subject = st.session_state["selected_subject"]
-    st.title(f"{subject} Quiz")
-    st.write(f"User: {user}")
 
     # Add 'Home' and 'Logout' buttons
     col1, col2 = st.columns(2)
@@ -275,9 +263,44 @@ def question_screen():
     # Display the question inside the question area
     st.markdown('<div class="question-area">', unsafe_allow_html=True)
     st.write(f"**Chapter:** {question.get('chapter', 'Unknown Chapter')}")
-    st.write(f"**Question:** {question['question']}")
+    st.markdown(
+        f"""
+        <div style='font-size: 2em; font-weight: bold;'>
+            Question: {question['question']}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
     options = question['options']
-    user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"])
+
+
+    # Inject CSS to make the radio label and options larger
+    st.markdown(
+        """
+        <style>
+        .radio-label {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .stRadio > div {
+            font-size: 1.2em;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # Render the radio button with custom class for the label
+    #st.markdown("<div class='radio-label'>Choose an option:</div>", unsafe_allow_html=True)
+    #user_choice = st.radio("", options, key=st.session_state["question_attempts"])
+
+    # Provide a non-empty label but hide it using label_visibility
+    user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"], label_visibility="collapsed")
+
+    # Render the custom label with larger font size
+    st.markdown("<div class='radio-label'>Choose an option:</div>", unsafe_allow_html=True)
+
+    #user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"])
     st.markdown('</div>', unsafe_allow_html=True)
 
     if st.button("Submit Answer"):
