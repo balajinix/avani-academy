@@ -516,6 +516,364 @@
       "question": "What is the common noun for Indian Ocean?",
       "options": ["ocean", "country", "building", "planet"],
       "answer": "ocean"
+    },
+    {
+      "id": "English_71",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Sentences vs Questions",
+      "question": "The boy is sitting on the couch. _______________",
+      "options": ["Sentence", "Question"],
+      "answer": "Sentence"
+    },
+    {
+      "id": "English_72",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Sentences vs Questions",
+      "question": "Cats like to drink milk. _________________",
+      "options": ["Sentence", "Question"],
+      "answer": "Sentence"
+    },
+    {
+      "id": "English_73",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Sentences vs Questions",
+      "question": "Do you write with a pencil or pen? _______________",
+      "options": ["Sentence", "Question"],
+      "answer": "Question"
+    },
+    {
+      "id": "English_74",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Sentences vs Questions",
+      "question": "Isn’t the sky looking beautiful? ___________________",
+      "options": ["Sentence", "Question"],
+      "answer": "Question"
+    },
+    {
+      "id": "English_75",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Sentences vs Questions",
+      "question": "The iron is hot. _________________",
+      "options": ["Sentence", "Question"],
+      "answer": "Sentence"
+    },
+    {
+      "id": "English_76",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Forming Questions with 'Is'",
+      "question": "Change the sentence into a question:\n\nThe Earth is round.",
+      "options": [
+        "Round the Earth is?", 
+        "Is the Earth round?", 
+        "The Earth is round is?", 
+        "Is round the Earth?"
+      ],
+      "answer": "Is the Earth round?"
+    },
+    {
+      "id": "English_77",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Forming Questions with 'Is'",
+      "question": "Change the sentence into a question:\n\nThe ice cream is too cold to eat.",
+      "options": [
+        "Is too cold to eat the ice cream?", 
+        "Too cold is the ice cream to eat?", 
+        "Is the ice cream too cold to eat?", 
+        "The ice cream is too cold to eat is?"
+      ],
+      "answer": "Is the ice cream too cold to eat?"
+    },
+    {
+      "id": "English_78",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Forming Questions with 'Is'",
+      "question": "Change the sentence into a question:\n\nGrandfather is telling Raju a story.",
+      "options": [
+        "Is Grandfather telling Raju a story?", 
+        "Telling Raju a story is Grandfather?", 
+        "Is a story Raju telling Grandfather?", 
+        "Is telling Grandfather a story Raju?"
+      ],
+      "answer": "Is Grandfather telling Raju a story?"
+    },
+    {
+      "id": "English_79",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Forming Questions with 'Is'",
+      "question": "Change the sentence into a question:\n\nBetty is going to the mall in the evening.",
+      "options": [
+        "Is Betty going to the mall in the evening?", 
+        "Betty is going in the evening to the mall?", 
+        "Going is Betty to the mall in the evening?", 
+        "Is to the mall in the evening Betty going?"
+      ],
+      "answer": "Is Betty going to the mall in the evening?"
+    },
+    {
+      "id": "English_80",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Forming Questions with 'Is'",
+      "question": "Change the sentence into a question:\n\nParul is crying because she hurt her hand.",
+      "options": [
+        "Is Parul crying because she hurt her hand?", 
+        "Is Parul hurt her hand because crying?", 
+        "Because she hurt her hand Parul is crying?", 
+        "Crying Parul is because she hurt her hand?"
+      ],
+      "answer": "Is Parul crying because she hurt her hand?"
+    },
+    {
+      "id": "English_81",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Uncountable Nouns",
+      "question": "Pick the uncountable noun in the sentence:\n\nMother, could you please pass me the salt.",
+      "options": ["salt", "Mother", "bus", "floor"],
+      "answer": "salt",
+      "reference": "Examples of countable nouns: bus, floor, Mother"
+    },
+    {
+      "id": "English_82",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Uncountable Nouns",
+      "question": "Pick the uncountable noun in the sentence:\n\nMen and women stood in a line at the bus stop.",
+      "options": ["line", "bus", "stop", "Men"],
+      "answer": "line",
+      "reference": "Examples of countable nouns: bus, stop, Men, women"
+    },
+    {
+      "id": "English_83",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Uncountable Nouns",
+      "question": "Pick the uncountable noun in the sentence:\n\nThe papers lay in a heap on the floor.",
+      "options": ["heap", "papers", "floor", "bus"],
+      "answer": "heap",
+      "reference": "Examples of countable nouns: papers, floor, bus"
+    },
+    {
+      "id": "English_84",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Uncountable Nouns",
+      "question": "Pick the uncountable noun in the sentence:\n\nSeawater is too salty to drink.",
+      "options": ["Seawater", "salt", "drink", "floor"],
+      "answer": "Seawater",
+      "reference": "Examples of countable nouns: drink, floor"
+    },
+    {
+      "id": "English_85",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Uncountable Nouns",
+      "question": "Pick the uncountable noun in the sentence:\n\nAdd more milk to the tea.",
+      "options": ["milk", "tea", "Mother", "bus"],
+      "answer": "milk",
+      "reference": "Examples of countable nouns: tea, Mother, bus"
+    },
+    {
+      "id": "English_86",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks with Phrasal Verbs",
+      "question": "I love to ____________________ my cousin. She reads to me from my favourite books and plays with me.",
+      "options": ["in season", "went off", "spend time with", "take a nap"],
+      "answer": "spend time with"
+    },
+    {
+      "id": "English_87",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks with Phrasal Verbs",
+      "question": "When mangoes are _______________, my mother makes delicious kheer with them.",
+      "options": ["polished off", "in season", "went off", "spend time with"],
+      "answer": "in season"
+    },
+    {
+      "id": "English_88",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks with Phrasal Verbs",
+      "question": "___________________ now, if you want to be awake for the cartoon show in the evening.",
+      "options": ["went off", "spend time with", "take a nap", "polished off"],
+      "answer": "take a nap"
+    },
+    {
+      "id": "English_89",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks with Phrasal Verbs",
+      "question": "The cat ____________________ the milk I gave it.",
+      "options": ["went off", "polished off", "spend time with", "take a nap"],
+      "answer": "polished off"
+    },
+    {
+      "id": "English_90",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks with Phrasal Verbs",
+      "question": "Sahil _____________________ to school after having his breakfast of cornflakes and milk.",
+      "options": ["went off", "polished off", "spend time with", "in season"],
+      "answer": "went off"
+    },
+    {
+      "id": "English_91",
+      "chapter": "Holiday Activities",
+      "topic": "Holiday Activities",
+      "question": "The most important festival of Assam is the ________ festival of Bihu, which is celebrated _____________________ times in a year.",
+      "options": ["spring", "three", "January", "harvest"],
+      "answer": "harvest"
+    },
+    {
+      "id": "English_92",
+      "chapter": "Holiday Activities",
+      "topic": "Holiday Activities",
+      "question": "In winter, Bhogoli or Magh Bihu is celebrated in the month of _____________________.",
+      "options": ["rice", "lamps", "January", "spring"],
+      "answer": "January"
+    },
+    {
+      "id": "English_93",
+      "chapter": "Holiday Activities",
+      "topic": "Holiday Activities",
+      "question": "Rongali or Bohag Bihu marks the beginning of the Assamese New Year during the season of _____________________ in April.",
+      "options": ["three", "harvest", "spring", "January"],
+      "answer": "spring"
+    },
+    {
+      "id": "English_94",
+      "chapter": "Holiday Activities",
+      "topic": "Holiday Activities",
+      "question": "The festival is believed to protect growing crops. People usually light clay _____________________ in the fields to keep away the evil eye.",
+      "options": ["rice", "lamps", "seeds", "folk dances"],
+      "answer": "lamps"
+    },
+    {
+      "id": "English_95",
+      "chapter": "Holiday Activities",
+      "topic": "Holiday Activities",
+      "question": "The traditional food prepared during all three Bihu's are delicious pithas, which are sweet pancakes made with _______________, the most important food crop grown in Assam.",
+      "options": ["three", "folk dances", "rice", "lamps"],
+      "answer": "rice"
+    },
+    {
+      "id": "English_96",
+      "chapter": "Holiday Activities",
+      "topic": "Holiday Activities",
+      "question": "Pithas are usually stuffed with jaggery and coconut or black sesame ________.",
+      "options": ["rice", "seeds", "three", "lamps"],
+      "answer": "seeds"
+    },
+    {
+      "id": "English_97",
+      "chapter": "Holiday Activities",
+      "topic": "Holiday Activities",
+      "question": "During Bihu, people gather in open fields and perform the Bihu dance, one of the most well-known ____________________ of northeast India.",
+      "options": ["folk dances", "seeds", "lamps", "rice"],
+      "answer": "folk dances"
+    },
+    {
+      "id": "English_98",
+      "chapter": "Comparison of Adjectives",
+      "topic": "Adjectives",
+      "question": "The second cake that I baked was _________________ (sweet) than the first.",
+      "options": ["sweetest", "more sweet", "sweeter", "sweet"],
+      "answer": "sweeter"
+    },
+    {
+      "id": "English_99",
+      "chapter": "Comparison of Adjectives",
+      "topic": "Adjectives",
+      "question": "Priya wears the _______________ (bright) colours.",
+      "options": ["more bright", "brighter", "brightest", "bright"],
+      "answer": "brightest"
+    },
+    {
+      "id": "English_100",
+      "chapter": "Comparison of Adjectives",
+      "topic": "Adjectives",
+      "question": "Rohan is __________________ (young) than his brother.",
+      "options": ["more young", "younger", "young", "youngest"],
+      "answer": "younger"
+    },
+    {
+      "id": "English_101",
+      "chapter": "Comparison of Adjectives",
+      "topic": "Adjectives",
+      "question": "Meeta is ______________ (clever) than Dimple.",
+      "options": ["more clever", "clever", "cleverest", "cleverer"],
+      "answer": "cleverer"
+    },
+    {
+      "id": "English_102",
+      "chapter": "Comparison of Adjectives",
+      "topic": "Adjectives",
+      "question": "The cheetah is a _____________ (fast) animal than the elephant.",
+      "options": ["fastest", "faster", "fast", "more fast"],
+      "answer": "faster"
+    },
+    {
+      "id": "English_103",
+      "chapter": "Comparison of Adjectives",
+      "topic": "Adjectives",
+      "question": "This is the __________________ (hard) question in the test.",
+      "options": ["harder", "more hard", "hard", "hardest"],
+      "answer": "hardest"
+    },
+    {
+      "id": "English_104",
+      "chapter": "Comparison of Adjectives",
+      "topic": "Adjectives",
+      "question": "That is the _______________ (ripe) mango in the box.",
+      "options": ["more ripe", "ripest", "riper", "ripe"],
+      "answer": "ripest"
+    },
+    {
+      "id": "English_105",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks",
+      "question": "Last year, five year old Neetu _________________ (visit, simple past) her aunt who lived ______ (preposition) a village.",
+      "options": ["visiting", "visits", "visited", "will visit"],
+      "answer": "visited"
+    },
+    {
+      "id": "English_106",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks",
+      "question": "Last year, five year old Neetu visited her aunt who lived ______ (preposition) a village.",
+      "options": ["on", "by", "from", "in"],
+      "answer": "in"
+    },
+    {
+      "id": "English_107",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks",
+      "question": "______________ (pronoun) had a lot of fun there.",
+      "options": ["Her", "Him", "She", "They"],
+      "answer": "She"
+    },
+    {
+      "id": "English_108",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks",
+      "question": "She learned to swim ______ (preposition) the pond, and how to feed the cows _______________ (conjunction) buffaloes.",
+      "options": ["with", "in", "by", "on"],
+      "answer": "in"
+    },
+    {
+      "id": "English_109",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks",
+      "question": "She learned to swim in the pond, and how to feed the cows _______________ (conjunction) buffaloes.",
+      "options": ["or", "for", "but", "and"],
+      "answer": "and"
+    },
+    {
+      "id": "English_110",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks",
+      "question": "She _____________ (play, simple past) ________________ (preposition) the village children too.",
+      "options": ["played", "playing", "has played", "plays"],
+      "answer": "played"
+    },
+    {
+      "id": "English_111",
+      "chapter": "Grammar Preliminaries",
+      "topic": "Fill in the Blanks",
+      "question": "She played ________________ (preposition) the village children too.",
+      "options": ["from", "by", "to", "with"],
+      "answer": "with"
     }
   ]
 }
