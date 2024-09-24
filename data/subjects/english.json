@@ -340,6 +340,54 @@
       "question": "Rearrange the following words to form a meaningful question:\n\nfor they party a going are?",
       "options": ["Are they going for a party?", "They are going for a party?", "For a party they going are?", "Going they for a party are?"],
       "answer": "Are they going for a party?"
+    },
+    {
+      "id": "English_49",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Common Nouns",
+      "question": "Identify the word that is NOT a common noun.",
+      "options": ["bag", "bed", "biscuit", "Maya"],
+      "answer": "Maya"
+    },
+    {
+      "id": "English_50",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Common Nouns",
+      "question": "Identify the word that is NOT a common noun.",
+      "options": ["cup", "plate", "China", "spoon"],
+      "answer": "China"
+    },
+    {
+      "id": "English_51",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Common Nouns",
+      "question": "Identify the word that is NOT a common noun.",
+      "options": ["bread", "butter", "cheese", "Amul"],
+      "answer": "Amul"
+    },
+    {
+      "id": "English_52",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Common Nouns",
+      "question": "Identify the word that is NOT a common noun.",
+      "options": ["break", "chocolate", "cake", "Safal"],
+      "answer": "Safal"
+    },
+    {
+      "id": "English_53",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Common Nouns",
+      "question": "Identify the word that is NOT a common noun.",
+      "options": ["boy", "Mumbai", "girl", "man"],
+      "answer": "Mumbai"
+    },
+    {
+      "id": "English_54",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Common Nouns",
+      "question": "Identify the word that is NOT a common noun.",
+      "options": ["dog", "mouse", "Tommy", "cat"],
+      "answer": "Tommy"
     }
   ]
 }
