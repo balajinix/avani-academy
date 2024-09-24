@@ -452,6 +452,70 @@
       "question": "a bundle of _______",
       "options": ["lions", "people", "sticks", "cards"],
       "answer": "sticks"
+    },
+    {
+      "id": "English_63",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Proper Nouns",
+      "question": "What is the common noun for Venus?",
+      "options": ["girl", "planet", "building", "country"],
+      "answer": "planet"
+    },
+    {
+      "id": "English_64",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Proper Nouns",
+      "question": "What is the common noun for State Bank of India?",
+      "options": ["bank", "city", "planet", "ocean"],
+      "answer": "bank"
+    },
+    {
+      "id": "English_65",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Proper Nouns",
+      "question": "What is the common noun for Sunderbans?",
+      "options": ["forest", "girl", "building", "country"],
+      "answer": "forest"
+    },
+    {
+      "id": "English_66",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Proper Nouns",
+      "question": "What is the common noun for Mysore Palace?",
+      "options": ["planet", "building", "city", "ocean"],
+      "answer": "building"
+    },
+    {
+      "id": "English_67",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Proper Nouns",
+      "question": "What is the common noun for Padmini?",
+      "options": ["girl", "country", "building", "city"],
+      "answer": "girl"
+    },
+    {
+      "id": "English_68",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Proper Nouns",
+      "question": "What is the common noun for Bangladesh?",
+      "options": ["ocean", "country", "building", "city"],
+      "answer": "country"
+    },
+    {
+      "id": "English_69",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Proper Nouns",
+      "question": "What is the common noun for Indore?",
+      "options": ["city", "girl", "forest", "ocean"],
+      "answer": "city"
+    },
+    {
+      "id": "English_70",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Proper Nouns",
+      "question": "What is the common noun for Indian Ocean?",
+      "options": ["ocean", "country", "building", "planet"],
+      "answer": "ocean"
     }
   ]
 }
