@@ -25,16 +25,30 @@ def autoplay_audio(file_path: str):
 USERS_FILE = './data/users.json'
 SUBJECTS_DIR = './data/subjects/'
 USER_PROGRESS_DIR = './data/user_progress/'
+AVATAR_FILE = './data/avatar.png'
 
 # Ensure necessary directories exist
 os.makedirs(SUBJECTS_DIR, exist_ok=True)
 os.makedirs(USER_PROGRESS_DIR, exist_ok=True)
 
-# Utility function to display the title "Avani Academy" and the username on the left rail
 def show_left_rail():
     st.sidebar.title("Avani Academy")
     if "logged_in_user" in st.session_state:
-        st.sidebar.subheader(f"User: {st.session_state['logged_in_user']}")
+        user = st.session_state["logged_in_user"]
+        st.sidebar.subheader(f"User: {user}")
+        
+        # Display the avatar
+        if os.path.exists(AVATAR_FILE):
+            st.sidebar.image(AVATAR_FILE, caption="User Avatar", use_column_width=True)
+        
+        # Display the score in the chosen subject
+        if "selected_subject" in st.session_state:
+            subject = st.session_state["selected_subject"]
+            users = load_users()
+            user_data = next((u for u in users if u['username'] == user), None)
+            if user_data:
+                score = user_data.get("scores", {}).get(subject, 0)
+                st.sidebar.markdown(f"**{subject} Score: {score}**")
 
 # Load users from JSON file
 def load_users():
@@ -101,11 +115,6 @@ def subject_selection_screen():
     st.sidebar.subheader(f"Welcome, {user}!")
     st.sidebar.subheader("What would you like to learn today?")
 
-    # Add 'Logout' button
-    if st.sidebar.button("Logout"):
-        st.session_state.clear()
-        st.rerun()
-
     # Load user scores
     users = load_users()
     user_data = next((u for u in users if u['username'] == user), None)
@@ -114,7 +123,7 @@ def subject_selection_screen():
         return
 
     # List of subjects
-    subjects = ["English", "Maths", "Science", "Social Studies", "Hindi", "Computer Science", "Kannada"]
+    subjects = ["English", "Maths", "Science", "Social Studies", "Computer Science", "Hindi", "Kannada"]
 
     # Subject selection
     selected_subject = st.sidebar.selectbox("Choose a subject", options=subjects)
@@ -137,6 +146,10 @@ def subject_selection_screen():
 
     # Display the DataFrame as a table
     st.sidebar.table(score_df)
+
+    if st.sidebar.button("Logout"):
+        st.session_state.clear()
+        st.rerun()
 
 
 # Function to get the next question

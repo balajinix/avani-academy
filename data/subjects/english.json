@@ -388,6 +388,70 @@
       "question": "Identify the word that is NOT a common noun.",
       "options": ["dog", "mouse", "Tommy", "cat"],
       "answer": "Tommy"
+    },
+    {
+      "id": "English_55",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Collective Nouns",
+      "question": "a pair of ________",
+      "options": ["cards", "trousers", "eggs", "lions"],
+      "answer": "trousers"
+    },
+    {
+      "id": "English_56",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Collective Nouns",
+      "question": "a pack of ______",
+      "options": ["sticks", "cards", "players", "eggs"],
+      "answer": "cards"
+    },
+    {
+      "id": "English_57",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Collective Nouns",
+      "question": "a team of ______",
+      "options": ["people", "bees", "players", "lions"],
+      "answer": "players"
+    },
+    {
+      "id": "English_58",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Collective Nouns",
+      "question": "a pride of __________",
+      "options": ["eggs", "cards", "lions", "people"],
+      "answer": "lions"
+    },
+    {
+      "id": "English_59",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Collective Nouns",
+      "question": "a crowd of ____________",
+      "options": ["lions", "players", "people", "trousers"],
+      "answer": "people"
+    },
+    {
+      "id": "English_60",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Collective Nouns",
+      "question": "a clutch of ______",
+      "options": ["cards", "eggs", "sticks", "people"],
+      "answer": "eggs"
+    },
+    {
+      "id": "English_61",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Collective Nouns",
+      "question": "a swarm of ________",
+      "options": ["sticks", "players", "eggs", "bees"],
+      "answer": "bees"
+    },
+    {
+      "id": "English_62",
+      "chapter": "Nouns: Common, Proper, Collective",
+      "topic": "Collective Nouns",
+      "question": "a bundle of _______",
+      "options": ["lions", "people", "sticks", "cards"],
+      "answer": "sticks"
     }
   ]
 }
