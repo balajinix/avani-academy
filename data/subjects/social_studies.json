@@ -1,0 +1,196 @@
+{
+  "questions": [
+    {
+      "id": "SST_1",
+      "chapter": "Looking at the Earth",
+      "topic": "Countries Opposite to India",
+      "question": "Look at the countries on the opposite side of India on a globe. Name any two.",
+      "options": ["USA and Brazil", "China and Japan", "Australia and Fiji", "Canada and Mexico"],
+      "answer": "USA and Brazil"
+    },
+    {
+      "id": "SST_2",
+      "chapter": "Looking at the Earth",
+      "topic": "Day and Night on Earth",
+      "question": "It is day time in India now. What time would it be on the opposite side of India on the globe?",
+      "options": ["Night", "Early morning", "Midnight", "Noon"],
+      "answer": "Midnight"
+    },
+    {
+      "id": "SST_3",
+      "chapter": "Looking at the Earth",
+      "topic": "Time Difference between Cities",
+      "question": "When it is night time in Delhi, what time will it be in Kolkata?",
+      "options": ["Night", "Same time", "Morning", "Afternoon"],
+      "answer": "Same time"
+    },
+    {
+      "id": "SST_4",
+      "chapter": "Looking at the Earth",
+      "topic": "Earth's Model and Geography",
+      "question": "______________ is a round model of the Earth.",
+      "options": ["Atlas", "Continent", "Globe", "Map"],
+      "answer": "Globe"
+    },
+    {
+      "id": "SST_5",
+      "chapter": "Looking at the Earth",
+      "topic": "Continents",
+      "question": "The smallest continent is _________________.",
+      "options": ["Europe", "Asia", "Australia", "Africa"],
+      "answer": "Australia"
+    },
+    {
+      "id": "SST_6",
+      "chapter": "Looking at the Earth",
+      "topic": "Landmasses",
+      "question": "______________________ are large landmasses on the Earth’s surface.",
+      "options": ["Oceans", "Islands", "Continents", "Rivers"],
+      "answer": "Continents"
+    },
+    {
+      "id": "SST_7",
+      "chapter": "Looking at the Earth",
+      "topic": "Maps",
+      "question": "Large maps that are hung on walls are called _________________",
+      "options": ["Globes", "Wall maps", "Atlases", "Charts"],
+      "answer": "Wall maps"
+    },
+    {
+      "id": "SST_8",
+      "chapter": "Looking at the Earth",
+      "topic": "Oceans",
+      "question": "____________________ is the deepest ocean in the world.",
+      "options": ["Indian Ocean", "Atlantic Ocean", "Pacific Ocean", "Arctic Ocean"],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "id": "SST_9",
+      "chapter": "Looking at the Earth",
+      "topic": "Shape of the Earth",
+      "question": "What is the shape of the Earth?",
+      "options": ["triangle", "spherical", "rectangle", "square"],
+      "answer": "spherical"
+    },
+    {
+      "id": "SST_10",
+      "chapter": "Looking at the Earth",
+      "topic": "Continents",
+      "question": "Which is the largest continent?",
+      "options": ["Australia", "Asia", "South America", "Europe"],
+      "answer": "Asia"
+    },
+    {
+      "id": "SST_11",
+      "chapter": "Looking at the Earth",
+      "topic": "Maps and Globes",
+      "question": "What is a book of maps called?",
+      "options": ["atlas", "globe", "map", "wall map"],
+      "answer": "atlas"
+    },
+    {
+      "id": "SST_12",
+      "chapter": "Looking at the Earth",
+      "topic": "Oceans",
+      "question": "How many oceans are there?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "5"
+    },
+    {
+      "id": "SST_13",
+      "chapter": "Looking at the Earth",
+      "topic": "Maps",
+      "question": "What is a drawing of the Earth on a flat surface or on paper called?",
+      "options": ["globe", "map", "planet", "atlas"],
+      "answer": "map"
+    },
+    {
+      "id": "SST_14",
+      "chapter": "Looking at the Earth",
+      "topic": "Oceans",
+      "question": "What is the ocean nearest to you?",
+      "options": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Arctic Ocean"],
+      "answer": "Indian Ocean"
+    },
+    {
+      "id": "SST_15",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Solar System",
+      "question": "The ________ is at the centre of the solar system.",
+      "options": ["Mars", "Earth", "sun", "Moon"],
+      "answer": "sun"
+    },
+    {
+      "id": "SST_16",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Earth's Movement",
+      "question": "The Earth moves around the Sun in its fixed ______.",
+      "options": ["path", "rotation", "orbit", "circle"],
+      "answer": "orbit"
+    },
+    {
+      "id": "SST_17",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Solar System Composition",
+      "question": "Besides the Sun and the planets, the solar system consists of ______________, _____________ and _________.",
+      "options": ["Meteors, Planets, Stars", "Asteroids, Comets, Satellites", "Moons, Rings, Stars", "Comets, Meteors, Black Holes"],
+      "answer": "Asteroids, Comets, Satellites"
+    },
+    {
+      "id": "SST_18",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Moon",
+      "question": "The ____ is the Earth's closest neighbour.",
+      "options": ["Venus", "Sun", "Mars", "Moon"],
+      "answer": "Moon"
+    },
+    {
+      "id": "SST_19",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Planets",
+      "question": "Planets have no _____ of their own.",
+      "options": ["air", "light", "water", "atmosphere"],
+      "answer": "light"
+    },
+    {
+      "id": "SST_20",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Sun and Planets",
+      "question": "The sun is not _______.",
+      "options": ["hot", "a planet", "a big ball of fire", "a star"],
+      "answer": "a planet"
+    },
+    {
+      "id": "SST_21",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Planets and their Movement",
+      "question": "Planets revolve around the ______.",
+      "options": ["Moon", "Earth", "comets", "Sun"],
+      "answer": "Sun"
+    },
+    {
+      "id": "SST_22",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Hottest Planet",
+      "question": "__________ is the hottest planet.",
+      "options": ["Mars", "Jupiter", "Earth", "Venus"],
+      "answer": "Venus"
+    },
+    {
+      "id": "SST_23",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Natural Satellites",
+      "question": "Which of these is the Earth's natural satellite?",
+      "options": ["comet", "Moon", "Sun", "asteroid"],
+      "answer": "Moon"
+    },
+    {
+      "id": "SST_24",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Position of Earth",
+      "question": "The Earth is the _________ planet from the Sun.",
+      "options": ["second", "third", "first", "fourth"],
+      "answer": "third"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import json
 import os
 import random
 import pandas as pd
+import threading
 
 # Enable wide mode
 st.set_page_config(layout="wide")
@@ -38,8 +39,10 @@ def show_left_rail():
         st.sidebar.subheader(f"User: {user}")
         
         # Display the avatar
-        if os.path.exists(AVATAR_FILE):
-            st.sidebar.image(AVATAR_FILE, caption="User Avatar", use_column_width=True)
+        avatar_path = f"./data/{user}.png"
+        avatar_path = avatar_path.lower()
+        if os.path.exists(avatar_path):
+            st.sidebar.image(avatar_path, caption="User Avatar", use_column_width=True)
         
         # Display the score in the chosen subject
         if "selected_subject" in st.session_state:
@@ -73,7 +76,8 @@ def signup_user(new_user):
 
 # Function to load questions for a subject
 def load_subject_questions(subject):
-    subject_file = os.path.join(SUBJECTS_DIR, f"{subject.lower()}.json")
+    subject_file_name = subject.lower().replace(" ", "_")
+    subject_file = os.path.join(SUBJECTS_DIR, f"{subject_file_name}.json")
     if not os.path.exists(subject_file):
         st.error(f"Expected file '{subject_file}' not found.")
         return []
@@ -94,20 +98,33 @@ def save_user_progress(username, progress):
     with open(user_file, 'w') as file:
         json.dump(progress, file, indent=4)
 
+
 def login_screen():
-    show_left_rail()
-    st.sidebar.subheader("Login")
+    st.title("Avani Academy")
+    st.text("Select your profile to login")
 
     users = load_users()
 
     if users:
-        user_list = [user['username'] for user in users]
-        selected_user = st.sidebar.selectbox("Select your name", options=user_list)
+        selected_user = None
+        
+        # Add 2 empty columns on each side, and then 1 column for each user
+        total_columns = 2 + len(users) + 2  # 2 padding columns on each side + columns for users
+        cols = st.columns(total_columns)
 
-        if st.sidebar.button("Login"):
-            st.session_state["logged_in_user"] = selected_user
-            st.success(f"Welcome back, {selected_user}!")
-            st.rerun()
+        for idx, user in enumerate(users):
+            avatar_path = f"./data/{user['username']}.png"
+            avatar_path = avatar_path.lower()
+
+            # The user avatars start from the 3rd column (idx+2)
+            with cols[idx + 2]:  # Shift index by 2 to skip the first 2 padding columns
+                if os.path.exists(avatar_path):
+                    # Display the avatar image with a button for login
+                    st.image(avatar_path, caption=user['username'], width=150)
+                    if st.button(f"{user['username']}", key=user['username']):
+                        st.session_state["logged_in_user"] = user['username']
+                        st.success(f"Welcome back, {user['username']}!")
+                        st.rerun()
 
 def subject_selection_screen():
     show_left_rail()
@@ -216,11 +233,20 @@ def get_next_question_fancy(username, subject):
     return question
 
 
-# Question and answer screen
 def question_screen():
     show_left_rail()
     user = st.session_state["logged_in_user"]
     subject = st.session_state["selected_subject"]
+
+    if 'question_count' not in st.session_state:
+        st.session_state['question_count'] = 0  # Start with 0 questions
+
+    st.sidebar.markdown(f"**Questions answered: {st.session_state['question_count']} / 20**")
+
+    if st.session_state['question_count'] >= 20:
+        st.error("Session is over. You have answered 20 questions. Logging out...")
+        st.session_state.clear()
+        st.rerun()
 
     # Add 'Home' and 'Logout' buttons
     col1, col2 = st.columns(2)
@@ -244,23 +270,34 @@ def question_screen():
     subject_progress = progress.get(subject, {"attempted": {}})
     attempted_questions = subject_progress["attempted"]
 
+    # Initialize a flag to control button state if not set
+    if 'button_disabled' not in st.session_state:
+        st.session_state['button_disabled'] = False
+    if 'question_answered' not in st.session_state:
+        st.session_state['question_answered'] = False
+
     # Get the current question or fetch a new one
     if st.session_state.get("current_question") is None:
         question = get_next_question(user, subject)
+        
         if question is None:
-            st.write("No more questions available.")
-            st.write("Return to the Home screen to select another subject.")
-            return
+            st.write("No more questions available for this subject.")
+            st.write("Session is over. You have completed all available questions.")
+            st.session_state.clear()
+            st.rerun()
+
         st.session_state["current_question"] = question
         st.session_state["question_attempts"] = 0
+        st.session_state['button_disabled'] = False  # Enable the button for the new question
+        st.session_state['question_answered'] = False  # Reset answer flag
 
         # Select a random background color for the next question
         st.session_state["bg_color"] = random.choice(color_options)
     else:
-        question = st.session_state["current_question"]  # Ensure question is always assigned
+        question = st.session_state["current_question"]
 
     # Apply the background color to the question area
-    bg_color = st.session_state.get("bg_color", "#FFFFFF")  # Default to white if not set
+    bg_color = st.session_state.get("bg_color", "#FFFFFF")
     st.markdown(
         f"""
         <style>
@@ -286,7 +323,6 @@ def question_screen():
     )
     options = question['options']
 
-
     # Inject CSS to make the radio label and options larger
     st.markdown(
         """
@@ -303,68 +339,43 @@ def question_screen():
         unsafe_allow_html=True
     )
     
-    #st.markdown("<div class='radio-label'>Choose an option:</div>", unsafe_allow_html=True)
-    #user_choice = st.radio("", options, key=st.session_state["question_attempts"])
-
     st.markdown("<div class='radio-label'>Choose an option:</div>", unsafe_allow_html=True)
     user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"], label_visibility="collapsed")
 
-    #user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"])
-    st.markdown('</div>', unsafe_allow_html=True)
+    # Handle the submit button logic
+    if st.session_state['question_answered']:
+        # Show the success message and play the sound for 3 seconds, then move to the next question
+        st.success("Bravo! That is correct.")
+        autoplay_audio('./sounds/correct_answer.mp3')
+        time.sleep(3)  # Pause for 3 seconds
 
-    if st.button("Submit Answer"):
-        st.session_state["question_attempts"] += 1
-        correct_answer = question['answer']
+        # Update user's score and progress
+        users = load_users()
+        for u in users:
+            if u['username'] == user:
+                u.setdefault('scores', {})
+                u['scores'][subject] = u['scores'].get(subject, 0) + 1
+                break
+        save_users(users)
 
-        if user_choice == correct_answer:
-            if st.session_state["old_question"]:
-                st.info("Correct! This was a previously answered question, so no points are added.")
-            else:
-                st.success("Bravo! That is correct.")
-                # Play the correct answer sound using base64
-                autoplay_audio('./sounds/correct_answer.mp3')
-                
-                # Update user's score for new or incorrect questions only
-                users = load_users()
-                for u in users:
-                    if u['username'] == user:
-                        u.setdefault('scores', {})
-                        u['scores'][subject] = u['scores'].get(subject, 0) + 1
-                        break
-                save_users(users)
+        # Update user progress
+        attempted_questions[question['id']] = True
+        progress[subject] = {"attempted": attempted_questions}
+        save_user_progress(user, progress)
 
-            # Update user progress
-            attempted_questions[question['id']] = True
-            progress[subject] = {"attempted": attempted_questions}
-            save_user_progress(user, progress)
+        # Move to the next question
+        st.session_state["current_question"] = None
+        st.session_state["question_attempts"] = 0
+        st.session_state['question_count'] += 1  # Increment question count
+        st.session_state['question_answered'] = False  # Reset flag
+        st.rerun()
 
-            # Pause for a few seconds to ensure the audio is played before moving to the next question
-            time.sleep(3)  # Adjust the time based on the length of the audio
-
-            # Move to the next question
-            st.session_state["current_question"] = None
-            st.session_state["question_attempts"] = 0
+    else:
+        if st.button("Submit Answer"):
+            # Set the flag and rerun to display the result
+            st.session_state['question_answered'] = True
+            st.session_state['button_disabled'] = True  # Disable button immediately
             st.rerun()
-
-        else:
-            if st.session_state["question_attempts"] < 2:
-                st.error("That is not correct. Try again.")
-                # Play the incorrect answer sound using base64
-                autoplay_audio('./sounds/incorrect_answer.mp3')
-            else:
-                st.error("That is not correct. Let's come back to this later.")
-                # Play the incorrect answer sound using base64
-                autoplay_audio('./sounds/incorrect_answer.mp3')
-                
-                # Update user progress
-                attempted_questions[question['id']] = False
-                progress[subject] = {"attempted": attempted_questions}
-                save_user_progress(user, progress)
-
-                # Move to the next question (and change the color)
-                st.session_state["current_question"] = None
-                st.session_state["question_attempts"] = 0
-                st.rerun()
 
 # Main app flow
 if "logged_in_user" not in st.session_state:
@@ -373,4 +384,3 @@ elif "selected_subject" not in st.session_state:
     subject_selection_screen()
 else:
     question_screen()
-
