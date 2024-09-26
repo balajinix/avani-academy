@@ -371,8 +371,8 @@
       "options": [
         "A large body of water", 
         "A part of the solar system", 
-        "A rock formation"
-        "The layer of air around the earth", 
+        "A rock formation",
+        "The layer of air around the earth"
       ],
       "answer": "The layer of air around the earth"
     },
@@ -436,8 +436,8 @@
       "options": [
         "21 percent", 
         "78 percent", 
-        "10 percent"
-        "Less than 1 percent", 
+        "10 percent",
+        "Less than 1 percent"
       ],
       "answer": "Less than 1 percent"
     },
