@@ -14,8 +14,9 @@
         {
             "username": "Balaji",
             "scores": {
-                "English": 32,
-                "Maths": 2
+                "English": 34,
+                "Maths": 2,
+                "Social Studies": 1
             }
         }
     ]

@@ -275,6 +275,8 @@ def question_screen():
         st.session_state['button_disabled'] = False
     if 'question_answered' not in st.session_state:
         st.session_state['question_answered'] = False
+    if 'correct_answer' not in st.session_state:
+        st.session_state['correct_answer'] = False  # Track if the current answer is correct
 
     # Get the current question or fetch a new one
     if st.session_state.get("current_question") is None:
@@ -290,6 +292,7 @@ def question_screen():
         st.session_state["question_attempts"] = 0
         st.session_state['button_disabled'] = False  # Enable the button for the new question
         st.session_state['question_answered'] = False  # Reset answer flag
+        st.session_state['correct_answer'] = False  # Reset correctness flag
 
         # Select a random background color for the next question
         st.session_state["bg_color"] = random.choice(color_options)
@@ -344,24 +347,32 @@ def question_screen():
 
     # Handle the submit button logic
     if st.session_state['question_answered']:
-        # Show the success message and play the sound for 3 seconds, then move to the next question
-        st.success("Bravo! That is correct.")
-        autoplay_audio('./sounds/correct_answer.mp3')
+        # Show the success/failure message and play the appropriate sound, then move to the next question
+        if st.session_state['correct_answer']:
+            st.success("Bravo! That is correct.")
+            autoplay_audio('./sounds/correct_answer.mp3')
+        else:
+            st.error("That is not correct. Let's come back to this later.")
+            autoplay_audio('./sounds/incorrect_answer.mp3')
+
         time.sleep(3)  # Pause for 3 seconds
 
-        # Update user's score and progress
-        users = load_users()
-        for u in users:
-            if u['username'] == user:
-                u.setdefault('scores', {})
-                u['scores'][subject] = u['scores'].get(subject, 0) + 1
-                break
-        save_users(users)
+        # Only update user's score and progress if the answer is correct
+        if st.session_state['correct_answer']:
+            users = load_users()
+            for u in users:
+                if u['username'] == user:
+                    u.setdefault('scores', {})
+                    u['scores'][subject] = u['scores'].get(subject, 0) + 1
+                    break
+            save_users(users)
 
-        # Update user progress
-        attempted_questions[question['id']] = True
-        progress[subject] = {"attempted": attempted_questions}
-        save_user_progress(user, progress)
+            # Update user progress
+            attempted_questions[question['id']] = True
+            progress[subject] = {"attempted": attempted_questions}
+            save_user_progress(user, progress)
+        else:
+            attempted_questions[question['id']] = False  # Mark the question as incorrect
 
         # Move to the next question
         st.session_state["current_question"] = None
@@ -372,6 +383,12 @@ def question_screen():
 
     else:
         if st.button("Submit Answer"):
+            # Check if the selected answer is correct
+            if user_choice == question['answer']:
+                st.session_state['correct_answer'] = True
+            else:
+                st.session_state['correct_answer'] = False
+
             # Set the flag and rerun to display the result
             st.session_state['question_answered'] = True
             st.session_state['button_disabled'] = True  # Disable button immediately
