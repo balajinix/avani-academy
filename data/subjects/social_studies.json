@@ -191,6 +191,360 @@
       "question": "The Earth is the _________ planet from the Sun.",
       "options": ["second", "third", "first", "fourth"],
       "answer": "third"
+    },
+    {
+      "id": "SST_25",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Solar System",
+      "question": "What is the Moon?",
+      "options": ["Masses of ice", "Earth's satellite", "Third planet from the sun", "Centre of the solar system"],
+      "answer": "Earth's satellite"
+    },
+    {
+      "id": "SST_26",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Planets",
+      "question": "What is the Earth?",
+      "options": ["Pieces of rocks and metals", "Masses of ice", "Third planet from the sun", "Earth's satellite"],
+      "answer": "Third planet from the sun"
+    },
+    {
+      "id": "SST_27",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Sun",
+      "question": "What is the Sun?",
+      "options": ["Masses of ice", "Earth's satellite", "Third planet from the sun", "Centre of the solar system"],
+      "answer": "Centre of the solar system"
+    },
+    {
+      "id": "SST_28",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Asteroids",
+      "question": "What are asteroids?",
+      "options": ["Masses of ice", "Pieces of rocks and metals", "Earth's satellite", "Centre of the solar system"],
+      "answer": "Pieces of rocks and metals"
+    },
+    {
+      "id": "SST_29",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Comets",
+      "question": "What are comets?",
+      "options": ["Pieces of rocks and metals", "Masses of ice", "Earth's satellite", "Third planet from the sun"],
+      "answer": "Masses of ice"
+    },
+    {
+      "id": "SST_30",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Solar System",
+      "question": "What does the solar system consist of?",
+      "options": [
+        "It consists of the Sun, planets, asteroids, comets, and satellites.",
+        "It consists of only planets and stars.",
+        "It is made of only Earth and the Moon.",
+        "It consists of asteroids and meteors only."
+      ],
+      "answer": "It consists of the Sun, planets, asteroids, comets, and satellites."
+    },
+    {
+      "id": "SST_31",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Planets",
+      "question": "How many planets are there in the solar system?",
+      "options": [
+        "There are eight planets in the solar system.",
+        "There are ten planets in the solar system.",
+        "There are five planets in the solar system.",
+        "There are twelve planets in the solar system."
+      ],
+      "answer": "There are eight planets in the solar system."
+    },
+    {
+      "id": "SST_32",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Planets",
+      "question": "Where do the planets get light from?",
+      "options": [
+        "The planets get light from the Sun.",
+        "The planets produce their own light.",
+        "The planets get light from the stars.",
+        "The planets get light from comets."
+      ],
+      "answer": "The planets get light from the Sun."
+    },
+    {
+      "id": "SST_33",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Asteroids",
+      "question": "What are asteroids?",
+      "options": [
+        "Asteroids are pieces of rocks and metals.",
+        "Asteroids are large masses of ice.",
+        "Asteroids are planets with bright rings around them.",
+        "Asteroids are natural satellites of the Earth."
+      ],
+      "answer": "Asteroids are pieces of rocks and metals."
+    },
+    {
+      "id": "SST_34",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Comets",
+      "question": "What are comets?",
+      "options": [
+        "Comets are masses of ice.",
+        "Comets are planets with their own light.",
+        "Comets are the natural satellites of planets.",
+        "Comets are pieces of rocks and metals."
+      ],
+      "answer": "Comets are masses of ice."
+    },
+    {
+      "id": "SST_35",
+      "chapter": "The Earth and its neighbours",
+      "topic": "Planets",
+      "question": "Which planet has the bright rings around it?",
+      "options": [
+        "Saturn has bright rings around it.",
+        "Mars has bright rings around it.",
+        "Earth has bright rings around it.",
+        "Jupiter has bright rings around it."
+      ],
+      "answer": "Saturn has bright rings around it."
+    },
+    {
+      "id": "SST_36",
+      "chapter": "Air Around Us",
+      "topic": "Air and Atmosphere",
+      "question": "We can only _________ air.",
+      "options": ["see", "feel", "hear", "smell"],
+      "answer": "feel"
+    },
+    {
+      "id": "SST_37",
+      "chapter": "Air Around Us",
+      "topic": "Atmosphere",
+      "question": "The earth is surrounded by a layer of air called the ________.",
+      "options": ["atmosphere", "clouds", "air blanket", "ozone"],
+      "answer": "atmosphere"
+    },
+    {
+      "id": "SST_38",
+      "chapter": "Air Around Us",
+      "topic": "Atmospheric Composition",
+      "question": "_____________ forms about 78 percent of the Earth's atmosphere.",
+      "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+      "answer": "Nitrogen"
+    },
+    {
+      "id": "SST_39",
+      "chapter": "Air Around Us",
+      "topic": "Properties of Air",
+      "question": "Air has ______.",
+      "options": ["Weight", "Color", "Taste", "Sound"],
+      "answer": "Weight"
+    },
+    {
+      "id": "SST_40",
+      "chapter": "Air Around Us",
+      "topic": "Properties of Air",
+      "question": "Air takes up __________.",
+      "options": ["time", "space", "energy", "light"],
+      "answer": "space"
+    },
+    {
+      "id": "SST_41",
+      "chapter": "Air Around Us",
+      "topic": "Air Composition",
+      "question": "What is air?",
+      "options": [
+        "A single gas", 
+        "A layer of dust", 
+        "A solid substance"
+        "A mixture of gases", 
+      ],
+      "answer": "A mixture of gases"
+    },
+    {
+      "id": "SST_42",
+      "chapter": "Air Around Us",
+      "topic": "Atmosphere",
+      "question": "What is the atmosphere?",
+      "options": [
+        "A large body of water", 
+        "A part of the solar system", 
+        "A rock formation"
+        "The layer of air around the earth", 
+      ],
+      "answer": "The layer of air around the earth"
+    },
+    {
+      "id": "SST_43",
+      "chapter": "Air Around Us",
+      "topic": "Clean Air",
+      "question": "When is the cleanest air found?",
+      "options": [
+        "Afternoon", 
+        "Midnight", 
+        "Early morning hours", 
+        "Evening"
+      ],
+      "answer": "Early morning hours"
+    },
+    {
+      "id": "SST_44",
+      "chapter": "Air Around Us",
+      "topic": "Nitrogen in the Atmosphere",
+      "question": "What percentage of the Earth's atmosphere is nitrogen?",
+      "options": [
+        "78 percent", 
+        "21 percent", 
+        "Less than 1 percent", 
+        "50 percent"
+      ],
+      "answer": "78 percent"
+    },
+    {
+      "id": "SST_45",
+      "chapter": "Air Around Us",
+      "topic": "Oxygen in the Atmosphere",
+      "question": "What percentage of the Earth's atmosphere is oxygen?",
+      "options": [
+        "78 percent", 
+        "Less than 1 percent", 
+        "21 percent", 
+        "10 percent"
+      ],
+      "answer": "21 percent"
+    },
+    {
+      "id": "SST_46",
+      "chapter": "Air Around Us",
+      "topic": "Carbon Dioxide in the Atmosphere",
+      "question": "What percentage of the Earth's atmosphere is carbon dioxide?",
+      "options": [
+        "21 percent", 
+        "78 percent", 
+        "Less than 1 percent", 
+        "50 percent"
+      ],
+      "answer": "Less than 1 percent"
+    },
+    {
+      "id": "SST_47",
+      "chapter": "Air Around Us",
+      "topic": "Other Gases in the Atmosphere",
+      "question": "What percentage of the Earth's atmosphere is made up of water vapour?",
+      "options": [
+        "21 percent", 
+        "78 percent", 
+        "10 percent"
+        "Less than 1 percent", 
+      ],
+      "answer": "Less than 1 percent"
+    },
+    {
+      "id": "SST_48",
+      "chapter": "Air Around Us",
+      "topic": "Carbon Dioxide",
+      "question": "How does carbon dioxide help plants?",
+      "options": [
+        "It helps plants to grow leaves.",
+        "It makes plants taller.",
+        "It helps plants to make food.",
+        "It gives plants water."
+      ],
+      "answer": "It helps plants to make food"
+    },
+    {
+      "id": "SST_49",
+      "chapter": "Air Around Us",
+      "topic": "Properties of Air",
+      "question": "What are the different properties of air?",
+      "options": [
+        "Air has weight.",
+        "Air exerts pressure.",
+        "Air takes up space and gives shape to things.",
+        "All of the above."
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": "SST_50",
+      "chapter": "Air Around Us",
+      "topic": "Air Composition",
+      "question": "What is air made of?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon dioxide",
+        "All of the above."
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": "SST_51",
+      "chapter": "Air Around Us",
+      "topic": "Clean Air",
+      "question": "Why is it important to breathe clean air?",
+      "options": [
+        "Clean air helps plants grow.",
+        "Breathing clean and fresh air keeps us healthy.",
+        "It makes the environment look beautiful.",
+        "Clean air helps produce more rain."
+      ],
+      "answer": "Breathing clean and fresh air keeps us healthy."
+    },
+    {
+      "id": "SST_52",
+      "chapter": "Air Around Us",
+      "topic": "Air and Life",
+      "question": "How does air support life on earth?",
+      "options": [
+        "Air fills balloons.",
+        "Air helps with food production.",
+        "Air in the atmosphere prevents the earth from getting very hot or cold.",
+        "Air makes the sky blue."
+      ],
+      "answer": "Air in the atmosphere prevents the earth from getting very hot or cold."
+    },
+    {
+      "id": "SST_53",
+      "chapter": "Water on the Earth",
+      "topic": "States of Water",
+      "question": "When the water is frozen, it is in the __________ state.",
+      "options": ["liquid", "solid", "gaseous", "vapor"],
+      "answer": "solid"
+    },
+    {
+      "id": "SST_54",
+      "chapter": "Water on the Earth",
+      "topic": "Rainwater Harvesting",
+      "question": "The process of collecting and storing _______________ is called rainwater harvesting.",
+      "options": ["rainwater", "groundwater", "river water", "ocean water"],
+      "answer": "rainwater"
+    },
+    {
+      "id": "SST_55",
+      "chapter": "Water on the Earth",
+      "topic": "Sources of Water",
+      "question": "__________________ fills the areas on the ground, such as rivers and lakes.",
+      "options": ["rainwater", "ocean water", "groundwater", "snow"],
+      "answer": "rainwater"
+    },
+    {
+      "id": "SST_56",
+      "chapter": "Water on the Earth",
+      "topic": "States of Water",
+      "question": "The water we drink is in _________ form.",
+      "options": ["solid", "gaseous", "liquid", "frozen"],
+      "answer": "liquid"
+    },
+    {
+      "id": "SST_57",
+      "chapter": "Water on the Earth",
+      "topic": "Groundwater",
+      "question": "People use _____________ and ___________ to take out groundwater.",
+      "options": ["hand pumps and tubewell", "buckets and ropes", "ladders and shovels", "wells and pipes"],
+      "answer": "hand pumps and tubewell"
     }
   ]
 }
