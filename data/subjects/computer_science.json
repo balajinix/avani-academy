@@ -261,6 +261,73 @@
         "Input device"
       ],
       "answer": "Processing device"
+    },
+{
+  "questions": [
+    {
+      "id": "CS_25",
+      "chapter": "How A Computer Works",
+      "topic": "Input-Process-Output",
+      "question": "Explain the IPO cycle of the computer with the help of an example.",
+      "options": [
+        "Input devices capture data from the user and send it to the CPU for processing. Devices such as a webcam, microphone, and scanner enable users to input different types of data like images, sound, or commands, which are then processed to produce meaningful outputs.",
+        "A computer follows the Input-Process-Output (IPO) cycle. First, input devices such as a keyboard or a mouse send data to the computer. The CPU, which acts as the brain of the computer, processes this data. Finally, the output is displayed through devices like a monitor or printed through a printer. For example, when you type a document on a keyboard (input), the CPU processes the data, and the monitor displays the typed document (output).",
+        "The CPU (Central Processing Unit) is responsible for processing the data that comes from input devices. It performs all the calculations and logical operations required by the computer.",
+        "Storage devices are used to save and store data so that it can be accessed later. Common examples of storage devices include hard disks, CDs, DVDs, and pen drives."
+      ],
+      "answer": "A computer follows the Input-Process-Output (IPO) cycle. First, input devices such as a keyboard or a mouse send data to the computer. The CPU, which acts as the brain of the computer, processes this data. Finally, the output is displayed through devices like a monitor or printed through a printer. For example, when you type a document on a keyboard (input), the CPU processes the data, and the monitor displays the typed document (output)."
+    },
+    {
+      "id": "CS_26",
+      "chapter": "How A Computer Works",
+      "topic": "Input Devices",
+      "question": "Describe the function of input devices.",
+      "options": [
+        "The CPU processes the input data and performs complex calculations. It coordinates between the input and output devices, ensuring that data flows smoothly through the system.",
+        "Software provides the instructions that tell the hardware what to do. For example, without the operating system (software), hardware devices like the keyboard and monitor would not know how to interact with the computer.",
+        "Input devices allow users to interact with the computer by providing data. Examples include the keyboard, mouse, and joystick. These devices send signals to the CPU, which processes the information. For instance, a scanner can input a picture into the computer for further processing.",
+        "Storage devices are used to save and store data so that it can be accessed later. I often use a pen drive to store files and transfer data between computers."
+      ],
+      "answer": "Input devices allow users to interact with the computer by providing data. Examples include the keyboard, mouse, and joystick. These devices send signals to the CPU, which processes the information. For instance, a scanner can input a picture into the computer for further processing."
+    },
+    {
+      "id": "CS_27",
+      "chapter": "How A Computer Works",
+      "topic": "CPU",
+      "question": "What is the function of CPU?",
+      "options": [
+        "The CPU (Central Processing Unit) is responsible for processing the data that comes from input devices. It performs all the calculations and logical operations required by the computer. The CPU is considered the brain of the computer because it controls all the activities and executes instructions.",
+        "A computer follows the Input-Process-Output (IPO) cycle. Input devices such as a keyboard send data to the CPU, which processes the data.",
+        "Input devices allow users to interact with the computer by providing data. Examples include the keyboard, mouse, and joystick.",
+        "Software refers to the set of instructions given to a computer to process data and generate output."
+      ],
+      "answer": "The CPU (Central Processing Unit) is responsible for processing the data that comes from input devices. It performs all the calculations and logical operations required by the computer. The CPU is considered the brain of the computer because it controls all the activities and executes instructions."
+    },
+    {
+      "id": "CS_28",
+      "chapter": "How A Computer Works",
+      "topic": "Software and Hardware",
+      "question": "Software and Hardware are dependent on each other. Is this statement true? If yes, why?",
+      "options": [
+        "Input devices allow users to interact with the computer by providing data. Examples include the keyboard, mouse, and joystick.",
+        "The CPU processes the input data and performs complex calculations. It coordinates between the input and output devices.",
+        "Yes, this statement is true. Hardware and software work together to make a computer function. Hardware refers to the physical parts of the computer, like the keyboard, monitor, and CPU. Software provides the instructions that tell the hardware what to do. For example, without the operating system (software), hardware devices like the keyboard and monitor would not know how to interact with the computer.",
+        "Storage devices are used to save and store data so that it can be accessed later. Examples include pen drives, hard disks, and CDs."
+      ],
+      "answer": "Yes, this statement is true. Hardware and software work together to make a computer function. Hardware refers to the physical parts of the computer, like the keyboard, monitor, and CPU. Software provides the instructions that tell the hardware what to do. For example, without the operating system (software), hardware devices like the keyboard and monitor would not know how to interact with the computer."
+    },
+    {
+      "id": "CS_29",
+      "chapter": "How A Computer Works",
+      "topic": "Storage Devices",
+      "question": "What is the use of a storage device? Name a storage device that you often use.",
+      "options": [
+        "The CPU is the brain of the computer. It processes data from input devices and controls the flow of information between components.",
+        "Storage devices are used to save and store data so that it can be accessed later. Common examples of storage devices include hard disks, CDs, DVDs, and pen drives. I often use a pen drive to store files and transfer data between computers.",
+        "Input devices allow users to interact with the computer by providing data. These include the keyboard, mouse, and scanner.",
+        "Software provides the set of instructions for the CPU to process data and generate meaningful output."
+      ],
+      "answer": "Storage devices are used to save and store data so that it can be accessed later. Common examples of storage devices include hard disks, CDs, DVDs, and pen drives. I often use a pen drive to store files and transfer data between computers."
     }
   ]
 }
