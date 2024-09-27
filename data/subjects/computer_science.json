@@ -1,0 +1,266 @@
+{
+  "questions": [
+    {
+      "id": "CS_1",
+      "chapter": "How A Computer Works",
+      "topic": "Input-Process-Output",
+      "question": "A computer follows the input - __________ - Output cycle.",
+      "options": ["Operating", "Printout", "Process", "Software"],
+      "answer": "Process"
+    },
+    {
+      "id": "CS_2",
+      "chapter": "How A Computer Works",
+      "topic": "Software",
+      "question": "__________ refers to the set of instructions given to a computer.",
+      "options": ["Software", "Microphone", "Operating", "Process"],
+      "answer": "Software"
+    },
+    {
+      "id": "CS_3",
+      "chapter": "How A Computer Works",
+      "topic": "Output",
+      "question": "The printed paper is called __________.",
+      "options": ["Printout", "Software", "Microphone", "Operating"],
+      "answer": "Printout"
+    },
+    {
+      "id": "CS_4",
+      "chapter": "How A Computer Works",
+      "topic": "Input Devices",
+      "question": "A _________________ is used to record different sounds into the computer.",
+      "options": ["Operating", "Microphone", "Printout", "Process"],
+      "answer": "Microphone"
+    },
+    {
+      "id": "CS_5",
+      "chapter": "How A Computer Works",
+      "topic": "Operating Systems",
+      "question": "Microsoft Windows is an example of an ______________ system.",
+      "options": ["Process", "Operating", "Printout", "Software"],
+      "answer": "Operating"
+    },
+    {
+      "id": "CS_6",
+      "chapter": "How A Computer Works",
+      "topic": "Input Devices",
+      "question": "It is used to take live photos and videos.",
+      "options": ["Printer", "Joystick", "Scanner", "Web camera"],
+      "answer": "Web camera"
+    },
+    {
+      "id": "CS_7",
+      "chapter": "How A Computer Works",
+      "topic": "Output Devices",
+      "question": "It looks like a television and it is also known as VDU.",
+      "options": ["Monitor", "Printer", "Scanner", "Microphone"],
+      "answer": "Monitor"
+    },
+    {
+      "id": "CS_8",
+      "chapter": "How A Computer Works",
+      "topic": "Output Devices",
+      "question": "It is used to project an image onto a large surface, such as a white screen or wall.",
+      "options": ["Projector", "Speaker", "Printer", "Microphone"],
+      "answer": "Projector"
+    },
+    {
+      "id": "CS_9",
+      "chapter": "How A Computer Works",
+      "topic": "Storage Devices",
+      "question": "It is inside the CPU box and can store a large amount of information.",
+      "options": ["Hard disk", "DVD", "CD", "Speakers"],
+      "answer": "Hard disk"
+    },
+    {
+      "id": "CS_10",
+      "chapter": "How A Computer Works",
+      "topic": "Storage Devices",
+      "question": "It is also known as a flash drive.",
+      "options": ["Pen drive", "DVD drive", "USB", "CD drive"],
+      "answer": "Pen drive"
+    },
+    {
+      "id": "CS_11",
+      "chapter": "How A Computer Works",
+      "topic": "Storage Devices",
+      "question": "What is a CD used for?",
+      "options": [
+        "It is used to play games.",
+        "It is used to store information.",
+        "It is used to record sound.",
+        "It is used to take printouts."
+      ],
+      "answer": "It is used to store information."
+    },
+    {
+      "id": "CS_12",
+      "chapter": "How A Computer Works",
+      "topic": "Output Devices",
+      "question": "What are speakers used for?",
+      "options": [
+        "They are used to store information.",
+        "They are used to record sound.",
+        "They are used to listen to music.",
+        "They are used to play games."
+      ],
+      "answer": "They are used to listen to music."
+    },
+    {
+      "id": "CS_13",
+      "chapter": "How A Computer Works",
+      "topic": "Output Devices",
+      "question": "What is a printer used for?",
+      "options": [
+        "It is used to take printouts.",
+        "It is used to store information.",
+        "It is used to listen to music.",
+        "It is used to record sound."
+      ],
+      "answer": "It is used to take printouts."
+    },
+    {
+      "id": "CS_14",
+      "chapter": "How A Computer Works",
+      "topic": "Input Devices",
+      "question": "What is a microphone used for?",
+      "options": [
+        "It is used to record sound.",
+        "It is used to take printouts.",
+        "It is used to store information.",
+        "It is used to listen to music."
+      ],
+      "answer": "It is used to record sound."
+    },
+    {
+      "id": "CS_15",
+      "chapter": "How A Computer Works",
+      "topic": "Input Devices",
+      "question": "What is a joystick used for?",
+      "options": [
+        "It is used to play games.",
+        "It is used to listen to music.",
+        "It is used to store information.",
+        "It is used to take printouts."
+      ],
+      "answer": "It is used to play games."
+    },
+    {
+      "id": "CS_16",
+      "chapter": "How A Computer Works",
+      "topic": "Storage Devices",
+      "question": "What does a pen drive do?",
+      "options": [
+        "It works when inserted into the USB port.",
+        "It is used to listen to music.",
+        "It is used to record sound.",
+        "It is used to take printouts."
+      ],
+      "answer": "It works when inserted into the USB port."
+    },
+    {
+      "id": "CS_17",
+      "chapter": "How A Computer Works",
+      "topic": "Processing Devices",
+      "question": "What is the CPU?",
+      "options": [
+        "It is the brain of the computer.",
+        "It is used to record sound.",
+        "It works when inserted into the USB port.",
+        "It is used to take printouts."
+      ],
+      "answer": "It is the brain of the computer."
+    },
+    {
+      "id": "CS_18",
+      "chapter": "How A Computer Works",
+      "topic": "Device Types",
+      "question": "What type of device is a CD?",
+      "options": [
+        "Storage device",
+        "Input device",
+        "Output device",
+        "Processing device"
+      ],
+      "answer": "Storage device"
+    },
+    {
+      "id": "CS_19",
+      "chapter": "How A Computer Works",
+      "topic": "Device Types",
+      "question": "What type of device is a speaker?",
+      "options": [
+        "Output device",
+        "Storage device",
+        "Input device",
+        "Processing device"
+      ],
+      "answer": "Output device"
+    },
+    {
+      "id": "CS_20",
+      "chapter": "How A Computer Works",
+      "topic": "Device Types",
+      "question": "What type of device is a printer?",
+      "options": [
+        "Output device",
+        "Processing device",
+        "Input device",
+        "Storage device"
+      ],
+      "answer": "Output device"
+    },
+    {
+      "id": "CS_21",
+      "chapter": "How A Computer Works",
+      "topic": "Device Types",
+      "question": "What type of device is a microphone?",
+      "options": [
+        "Input device",
+        "Storage device",
+        "Output device",
+        "Processing device"
+      ],
+      "answer": "Input device"
+    },
+    {
+      "id": "CS_22",
+      "chapter": "How A Computer Works",
+      "topic": "Device Types",
+      "question": "What type of device is a joystick?",
+      "options": [
+        "Input device",
+        "Output device",
+        "Processing device",
+        "Storage device"
+      ],
+      "answer": "Input device"
+    },
+    {
+      "id": "CS_23",
+      "chapter": "How A Computer Works",
+      "topic": "Device Types",
+      "question": "What type of device is a pen drive?",
+      "options": [
+        "Storage device",
+        "Processing device",
+        "Input device",
+        "Output device"
+      ],
+      "answer": "Storage device"
+    },
+    {
+      "id": "CS_24",
+      "chapter": "How A Computer Works",
+      "topic": "Device Types",
+      "question": "What type of device is the CPU?",
+      "options": [
+        "Processing device",
+        "Storage device",
+        "Output device",
+        "Input device"
+      ],
+      "answer": "Processing device"
+    }
+  ]
+}
