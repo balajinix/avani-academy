@@ -10,6 +10,36 @@ import threading
 # Enable wide mode
 st.set_page_config(page_title="Avani Academy", page_icon='./data/logo.ico', layout="wide")
 
+import streamlit as st
+
+def show_video_list():
+    st.write("Computer Science")
+    
+    chapters = {
+        "How a computer works": {
+            "Working of a Computer": "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter1/tb3ch1svid1/master.m3u8",
+            "Hardware and Software" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter1/tb3ch1svid2/master.m3u8"
+        },
+        "Windows 10 Operating System": {
+            "Operating System" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2svid1/master.m3u8",
+            "Desktop and its components" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2anm1/master.m3u8",
+            "Parts of a program Window" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2svid2/master.m3u8"
+        },
+        "Enhance a Drawing with Paint tools" : {
+            "Working with paint tools" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter3/tb3ch3sr1/master.m3u8",
+            "Rotating a picture" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter3/tb3ch3sr2/master.m3u8",
+            "Printing a picture" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter3/tb3ch3svid1/master.m3u8"
+        }
+    }
+    
+    for chapter, videos in chapters.items():
+        st.markdown(f"### {chapter}")
+        for name, url in videos.items():
+            st.markdown(
+                f'<a href="{url}" target="_blank">{name}</a>',
+                unsafe_allow_html=True
+            )
+
 # Function to play audio using base64 encoding
 def autoplay_audio(file_path: str):
     with open(file_path, "rb") as f:
@@ -93,8 +123,15 @@ def save_user_progress(username, progress):
 
 
 def login_screen():
-    st.title("Avani Academy")
-    st.text("Select your profile to login")
+    logo_path = './data/logo.png'
+    col1, col2 = st.columns([1, 9])
+
+    with col1:
+        st.image(logo_path, width=150)
+
+    with col2:
+        st.title("Avani Academy")
+
 
     users = load_users()
 
@@ -118,20 +155,6 @@ def login_screen():
                         st.rerun()
 
     show_video_list()
-
-def show_video_list():
-
-    video_urls = [
-         "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2svid1/master.m3u8",
-         "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2anm1/master.m3u8",
-        "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2svid2/master.m3u8"
-    ]
-
-    for idx, url in enumerate(video_urls):
-        st.markdown(
-            f'<a href="{url}" target="_blank">Watch Video {idx + 1}</a>',
-            unsafe_allow_html=True
-        )
 
 
 def subject_selection_screen():
