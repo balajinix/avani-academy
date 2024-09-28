@@ -326,6 +326,218 @@
         "Software provides the set of instructions for the CPU to process data and generate meaningful output."
       ],
       "answer": "Storage devices are used to save and store data so that it can be accessed later. Common examples of storage devices include hard disks, CDs, DVDs, and pen drives. I often use a pen drive to store files and transfer data between computers."
+    },
+    {
+      "id": "CS_30",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Operating System",
+      "question": "_______________ operating system allows only one user to log onto the computer at a time.",
+      "options": ["Recycle Bin", "Ribbon", "Single-user", "Shut Down"],
+      "answer": "Single-user"
+    },
+    {
+      "id": "CS_31",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Power Options",
+      "question": "____________ option turns off your computer completely.",
+      "options": ["Recycle Bin", "Shut Down", "Single-user", "Ribbon"],
+      "answer": "Shut Down"
+    },
+    {
+      "id": "CS_32",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Recycle Bin",
+      "question": "___________ stores all your deleted files and folders.",
+      "options": ["Status Bar", "Ribbon", "Recycle Bin", "Single-user"],
+      "answer": "Recycle Bin"
+    },
+    {
+      "id": "CS_33",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Status Bar",
+      "question": "_______________ provides information about the task being done.",
+      "options": ["Recycle Bin", "Single-user", "Shut Down", "Status Bar"],
+      "answer": "Status Bar"
+    },
+    {
+      "id": "CS_34",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Ribbon",
+      "question": "_______________ consists of tabs and groups.",
+      "options": ["Ribbon", "Recycle Bin", "Status Bar", "Shut Down"],
+      "answer": "Ribbon"
+    },
+    {
+      "id": "CS_35",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Taskbar Features",
+      "question": "This is a rectangular bar at the very end of the Taskbar.",
+      "options": ["Show desktop", "Aero peek", "Shut down", "Status bar"],
+      "answer": "Show desktop"
+    },
+    {
+      "id": "CS_36",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Aero Peek",
+      "question": "Which of the following shows the live preview of open windows?",
+      "options": ["Aero peek", "Sneek peak", "Nice peak", "Sneak peek"],
+      "answer": "Aero peek"
+    },
+    {
+      "id": "CS_37",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Desktop Icons",
+      "question": "What are the little pictures of programs displayed on the desktop called?",
+      "options": ["Icons", "Middle section", "Bullets", "Calendar"],
+      "answer": "Icons"
+    },
+    {
+      "id": "CS_38",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Operating System Type",
+      "question": "Microsoft Windows is a ____________ operating system.",
+      "options": ["Single user", "Multi-user", "One time user", "One location user"],
+      "answer": "Single user"
+    },
+    {
+      "id": "CS_39",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Restart Option",
+      "question": "This option turns off your computer and starts it again.",
+      "options": ["Restart", "Shut Down", "Sleep", "Active start"],
+      "answer": "Restart"
+    },
+    {
+      "id": "CS_40",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Operating Systems",
+      "question": "Mac is an example of multi-user operating system.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "CS_41",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Acronyms",
+      "question": "GUI stands for Graphical User Interface.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_42",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Launch Dates",
+      "question": "Windows 10 was launched in 2018.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "CS_43",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Taskbar",
+      "question": "Clock is displayed on the right-hand side of the task bar.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_44",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Ribbon",
+      "question": "Ribbon appears below the title bar and consists of tabs and groups.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_45",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Task View",
+      "question": "You can point to the Task View button to see a live preview of its active windows. It is called Adam's Peek.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "CS_46",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Status Bar",
+      "question": "Status Bar provides the information about the task being done.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_47",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Scroll Bars",
+      "question": "Scroll Bars appear when all the contents of a window cannot be seen at the same time.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_48",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Scroll Bars",
+      "question": "There are three types of scroll bars: Horizontal Scroll Bar, Vertical Scroll Bar, Diagonal Scroll Bar.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "CS_49",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Work Area",
+      "question": "Work Area is the main working space which displays whatever you do. In paint, the work area is known as drawing area.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_50",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Taskbar",
+      "question": "What is the Taskbar?",
+      "options": [
+        "A bar that is displayed at the bottom of the Desktop screen.",
+        "A bar that displays the name of the document and the software program.",
+        "It provides information about the task being done.",
+        "Move your mouse over any icon on the Taskbar to see its thumbnail preview."
+      ],
+      "answer": "A bar that is displayed at the bottom of the Desktop screen."
+    },
+    {
+      "id": "CS_51",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Taskbar Features",
+      "question": "What is Live Taskbar Preview?",
+      "options": [
+        "Move your mouse over any icon on the Taskbar to see its thumbnail preview.",
+        "It provides information about the task being done.",
+        "A bar that is displayed at the bottom of the Desktop screen.",
+        "A bar that displays the name of the document and the software program."
+      ],
+      "answer": "Move your mouse over any icon on the Taskbar to see its thumbnail preview."
+    },
+    {
+      "id": "CS_52",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Status Bar",
+      "question": "What does the Status Bar do?",
+      "options": [
+        "It provides information about the task being done.",
+        "Move your mouse over any icon on the Taskbar to see its thumbnail preview.",
+        "A bar that is displayed at the bottom of the Desktop screen.",
+        "A bar that displays the name of the document and the software program."
+      ],
+      "answer": "It provides information about the task being done."
+    },
+    {
+      "id": "CS_53",
+      "chapter": "Windows 10 Operating System",
+      "topic": "Title Bar",
+      "question": "What does the Title Bar display?",
+      "options": [
+        "A bar that displays the name of the document and the software program.",
+        "A bar that is displayed at the bottom of the Desktop screen.",
+        "Move your mouse over any icon on the Taskbar to see its thumbnail preview.",
+        "It provides information about the task being done."
+      ],
+      "answer": "A bar that displays the name of the document and the software program."
     }
   ]
 }
