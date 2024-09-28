@@ -538,6 +538,167 @@
         "It provides information about the task being done."
       ],
       "answer": "A bar that displays the name of the document and the software program."
+    },
+    {
+      "id": "CS_54",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Symmetry",
+      "question": "A picture having the same shape or size on both halves is _______________.",
+      "options": ["asymmetric", "crooked", "symmetric", "skewed"],
+      "answer": "symmetric"
+    },
+    {
+      "id": "CS_55",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "3D",
+      "question": "What does 3D stand for?",
+      "options": ["3 dimensions", "D, D, D", "3 Dalmatians", "3 diagrams"],
+      "answer": "3 dimensions"
+    },
+    {
+      "id": "CS_56",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Free-form Drawing",
+      "question": "On the Home tab, in the _________ group, click a callout to draw callouts.",
+      "options": ["Gridlines", "Shapes", "Free-form", "Upside"],
+      "answer": "Free-form"
+    },
+    {
+      "id": "CS_57",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Selection Tools",
+      "question": "To select an irregularly shaped part of the picture, choose ____________ selection.",
+      "options": ["Gridlines", "Free-form", "Shapes", "Print"],
+      "answer": "Shapes"
+    },
+    {
+      "id": "CS_58",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Flip Functionality",
+      "question": "Flip vertical will turn the picture ____________ down.",
+      "options": ["Upside", "Free-form", "Print", "Gridlines"],
+      "answer": "Upside"
+    },
+    {
+      "id": "CS_59",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Gridlines",
+      "question": "___________ make the screen look like a graph sheet.",
+      "options": ["Shapes", "Gridlines", "Upside", "Print"],
+      "answer": "Gridlines"
+    },
+    {
+      "id": "CS_60",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Print Function",
+      "question": "You can press Ctrl + P to ________ a picture.",
+      "options": ["Free-form", "Upside", "Gridlines", "Print"],
+      "answer": "Print"
+    },
+    {
+      "id": "CS_61",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Image Formats",
+      "question": "What is the full form of PNG?",
+      "options": [
+        "Pixelated Network Graphics",
+        "Portable Network Graphics",
+        "Printable Network Graphics",
+        "Pilot Network Graphics"
+      ],
+      "answer": "Portable Network Graphics"
+    },
+    {
+      "id": "CS_62",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Drawing Tools",
+      "question": "Which of these options help in making precise drawings?",
+      "options": [
+        "Gridlines",
+        "Print preview",
+        "Zoom slide",
+        "Callouts"
+      ],
+      "answer": "Gridlines"
+    },
+    {
+      "id": "CS_63",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Shapes Group",
+      "question": "In which group do you find the callout option?",
+      "options": [
+        "Shapes",
+        "Tools",
+        "Clipboard",
+        "Image"
+      ],
+      "answer": "Shapes"
+    },
+    {
+      "id": "CS_64",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Selection Tools",
+      "question": "Click _________ to select everything in the picture except for the current selection.",
+      "options": [
+        "Invert selection",
+        "Rulers",
+        "Zoom",
+        "Convert selection"
+      ],
+      "answer": "Invert selection"
+    },
+    {
+      "id": "CS_65",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Magnifier Tool",
+      "question": "What is the function of Magnifier tool?",
+      "options": [
+        "To zoom a picture",
+        "To rotate a picture",
+        "To flip a picture",
+        "To cut a picture"
+      ],
+      "answer": "To zoom a picture"
+    },
+    {
+      "id": "CS_66",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "File Formats",
+      "question": "GIF stands for Graphics Interchange Format.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_67",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Display Settings",
+      "question": "On the view tab, in the Display group, click Full screen to view the picture in full screen.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_68",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Zoom Tools",
+      "question": "To zoom a picture, choose Rulers tool.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "CS_69",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Gridlines",
+      "question": "To show gridlines, click the Gridlines checkbox.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "CS_70",
+      "chapter": "Enhance a Drawing with Paint Tools",
+      "topic": "Full Screen View",
+      "question": "You cannot make changes to pictures in full screen view.",
+      "options": ["True", "False"],
+      "answer": "True"
     }
   ]
 }
