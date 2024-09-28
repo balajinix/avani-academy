@@ -8,7 +8,7 @@ import pandas as pd
 import threading
 
 # Enable wide mode
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Avani Academy", page_icon='./data/logo.ico', layout="wide")
 
 # Function to play audio using base64 encoding
 def autoplay_audio(file_path: str):
@@ -33,18 +33,17 @@ os.makedirs(SUBJECTS_DIR, exist_ok=True)
 os.makedirs(USER_PROGRESS_DIR, exist_ok=True)
 
 def show_left_rail():
-    st.sidebar.title("Avani Academy")
+    logo_path = './data/logo.png'
+    st.sidebar.image(logo_path, caption="Avani Academy", use_column_width=True)
     if "logged_in_user" in st.session_state:
         user = st.session_state["logged_in_user"]
         st.sidebar.subheader(f"User: {user}")
         
-        # Display the avatar
         avatar_path = f"./data/{user}.png"
         avatar_path = avatar_path.lower()
         if os.path.exists(avatar_path):
-            st.sidebar.image(avatar_path, caption="User Avatar", use_column_width=True)
-        
-        # Display the score in the chosen subject
+            st.sidebar.image(avatar_path, caption="User Avatar", width=80)
+
         if "selected_subject" in st.session_state:
             subject = st.session_state["selected_subject"]
             users = load_users()
@@ -53,19 +52,16 @@ def show_left_rail():
                 score = user_data.get("scores", {}).get(subject, 0)
                 st.sidebar.markdown(f"**{subject} Score: {score}**")
 
-# Load users from JSON file
 def load_users():
     if not os.path.exists(USERS_FILE):
         return []
     with open(USERS_FILE, 'r') as file:
         return json.load(file)["users"]
 
-# Save users to JSON file
 def save_users(users):
     with open(USERS_FILE, 'w') as file:
         json.dump({"users": users}, file, indent=4)
 
-# Function to sign up a new user
 def signup_user(new_user):
     users = load_users()
     users.append({"username": new_user, "scores": {}})
@@ -74,7 +70,6 @@ def signup_user(new_user):
     st.session_state["logged_in_user"] = new_user
     st.rerun()  # Trigger a rerun after signup
 
-# Function to load questions for a subject
 def load_subject_questions(subject):
     subject_file_name = subject.lower().replace(" ", "_")
     subject_file = os.path.join(SUBJECTS_DIR, f"{subject_file_name}.json")
@@ -84,7 +79,6 @@ def load_subject_questions(subject):
     with open(subject_file, 'r') as file:
         return json.load(file)["questions"]
 
-# Function to load user progress
 def load_user_progress(username):
     user_file = os.path.join(USER_PROGRESS_DIR, f"{username}.json")
     if not os.path.exists(user_file):
@@ -92,7 +86,6 @@ def load_user_progress(username):
     with open(user_file, 'r') as file:
         return json.load(file)
 
-# Function to save user progress
 def save_user_progress(username, progress):
     user_file = os.path.join(USER_PROGRESS_DIR, f"{username}.json")
     with open(user_file, 'w') as file:
@@ -107,9 +100,7 @@ def login_screen():
 
     if users:
         selected_user = None
-        
-        # Add 2 empty columns on each side, and then 1 column for each user
-        total_columns = 2 + len(users) + 2  # 2 padding columns on each side + columns for users
+        total_columns = 2 + len(users) + 2
         cols = st.columns(total_columns)
 
         for idx, user in enumerate(users):
@@ -126,12 +117,30 @@ def login_screen():
                         st.success(f"Welcome back, {user['username']}!")
                         st.rerun()
 
+    show_video_list()
+
+def show_video_list():
+
+    video_urls = [
+         "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2svid1/master.m3u8",
+         "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2anm1/master.m3u8",
+        "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2svid2/master.m3u8"
+    ]
+
+    for idx, url in enumerate(video_urls):
+        st.markdown(
+            f'<a href="{url}" target="_blank">Watch Video {idx + 1}</a>',
+            unsafe_allow_html=True
+        )
+
+
 def subject_selection_screen():
     show_left_rail()
     user = st.session_state["logged_in_user"]
-    st.sidebar.subheader(f"Welcome, {user}!")
-    st.sidebar.subheader("What would you like to learn today?")
-
+    
+    st.title(f"Welcome, {user}!")
+    st.subheader("What would you like to learn today?")
+    
     # Load user scores
     users = load_users()
     user_data = next((u for u in users if u['username'] == user), None)
@@ -139,19 +148,15 @@ def subject_selection_screen():
         st.error("User data not found.")
         return
 
-    # List of subjects
     subjects = ["English", "Maths", "Science", "Social Studies", "Computer Science", "Hindi", "Kannada"]
-
-    # Subject selection
-    selected_subject = st.sidebar.selectbox("Choose a subject", options=subjects)
-    if st.sidebar.button("Start Learning"):
+    selected_subject = st.selectbox("Choose a subject", options=subjects)
+    
+    if st.button("Start Learning"):
         st.session_state["selected_subject"] = selected_subject
         st.session_state["question_attempts"] = 0  # Reset attempt counter
         st.session_state["current_question"] = None
         st.rerun()
 
-    # Display leaderboard in table format
-    st.sidebar.subheader("Your Scores:")
     scores = user_data.get("scores", {})
 
     # Create a DataFrame for the table
@@ -160,8 +165,7 @@ def subject_selection_screen():
         "Points": [scores.get(subject, 0) for subject in subjects]
     }
     score_df = pd.DataFrame(score_data)
-
-    # Display the DataFrame as a table
+    st.sidebar.subheader("Your Scores:")
     st.sidebar.table(score_df)
 
     if st.sidebar.button("Logout"):
