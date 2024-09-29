@@ -11,6 +11,142 @@
       "question": "What is 5 x 3?",
       "options": ["15", "10", "8", "20"],
       "answer": "15"
+    },
+    {
+      "id": "Math_1",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Conversion",
+      "question": "One ₹5 coin can be changed for ________ ₹1 coins.",
+      "options": ["4", "10", "2", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "Math_2",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Conversion",
+      "question": "One ₹20 note can be changed for _________ ₹5 coins.",
+      "options": ["5", "4", "2", "10"],
+      "answer": "4"
+    },
+    {
+      "id": "Math_3",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Conversion",
+      "question": "The number of ₹20 notes needed to make ₹100 is ________.",
+      "options": ["4", "10", "5", "2"],
+      "answer": "5"
+    },
+    {
+      "id": "Math_4",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Conversion",
+      "question": "One ₹100 note can be changed for _______ ₹10 coins.",
+      "options": ["5", "4", "10", "20"],
+      "answer": "10"
+    },
+    {
+      "id": "Math_5",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Transactions",
+      "question": "Ashok bought a chocolate for ₹120 and gave a ₹100 and a ₹50 note. How much change should he get?",
+      "options": ["₹20", "₹40", "₹30", "₹25"],
+      "answer": "₹30"
+    },
+    {
+      "id": "Math_6",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Transactions",
+      "question": "Anita bought balloons for ₹55 and gave a ₹100 note. How much change should she get?",
+      "options": ["₹55", "₹35", "₹45", "₹40"],
+      "answer": "₹45"
+    },
+    {
+      "id": "Math_7",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Transactions",
+      "question": "Bhola paid ₹120 for chocolate and ₹285 for a cake. How much money did he spend in all?",
+      "options": ["₹410", "₹405", "₹395", "₹425"],
+      "answer": "₹405"
+    },
+    {
+      "id": "Math_8",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Transactions",
+      "question": "Priti bought two music albums on iTunes, one for ₹99 and the other for ₹111. How much money did she spend in all?",
+      "options": ["₹220", "₹210", "₹200", "₹215"],
+      "answer": "₹210"
+    },
+    {
+      "id": "Math_9",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Transactions",
+      "question": "Mary has ₹15, Tara has ₹28, and Babu has ₹19. How much money do they have together?",
+      "options": ["₹62", "₹58", "₹60", "₹64"],
+      "answer": "₹62"
+    },
+    {
+      "id": "Math_10",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Transactions",
+      "question": "Ria needs only ₹90 to make her money up to ₹200. How much money does she have now?",
+      "options": ["₹90", "₹110", "₹100", "₹115"],
+      "answer": "₹110"
+    },
+    {
+      "id": "Math_11",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Transactions",
+      "question": "Joe has ₹12. Peter has ₹16 more than Joe. How much money do they have together?",
+      "options": ["₹40", "₹38", "₹35", "₹28"],
+      "answer": "₹40"
+    },
+    {
+      "id": "Math_12",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Notation",
+      "question": "₹100 and 5 paise is written as:",
+      "options": ["₹100.05", "₹1005", "₹100.5", "₹105"],
+      "answer": "₹100.05"
+    },
+    {
+      "id": "Math_13",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Coin Values",
+      "question": "Which of these coins has the highest value?",
+      "options": ["₹10", "₹5", "₹1", "50p"],
+      "answer": "₹10"
+    },
+    {
+      "id": "Math_14",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "Money Notation",
+      "question": "5 paise is written as:",
+      "options": ["₹0.05", "₹5", "₹0.50", "₹0.5"],
+      "answer": "₹0.05"
+    },
+    {
+      "id": "Math_15",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "True or False",
+      "question": "Four coins of 1-rupee are equal to ₹5.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Math_16",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "True or False",
+      "question": "50 paise + 100 paise + 50 paise = ₹2.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Math_17",
+      "chapter": "Addition and Subtraction of Money",
+      "topic": "True or False",
+      "question": "100 coins of 50 paise make ₹50.",
+      "options": ["True", "False"],
+      "answer": "True"
     }
   ]
 }
