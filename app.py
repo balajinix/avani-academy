@@ -124,7 +124,7 @@ def save_user_progress(username, progress):
 
 def login_screen():
     logo_path = './data/logo.png'
-    col1, col2 = st.columns([1, 9])
+    col1, col2 = st.columns([2, 8])
 
     with col1:
         st.image(logo_path, width=150)
