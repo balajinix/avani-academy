@@ -1194,6 +1194,686 @@
       "question": "Which of these is a fruit that we eat?",
       "options": ["Carrot", "Banana", "Potato", "Spinach"],
       "answer": "Banana"
+    },
+    {
+      "id": "Science_136",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Identification",
+      "question": "Which of the following is NOT a common insect around us?",
+      "options": ["Ant", "Bee", "Fly", "Frog"],
+      "answer": "Frog"
+    },
+    {
+      "id": "Science_137",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "An insect's body is divided into how many main parts?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "answer": "Three"
+    },
+    {
+      "id": "Science_138",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "Which of the following is NOT a part of an insect's body?",
+      "options": ["Thorax", "Abdomen", "Head", "Tail"],
+      "answer": "Tail"
+    },
+    {
+      "id": "Science_139",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "The egg of a butterfly hatches into a:",
+      "options": ["Pupa", "Caterpillar", "Adult butterfly", "Larva"],
+      "answer": "Caterpillar"
+    },
+    {
+      "id": "Science_140",
+      "chapter": "Animals: Common Insects",
+      "topic": "Ant Colony",
+      "question": "Which of the following is NOT a kind of ant in an ant colony?",
+      "options": ["Drone", "Queen", "Soldier", "Worker"],
+      "answer": "Soldier"
+    },
+    {
+      "id": "Science_141",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Characteristics",
+      "question": "An insect that can sting us is the:",
+      "options": ["Butterfly", "Bee", "Ant", "Fly"],
+      "answer": "Bee"
+    },
+    {
+      "id": "Science_142",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "An insect has how many legs?",
+      "options": ["Six", "Eight", "Four", "Ten"],
+      "answer": "Six"
+    },
+    {
+      "id": "Science_143",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "The pupa develops into a:",
+      "options": ["Butterfly", "Egg", "Caterpillar", "Larva"],
+      "answer": "Butterfly"
+    },
+    {
+      "id": "Science_144",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "The hard outer covering on an insect's body is made up of:",
+      "options": ["Chitin", "Pistil", "Keratin", "Satin"],
+      "answer": "Chitin"
+    },
+    {
+      "id": "Science_145",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Habitats",
+      "question": "In the natural environment, honeybees build beehives:",
+      "options": [
+        "On rocks",
+        "Inside tree cavities",
+        "Under edges of objects",
+        "In underground burrows"
+      ],
+      "answer": "Inside tree cavities"
+    },
+    {
+      "id": "Science_146",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Damage",
+      "question": "Which insects are known for eating wooden furniture?",
+      "options": ["Ants", "Termites", "Flies", "Beetles"],
+      "answer": "Termites"
+    },
+    {
+      "id": "Science_147",
+      "chapter": "Animals: Common Insects",
+      "topic": "True or False",
+      "question": "Some insects have antennae on their thorax.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_148",
+      "chapter": "Animals: Common Insects",
+      "topic": "True or False",
+      "question": "The butterfly develops into a pupa.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_149",
+      "chapter": "Animals: Common Insects",
+      "topic": "Social Insects",
+      "question": "Some insects that live together in colonies are called social insects.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_150",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Habitats",
+      "question": "Honeybees can live in natural as well as domestic environments.",
+      "options": ["False", "True"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_151",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Behavior",
+      "question": "A mosquito can spoil our food.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_152",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Identification",
+      "question": "Houseflies, ants, beetles, and cockroaches are _______ insects.",
+      "options": ["Common", "Rare"],
+      "answer": "Common"
+    },
+    {
+      "id": "Science_153",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "The body of an adult insect is divided into _______ parts.",
+      "options": ["Two", "Three"],
+      "answer": "Three"
+    },
+    {
+      "id": "Science_154",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "Most insects pass through different _______ in their lives.",
+      "options": ["Stages", "Roles"],
+      "answer": "Stages"
+    },
+    {
+      "id": "Science_155",
+      "chapter": "Animals: Common Insects",
+      "topic": "Ant Colony",
+      "question": "The _______ ant only lays eggs.",
+      "options": ["Worker", "Queen"],
+      "answer": "Queen"
+    },
+    {
+      "id": "Science_156",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "Bedbugs have _______ mouthparts.",
+      "options": ["Cone-shaped", "Needle-shaped"],
+      "answer": "Needle-shaped"
+    },
+    {
+      "id": "Science_157",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Functions",
+      "question": "What is the role of antennae on an insect's head?",
+      "options": [
+        "For reproduction",
+        "For sensing the environment",
+        "For movement",
+        "For digestion"
+      ],
+      "answer": "For sensing the environment"
+    },
+    {
+      "id": "Science_158",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "How does a caterpillar become a pupa?",
+      "options": [
+        "By shedding its skin and forming a cocoon",
+        "By eating leaves",
+        "By laying eggs",
+        "By metamorphosis into an adult"
+      ],
+      "answer": "By shedding its skin and forming a cocoon"
+    },
+    {
+      "id": "Science_159",
+      "chapter": "Animals: Common Insects",
+      "topic": "Social Insects",
+      "question": "Which of the following are social insects?",
+      "options": [
+        "Butterflies, bees, and flies",
+        "Ants, bees, and termites",
+        "Mosquitoes, ants, and beetles",
+        "Flies, cockroaches, and bedbugs"
+      ],
+      "answer": "Ants, bees, and termites"
+    },
+    {
+      "id": "Science_160",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Habitats",
+      "question": "Why do honeybees prefer living in gardens and orchards?",
+      "options": [
+        "Because they like the scenery",
+        "Because they can find plenty of flowers for nectar",
+        "Because they avoid other insects",
+        "Because it's cooler there"
+      ],
+      "answer": "Because they can find plenty of flowers for nectar"
+    },
+    {
+      "id": "Science_161",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Damage",
+      "question": "How do cockroaches harm us?",
+      "options": [
+        "By spreading diseases",
+        "By damaging furniture",
+        "By stinging us",
+        "By eating crops"
+      ],
+      "answer": "By spreading diseases"
+    },
+    {
+      "id": "Science_162",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "What are the stages in the life cycle of a butterfly?",
+      "options": [
+        "Egg, pupa, adult",
+        "Egg, larva, pupa, adult",
+        "Egg, nymph, adult",
+        "Egg, caterpillar, adult"
+      ],
+      "answer": "Egg, larva, pupa, adult"
+    },
+    {
+      "id": "Science_163",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Habitats",
+      "question": "Where can we commonly find ants?",
+      "options": [
+        "In anthills, under rocks, and in soil",
+        "In water bodies",
+        "Flying in the air",
+        "On tree leaves"
+      ],
+      "answer": "In anthills, under rocks, and in soil"
+    },
+    {
+      "id": "Science_164",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Harm",
+      "question": "Which of the following insects can harm us?",
+      "options": [
+        "Termites, mosquitoes, bedbugs, and fleas",
+        "Butterflies, bees, ants, and beetles",
+        "Dragonflies, moths, ladybugs, and grasshoppers",
+        "Beetles, flies, ants, and moths"
+      ],
+      "answer": "Termites, mosquitoes, bedbugs, and fleas"
+    },
+    {
+      "id": "Science_165",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Bites",
+      "question": "Which of these is a remedy for an insect bite?",
+      "options": [
+        "Applying ice to reduce swelling",
+        "Scratching the bite area",
+        "Covering the bite with a bandage",
+        "Ignoring it completely"
+      ],
+      "answer": "Applying ice to reduce swelling"
+    },
+    {
+      "id": "Science_166",
+      "chapter": "Animals: Common Insects",
+      "topic": "Preventive Measures",
+      "question": "What is one preventive measure to avoid harmful insects?",
+      "options": [
+        "Keeping food uncovered",
+        "Eliminating standing water",
+        "Leaving garbage exposed",
+        "Avoiding the use of insect screens"
+      ],
+      "answer": "Eliminating standing water"
+    },
+    {
+      "id": "Science_167",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "Which body part of an insect is primarily responsible for movement?",
+      "options": ["Abdomen", "Head", "Thorax", "Wings"],
+      "answer": "Thorax"
+    },
+    {
+      "id": "Science_168",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Characteristics",
+      "question": "Which insect is known for forming large colonies and complex social structures?",
+      "options": ["Butterfly", "Bee", "Mosquito", "Cockroach"],
+      "answer": "Bee"
+    },
+    {
+      "id": "Science_169",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Behavior",
+      "question": "Termites are often mistaken for ants but differ because they:",
+      "options": [
+        "Have a narrow waist",
+        "Cannot digest wood",
+        "Live in water",
+        "Can eat wood and cause structural damage"
+      ],
+      "answer": "Can eat wood and cause structural damage"
+    },
+    {
+      "id": "Science_170",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "Metamorphosis in insects refers to:",
+      "options": [
+        "The process of hatching from an egg",
+        "A change in form during development",
+        "The act of molting",
+        "Migration patterns"
+      ],
+      "answer": "A change in form during development"
+    },
+    {
+      "id": "Science_171",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Habitats",
+      "question": "Bedbugs are commonly found:",
+      "options": [
+        "In beds and furniture",
+        "Flying around lights",
+        "In gardens on flowers",
+        "Near water sources"
+      ],
+      "answer": "In beds and furniture"
+    },
+    {
+      "id": "Science_172",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Harm",
+      "question": "Mosquitoes can harm humans by:",
+      "options": [
+        "Pollinating plants",
+        "Spreading diseases like malaria",
+        "Producing honey",
+        "Improving soil quality"
+      ],
+      "answer": "Spreading diseases like malaria"
+    },
+    {
+      "id": "Science_173",
+      "chapter": "Animals: Common Insects",
+      "topic": "Preventive Measures",
+      "question": "To reduce the presence of flies, one should:",
+      "options": [
+        "Keep windows open without screens",
+        "Leave food uncovered",
+        "Use proper waste disposal methods",
+        "Avoid cleaning the kitchen"
+      ],
+      "answer": "Use proper waste disposal methods"
+    },
+    {
+      "id": "Science_174",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Behavior",
+      "question": "Which insect is known for its ability to jump long distances?",
+      "options": ["Grasshopper", "Bee", "Fly", "Ant"],
+      "answer": "Grasshopper"
+    },
+    {
+      "id": "Science_175",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "Which of these insects typically has wings as an adult?",
+      "options": ["Ant", "Bee", "Termite", "All of these"],
+      "answer": "All of these"
+    },
+    {
+      "id": "Science_176",
+      "chapter": "Animals: Common Insects",
+      "topic": "Social Insects",
+      "question": "Which of the following insects is considered a social insect?",
+      "options": ["Butterfly", "Cockroach", "Bee", "Mosquito"],
+      "answer": "Bee"
+    },
+    {
+      "id": "Science_177",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "An insect's antennae are primarily used for:",
+      "options": ["Movement", "Digestion", "Sensing the environment", "Defense"],
+      "answer": "Sensing the environment"
+    },
+    {
+      "id": "Science_178",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "The life cycle of a butterfly includes all of the following stages EXCEPT:",
+      "options": ["Egg", "Larva", "Nymph", "Pupa"],
+      "answer": "Nymph"
+    },
+    {
+      "id": "Science_179",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Damage",
+      "question": "Which insect is known to damage wooden furniture?",
+      "options": ["Fly", "Bee", "Termite", "Ant"],
+      "answer": "Termite"
+    },
+    {
+      "id": "Science_180",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "An insect has how many pairs of legs?",
+      "options": ["Two pairs", "Four pairs", "Three pairs", "Five pairs"],
+      "answer": "Three pairs"
+    },
+    {
+      "id": "Science_181",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Covering",
+      "question": "The hard outer covering of an insect's body is called the:",
+      "options": ["Shell", "Skin", "Exoskeleton", "Endoskeleton"],
+      "answer": "Exoskeleton"
+    },
+    {
+      "id": "Science_182",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "Which of the following insects undergoes complete metamorphosis?",
+      "options": ["Cockroach", "Grasshopper", "Butterfly", "Bedbug"],
+      "answer": "Butterfly"
+    },
+    {
+      "id": "Science_183",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Harm",
+      "question": "Which insect transmits diseases such as malaria and dengue?",
+      "options": ["Termite", "Ant", "Mosquito", "Bee"],
+      "answer": "Mosquito"
+    },
+    {
+      "id": "Science_184",
+      "chapter": "Animals: Common Insects",
+      "topic": "Social Insects",
+      "question": "Which insect is known for living in colonies and building complex nests called anthills?",
+      "options": ["Wasps", "Bees", "Termites", "Ants"],
+      "answer": "Ants"
+    },
+    {
+      "id": "Science_185",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "The middle part of an insect's body, where the legs and wings are attached, is called the:",
+      "options": ["Head", "Waist", "Thorax", "Abdomen"],
+      "answer": "Thorax"
+    },
+    {
+      "id": "Science_186",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Harm",
+      "question": "Which of the following is NOT a harmful insect?",
+      "options": ["Cockroach", "Butterfly", "Mosquito", "Termite"],
+      "answer": "Butterfly"
+    },
+    {
+      "id": "Science_187",
+      "chapter": "Animals: Common Insects",
+      "topic": "Preventive Measures",
+      "question": "To prevent mosquitoes from breeding around our homes, we should:",
+      "options": ["Plant more flowers", "Keep windows open", "Eliminate standing water", "Allow water to collect"],
+      "answer": "Eliminate standing water"
+    },
+    {
+      "id": "Science_188",
+      "chapter": "Animals: Common Insects",
+      "topic": "Preventive Measures",
+      "question": "Which of the following is a preventive measure to avoid harmful insects?",
+      "options": ["Leaving food uncovered", "Using insect repellents", "Avoiding cleaning", "Keeping garbage inside"],
+      "answer": "Using insect repellents"
+    },
+    {
+      "id": "Science_189",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Harm",
+      "question": "Which of these insects can contaminate our food by spreading germs?",
+      "options": ["Bee", "Butterfly", "Cockroach", "Ant"],
+      "answer": "Cockroach"
+    },
+    {
+      "id": "Science_190",
+      "chapter": "Animals: Common Insects",
+      "topic": "Social Insects",
+      "question": "Social insects include ants, bees, and which other insect?",
+      "options": ["Grasshoppers", "Mosquitoes", "Butterflies", "Termites"],
+      "answer": "Termites"
+    },
+    {
+      "id": "Science_191",
+      "chapter": "Animals: Common Insects",
+      "topic": "Social Insects",
+      "question": "Which of the following is a characteristic of social insects?",
+      "options": ["They live alone", "They do not communicate", "They are always harmful", "They build nests or colonies"],
+      "answer": "They build nests or colonies"
+    },
+    {
+      "id": "Science_192",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Harm",
+      "question": "Which of the following insects can spoil our food?",
+      "options": ["Butterfly", "Mosquito", "Bee", "Housefly"],
+      "answer": "Housefly"
+    },
+    {
+      "id": "Science_193",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Bites",
+      "question": "Which of the following is a remedy for an insect bite?",
+      "options": ["Scratching the area", "Ignoring it", "Applying ice", "Covering with dirt"],
+      "answer": "Applying ice"
+    },
+    {
+      "id": "Science_194",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Behavior",
+      "question": "Which insect is known for its ability to jump long distances?",
+      "options": ["Bee", "Ant", "Fly", "Grasshopper"],
+      "answer": "Grasshopper"
+    },
+    {
+      "id": "Science_195",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "The insect's legs and wings are attached to which body part?",
+      "options": ["Head", "Antennae", "Abdomen", "Thorax"],
+      "answer": "Thorax"
+    },
+    {
+      "id": "Science_196",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Damage",
+      "question": "Cockroaches harm humans by:",
+      "options": ["Producing honey", "Pollinating flowers", "Spreading diseases", "Improving soil"],
+      "answer": "Spreading diseases"
+    },
+    {
+      "id": "Science_197",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Habitats",
+      "question": "Ants can commonly be found in all of the following places EXCEPT:",
+      "options": ["In anthills", "Under rocks", "In soil", "In water bodies"],
+      "answer": "In water bodies"
+    },
+    {
+      "id": "Science_198",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Bites",
+      "question": "Which insect is known for leaving itchy bites on humans, often found in beds?",
+      "options": ["Bee", "Ant", "Termite", "Bedbug"],
+      "answer": "Bedbug"
+    },
+    {
+      "id": "Science_199",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "Which body part is NOT part of an insect's three main sections?",
+      "options": ["Head", "Thorax", "Tail", "Abdomen"],
+      "answer": "Tail"
+    },
+    {
+      "id": "Science_200",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Harm",
+      "question": "Termites primarily feed on:",
+      "options": ["Plants", "Other insects", "Soil", "Wood"],
+      "answer": "Wood"
+    },
+    {
+      "id": "Science_201",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Habitats",
+      "question": "Honeybees build beehives in natural environments, typically:",
+      "options": ["Underground", "On water surfaces", "In anthills", "Inside tree cavities"],
+      "answer": "Inside tree cavities"
+    },
+    {
+      "id": "Science_202",
+      "chapter": "Animals: Common Insects",
+      "topic": "Preventive Measures",
+      "question": "To reduce the presence of flies, one should:",
+      "options": ["Leave food uncovered", "Avoid cleaning the kitchen", "Keep windows open without screens", "Use proper waste disposal methods"],
+      "answer": "Use proper waste disposal methods"
+    },
+    {
+      "id": "Science_203",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Behavior",
+      "question": "Social insects communicate with each other primarily through:",
+      "options": ["Songs", "Facial expressions", "Sign language", "Dance and pheromones"],
+      "answer": "Dance and pheromones"
+    },
+    {
+      "id": "Science_204",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Anatomy",
+      "question": "Which insect body part contains the digestive and reproductive organs?",
+      "options": ["Head", "Thorax", "Antennae", "Abdomen"],
+      "answer": "Abdomen"
+    },
+    {
+      "id": "Science_205",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "Insects like grasshoppers that do not undergo complete metamorphosis are said to have:",
+      "options": ["Complex metamorphosis", "No metamorphosis", "Instant metamorphosis", "Incomplete metamorphosis"],
+      "answer": "Incomplete metamorphosis"
+    },
+    {
+      "id": "Science_206",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Harm",
+      "question": "Which insect is known for spreading the disease malaria?",
+      "options": ["Bee", "Fly", "Ant", "Mosquito"],
+      "answer": "Mosquito"
+    },
+    {
+      "id": "Science_207",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Behavior",
+      "question": "Ants follow each other in a line because they are:",
+      "options": ["Attracted to light", "Afraid to get lost", "Marching for exercise", "Following a scent trail"],
+      "answer": "Following a scent trail"
+    },
+    {
+      "id": "Science_208",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Bites",
+      "question": "A common symptom of an insect bite is:",
+      "options": ["Hair loss", "Broken bones", "Fever only", "Swelling and itching"],
+      "answer": "Swelling and itching"
+    },
+    {
+      "id": "Science_209",
+      "chapter": "Animals: Common Insects",
+      "topic": "Preventive Measures",
+      "question": "One way to prevent insect bites is to:",
+      "options": ["Avoid bathing", "Keep windows open at night without screens", "Wear bright clothing", "Use insect repellent"],
+      "answer": "Use insect repellent"
+    },
+    {
+      "id": "Science_210",
+      "chapter": "Animals: Common Insects",
+      "topic": "Insect Life Cycle",
+      "question": "Which stage comes after the egg in a butterfly's life cycle?",
+      "options": ["Adult", "Nymph", "Pupa", "Larva (caterpillar)"],
+      "answer": "Larva (caterpillar)"
     }
   ]
 }
