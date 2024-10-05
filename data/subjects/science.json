@@ -1874,6 +1874,385 @@
       "question": "Which stage comes after the egg in a butterfly's life cycle?",
       "options": ["Adult", "Nymph", "Pupa", "Larva (caterpillar)"],
       "answer": "Larva (caterpillar)"
+    },
+    {
+      "id": "Science_211",
+      "chapter": "Living and Non-living Things",
+      "topic": "Characteristics of Living Things",
+      "question": "Which of the following is a living thing that moves using fins?",
+      "options": ["Bird", "Whale", "Snake", "Insect"],
+      "answer": "Whale"
+    },
+    {
+      "id": "Science_212",
+      "chapter": "Living and Non-living Things",
+      "topic": "Growth",
+      "question": "A chick grows into a:",
+      "options": ["Duck", "Hen", "Dog", "Cow"],
+      "answer": "Hen"
+    },
+    {
+      "id": "Science_213",
+      "chapter": "Living and Non-living Things",
+      "topic": "Breathing",
+      "question": "An insect that breathes through spiracles is the:",
+      "options": ["Butterfly", "Caterpillar", "Bee", "Ant"],
+      "answer": "Caterpillar"
+    },
+    {
+      "id": "Science_214",
+      "chapter": "Living and Non-living Things",
+      "topic": "Nutrition",
+      "question": "Living things that can make their own food are called:",
+      "options": ["Animals", "Plants", "Humans", "Insects"],
+      "answer": "Plants"
+    },
+    {
+      "id": "Science_215",
+      "chapter": "Living and Non-living Things",
+      "topic": "Senses",
+      "question": "Which sense organ is used to see things?",
+      "options": ["Skin", "Nose", "Eye", "Tongue"],
+      "answer": "Eye"
+    },
+    {
+      "id": "Science_216",
+      "chapter": "Living and Non-living Things",
+      "topic": "Lifespan",
+      "question": "The average lifespan of a dog is:",
+      "options": ["2-3 years", "10-12 years", "5-6 years", "1-2 years"],
+      "answer": "10-12 years"
+    },
+    {
+      "id": "Science_217",
+      "chapter": "Living and Non-living Things",
+      "topic": "Reproduction",
+      "question": "Which of these animals does NOT lay eggs?",
+      "options": ["Frog", "Fish", "Deer", "Snake"],
+      "answer": "Deer"
+    },
+    {
+      "id": "Science_218",
+      "chapter": "Living and Non-living Things",
+      "topic": "Response to Stimuli",
+      "question": "Which plant closes its leaves when touched?",
+      "options": ["Rose", "Mimosa", "Apple", "Grape"],
+      "answer": "Mimosa"
+    },
+    {
+      "id": "Science_219",
+      "chapter": "Living and Non-living Things",
+      "topic": "Senses",
+      "question": "This living thing smells with the help of antennae:",
+      "options": ["Tiger", "Butterfly", "Deer", "Frog"],
+      "answer": "Butterfly"
+    },
+    {
+      "id": "Science_220",
+      "chapter": "Living and Non-living Things",
+      "topic": "True or False",
+      "question": "Animals can make their own food.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_221",
+      "chapter": "Living and Non-living Things",
+      "topic": "True or False",
+      "question": "All living things live up to a certain age called lifelong.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_222",
+      "chapter": "Living and Non-living Things",
+      "topic": "Growth",
+      "question": "A chick grows into a dog.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_223",
+      "chapter": "Living and Non-living Things",
+      "topic": "Breathing",
+      "question": "Cockroaches have air holes called spiracles present on their body.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_224",
+      "chapter": "Living and Non-living Things",
+      "topic": "Reproduction",
+      "question": "Non-living things reproduce.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_225",
+      "chapter": "Living and Non-living Things",
+      "topic": "Breathing",
+      "question": "Living things need ________ to breathe.",
+      "options": ["Water", "Air"],
+      "answer": "Air"
+    },
+    {
+      "id": "Science_226",
+      "chapter": "Living and Non-living Things",
+      "topic": "Characteristics of Non-living Things",
+      "question": "Stones, chairs, and tables ________.",
+      "options": ["Do not breathe", "Breathe"],
+      "answer": "Do not breathe"
+    },
+    {
+      "id": "Science_227",
+      "chapter": "Living and Non-living Things",
+      "topic": "Movement",
+      "question": "Most plants ________ from one place to another.",
+      "options": ["Do not move", "Move"],
+      "answer": "Do not move"
+    },
+    {
+      "id": "Science_228",
+      "chapter": "Living and Non-living Things",
+      "topic": "Breathing",
+      "question": "Fish breathe through ________.",
+      "options": ["Spiracles", "Gills"],
+      "answer": "Gills"
+    },
+    {
+      "id": "Science_229",
+      "chapter": "Living and Non-living Things",
+      "topic": "Senses",
+      "question": "Cats use their ________ to feel movement around them.",
+      "options": ["Whiskers", "Antennae"],
+      "answer": "Whiskers"
+    },
+    {
+      "id": "Science_230",
+      "chapter": "Living and Non-living Things",
+      "topic": "Non-living Things",
+      "question": "Which of the following is NOT a non-living thing?",
+      "options": ["House", "Telephone", "Tree", "Car"],
+      "answer": "Tree"
+    },
+    {
+      "id": "Science_231",
+      "chapter": "Living and Non-living Things",
+      "topic": "Properties of Non-living Things",
+      "question": "Which of the following is a property of non-living things?",
+      "options": ["They reproduce", "They move on their own", "They do not breathe", "They need food"],
+      "answer": "They do not breathe"
+    },
+    {
+      "id": "Science_232",
+      "chapter": "Living and Non-living Things",
+      "topic": "Breathing",
+      "question": "What are spiracles?",
+      "options": [
+        "Tiny holes on leaves",
+        "Air holes on the bodies of insects",
+        "Sensory organs",
+        "Parts of a plant"
+      ],
+      "answer": "Air holes on the bodies of insects"
+    },
+    {
+      "id": "Science_233",
+      "chapter": "Living and Non-living Things",
+      "topic": "Breathing",
+      "question": "What are stomata?",
+      "options": [
+        "Roots of a plant",
+        "Tiny openings on leaves for gas exchange",
+        "Insect antennae",
+        "Seed parts"
+      ],
+      "answer": "Tiny openings on leaves for gas exchange"
+    },
+    {
+      "id": "Science_234",
+      "chapter": "Living and Non-living Things",
+      "topic": "Senses",
+      "question": "What are antennae used for in insects?",
+      "options": [
+        "For movement",
+        "For sensing the environment",
+        "For reproduction",
+        "For breathing"
+      ],
+      "answer": "For sensing the environment"
+    },
+    {
+      "id": "Science_235",
+      "chapter": "Living and Non-living Things",
+      "topic": "Reproduction",
+      "question": "What is reproduction?",
+      "options": [
+        "The process by which living things make their own food",
+        "The process by which living things move",
+        "The process by which young ones are born",
+        "The process of breathing"
+      ],
+      "answer": "The process by which young ones are born"
+    },
+    {
+      "id": "Science_236",
+      "chapter": "Living and Non-living Things",
+      "topic": "Differences",
+      "question": "Which of the following best describes a difference between a chair and a man?",
+      "options": [
+        "A chair can breathe, a man cannot",
+        "A man can move on his own, a chair cannot",
+        "Both can reproduce",
+        "A chair needs food, a man does not"
+      ],
+      "answer": "A man can move on his own, a chair cannot"
+    },
+    {
+      "id": "Science_237",
+      "chapter": "Living and Non-living Things",
+      "topic": "Differences",
+      "question": "How is a toy baby different from a real baby?",
+      "options": [
+        "A toy baby can grow, a real baby cannot",
+        "A real baby needs food, a toy baby does not",
+        "Both can feel changes around them",
+        "A toy baby can breathe, a real baby cannot"
+      ],
+      "answer": "A real baby needs food, a toy baby does not"
+    },
+    {
+      "id": "Science_238",
+      "chapter": "Living and Non-living Things",
+      "topic": "Differences",
+      "question": "Which of the following distinguishes animals from plants?",
+      "options": [
+        "Plants can move from place to place",
+        "Animals can make their own food",
+        "Animals can move independently, plants cannot",
+        "Plants do not need air"
+      ],
+      "answer": "Animals can move independently, plants cannot"
+    },
+    {
+      "id": "Science_239",
+      "chapter": "Living and Non-living Things",
+      "topic": "Characteristics of Living Things",
+      "question": "How are living things different from non-living things?",
+      "options": [
+        "Living things do not need food",
+        "Non-living things can reproduce",
+        "Living things can grow and reproduce",
+        "Non-living things can move on their own"
+      ],
+      "answer": "Living things can grow and reproduce"
+    },
+    {
+      "id": "Science_240",
+      "chapter": "Living and Non-living Things",
+      "topic": "Breathing",
+      "question": "How do human beings breathe?",
+      "options": [
+        "Through gills",
+        "Through spiracles",
+        "Through lungs",
+        "Through stomata"
+      ],
+      "answer": "Through lungs"
+    },
+    {
+      "id": "Science_241",
+      "chapter": "Living and Non-living Things",
+      "topic": "Breathing",
+      "question": "In which living things are stomata present?",
+      "options": ["Animals", "Plants", "Insects", "Birds"],
+      "answer": "Plants"
+    },
+    {
+      "id": "Science_242",
+      "chapter": "Living and Non-living Things",
+      "topic": "Growth",
+      "question": "What happens when a seed grows?",
+      "options": [
+        "It becomes a rock",
+        "It develops into a new plant",
+        "It turns into an animal",
+        "It disappears"
+      ],
+      "answer": "It develops into a new plant"
+    },
+    {
+      "id": "Science_243",
+      "chapter": "Living and Non-living Things",
+      "topic": "Classification",
+      "question": "Is a butterfly a living or non-living thing?",
+      "options": ["Non-living thing", "Living thing"],
+      "answer": "Living thing"
+    },
+    {
+      "id": "Science_244",
+      "chapter": "Living and Non-living Things",
+      "topic": "Lifespan",
+      "question": "What determines the lifespan of living things?",
+      "options": [
+        "Their size",
+        "The amount of food they eat",
+        "The period from birth to natural death",
+        "The color of their skin"
+      ],
+      "answer": "The period from birth to natural death"
+    },
+    {
+      "id": "Science_245",
+      "chapter": "Living and Non-living Things",
+      "topic": "Nutrition",
+      "question": "Why do living things need food?",
+      "options": [
+        "To grow and get energy",
+        "To stay the same size",
+        "To reproduce non-living things",
+        "They do not need food"
+      ],
+      "answer": "To grow and get energy"
+    },
+    {
+      "id": "Science_246",
+      "chapter": "Living and Non-living Things",
+      "topic": "Differences",
+      "question": "Which of the following is a difference between a tree and a toy?",
+      "options": [
+        "A toy can grow, a tree cannot",
+        "A tree needs water, a toy does not",
+        "Both can reproduce",
+        "A toy needs sunlight, a tree does not"
+      ],
+      "answer": "A tree needs water, a toy does not"
+    },
+    {
+      "id": "Science_247",
+      "chapter": "Living and Non-living Things",
+      "topic": "Characteristics of Living Things",
+      "question": "Which of the following is a basic feature of living things?",
+      "options": [
+        "They do not feel changes around them",
+        "They do not need air",
+        "They grow and reproduce",
+        "They are always visible"
+      ],
+      "answer": "They grow and reproduce"
+    },
+    {
+      "id": "Science_248",
+      "chapter": "Living and Non-living Things",
+      "topic": "Response to Stimuli",
+      "question": "Living things feel changes around them, while non-living things do not. This means that:",
+      "options": [
+        "Non-living things can respond to touch",
+        "Living things can sense their environment",
+        "Non-living things need food",
+        "Living things cannot move"
+      ],
+      "answer": "Living things can sense their environment"
     }
   ]
 }
