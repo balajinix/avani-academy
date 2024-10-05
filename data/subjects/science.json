@@ -1,0 +1,310 @@
+{
+  "questions": [
+    {
+      "id": "Science_1",
+      "chapter": "Food we get from plants",
+      "topic": "Types of Plants",
+      "question": "Plants smaller than shrubs with non-woody stems are called:",
+      "options": ["Shrubs", "Creepers", "Herbs", "Trees"],
+      "answer": "Herbs"
+    },
+    {
+      "id": "Science_2",
+      "chapter": "Food we get from plants",
+      "topic": "Types of Plants",
+      "question": "Plants that grow along the ground are called:",
+      "options": ["Climbers", "Creepers", "Herbs", "Shrubs"],
+      "answer": "Creepers"
+    },
+    {
+      "id": "Science_3",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Parts",
+      "question": "The single, thick woody stem of trees is called the:",
+      "options": ["Trunk", "Branch", "Root", "Bark"],
+      "answer": "Trunk"
+    },
+    {
+      "id": "Science_4",
+      "chapter": "Food we get from plants",
+      "topic": "Types of Plants",
+      "question": "Plants that grow with the support of walls or sticks are called:",
+      "options": ["Climbers", "Shrubs", "Creepers", "Herbs"],
+      "answer": "Climbers"
+    },
+    {
+      "id": "Science_5",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Examples",
+      "question": "Which of the following are plants that store food in their roots?",
+      "options": ["Banana and Mango", "Spinach and Lettuce", "Coconut", "Ginger and Carrot"],
+      "answer": "Ginger and Carrot"
+    },
+    {
+      "id": "Science_6",
+      "chapter": "Food we get from plants",
+      "topic": "Medicinal Plants",
+      "question": "Which of the following are medicinal plants?",
+      "options": ["Coffee and Tea", "Coriander and Curry leaves", "Tulsi and Mint", "Lavender and Rose"],
+      "answer": "Tulsi and Mint"
+    },
+    {
+      "id": "Science_7",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Seeds",
+      "question": "Which of these are examples of edible seeds?",
+      "options": ["Apple and Pear", "Chickpea and Kidney beans", "Mango and Drumstick", "Jamun and Plum"],
+      "answer": "Chickpea and Kidney beans"
+    },
+    {
+      "id": "Science_8",
+      "chapter": "Food we get from plants",
+      "topic": "Herbs",
+      "question": "Which of the following are examples of herbs?",
+      "options": ["Banana and Mango leaves", "Lavender and Mint", "Curry leaves and Neem", "Rose and Hibiscus"],
+      "answer": "Lavender and Mint"
+    },
+    {
+      "id": "Science_9",
+      "chapter": "Food we get from plants",
+      "topic": "Oilseeds",
+      "question": "Which of the following is an oilseed?",
+      "options": ["Petrol", "Neem oil", "Palm oil", "Groundnut"],
+      "answer": "Groundnut"
+    },
+    {
+      "id": "Science_10",
+      "chapter": "Food we get from plants",
+      "topic": "Types of Plants",
+      "question": "Which of the following is an example of a climber?",
+      "options": ["Mint", "Banyan", "Grapevine", "Spinach"],
+      "answer": "Grapevine"
+    },
+    {
+      "id": "Science_11",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "We get oil from which of these fruits?",
+      "options": ["Mango", "Coconut", "Apple", "Orange"],
+      "answer": "Coconut"
+    },
+    {
+      "id": "Science_12",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Plant Parts",
+      "question": "We eat the leaf of which of these plants?",
+      "options": ["Rice", "Coconut", "Pear", "Cabbage"],
+      "answer": "Cabbage"
+    },
+    {
+      "id": "Science_13",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Roots",
+      "question": "We eat the root of which of these plants as a vegetable?",
+      "options": ["Turnip", "Mango", "Potato", "Cherry"],
+      "answer": "Turnip"
+    },
+    {
+      "id": "Science_14",
+      "chapter": "Food we get from plants",
+      "topic": "Types of Plants",
+      "question": "__________ have many thin, woody stems near the ground.",
+      "options": ["Climbers", "Shrubs", "Trees", "Herbs"],
+      "answer": "Shrubs"
+    },
+    {
+      "id": "Science_15",
+      "chapter": "Food we get from plants",
+      "topic": "Beverages",
+      "question": "Tea is a beverage.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_16",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Flowers",
+      "question": "Broccoli is a flower that we eat.",
+      "options": ["False", "True"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_17",
+      "chapter": "Food we get from plants",
+      "topic": "Cereals",
+      "question": "Cereals are called food grains.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_18",
+      "chapter": "Food we get from plants",
+      "topic": "Creepers",
+      "question": "Watermelon and strawberry are examples of creepers.",
+      "options": ["False", "True"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_19",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Stems",
+      "question": "Shrubs have a single, non-woody stem.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_20",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Roots",
+      "question": "Beetroot and _________ are examples of roots we eat.",
+      "options": ["Carrot", "Sugarcane"],
+      "answer": "Carrot"
+    },
+    {
+      "id": "Science_21",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "We get tea, coffee, and _________ from plants.",
+      "options": ["Water", "Sugar"],
+      "answer": "Sugar"
+    },
+    {
+      "id": "Science_22",
+      "chapter": "Food we get from plants",
+      "topic": "Cereals",
+      "question": "Rice is a _________.",
+      "options": ["Cereal", "Spice"],
+      "answer": "Cereal"
+    },
+    {
+      "id": "Science_23",
+      "chapter": "Food we get from plants",
+      "topic": "Types of Plants",
+      "question": "___________ is a climber.",
+      "options": ["Neem", "Bean"],
+      "answer": "Bean"
+    },
+    {
+      "id": "Science_24",
+      "chapter": "Food we get from plants",
+      "topic": "Medicinal Plants",
+      "question": "The stem of _________ is used to make medicines.",
+      "options": ["Potato", "Turmeric"],
+      "answer": "Turmeric"
+    },
+    {
+      "id": "Science_25",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "Match the following: Nuts",
+      "options": ["Tulsi", "Mustard", "Almond", "Coffee"],
+      "answer": "Almond"
+    },
+    {
+      "id": "Science_26",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "Match the following: Beverage",
+      "options": ["Chickpeas", "Coffee", "Wheat", "Mustard"],
+      "answer": "Coffee"
+    },
+    {
+      "id": "Science_27",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "Match the following: Mustard",
+      "options": ["Medicine", "Oil", "Pulses", "Flour"],
+      "answer": "Oil"
+    },
+    {
+      "id": "Science_28",
+      "chapter": "Food we get from plants",
+      "topic": "Medicinal Plants",
+      "question": "Match the following: Tulsi",
+      "options": ["Medicine", "Oil", "Flour", "Pulses"],
+      "answer": "Medicine"
+    },
+    {
+      "id": "Science_29",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "Match the following: Wheat",
+      "options": ["Oil", "Flour", "Pulses", "Nuts"],
+      "answer": "Flour"
+    },
+    {
+      "id": "Science_30",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "Match the following: Chickpeas",
+      "options": ["Pulses", "Flour", "Oil", "Coffee"],
+      "answer": "Pulses"
+    },
+    {
+      "id": "Science_31",
+      "chapter": "Food we get from plants",
+      "topic": "Types of Plants",
+      "question": "How are stems of trees different from the stems of herbs?",
+      "options": [
+        "Tree stems are underground; herb stems are above ground.",
+        "Tree stems are green; herb stems are brown.",
+        "Tree stems are non-woody; herb stems are woody.",
+        "Tree stems are thick and woody; herb stems are thin and green."
+      ],
+      "answer": "Tree stems are thick and woody; herb stems are thin and green."
+    },
+    {
+      "id": "Science_32",
+      "chapter": "Food we get from plants",
+      "topic": "Cereals",
+      "question": "What are cereals? Give two examples.",
+      "options": [
+        "Cereals are grains like wheat and rice.",
+        "Cereals are spices like pepper and turmeric.",
+        "Cereals are fruits like apple and banana.",
+        "Cereals are vegetables like carrot and beetroot."
+      ],
+      "answer": "Cereals are grains like wheat and rice."
+    },
+    {
+      "id": "Science_33",
+      "chapter": "Food we get from plants",
+      "topic": "Spices",
+      "question": "What are spices? Give two examples.",
+      "options": [
+        "Spices are oils like mustard and coconut.",
+        "Spices are nuts like almond and cashew.",
+        "Spices are flavoring agents like cinnamon and cardamom.",
+        "Spices are beverages like tea and coffee."
+      ],
+      "answer": "Spices are flavoring agents like cinnamon and cardamom."
+    },
+    {
+      "id": "Science_34",
+      "chapter": "Food we get from plants",
+      "topic": "Medicinal Plants",
+      "question": "Name three plants that are used to make medicines.",
+      "options": [
+        "Coconut, Palm, and Dates",
+        "Tulsi, Neem, and Turmeric",
+        "Rose, Jasmine, and Lily",
+        "Mango, Banana, and Apple"
+      ],
+      "answer": "Tulsi, Neem, and Turmeric"
+    },
+    {
+      "id": "Science_35",
+      "chapter": "Food we get from plants",
+      "topic": "Creepers",
+      "question": "What is a creeper?",
+      "options": [
+        "A plant that climbs with support of walls.",
+        "A plant that grows along the ground due to weak stems.",
+        "A plant with many thin woody stems near the ground.",
+        "A big plant with thick woody stem."
+      ],
+      "answer": "A plant that grows along the ground due to weak stems."
+    }
+  ]
+}
+
