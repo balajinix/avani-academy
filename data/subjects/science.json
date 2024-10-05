@@ -678,6 +678,522 @@
         "Ignore the problem"
       ],
       "answer": "Apply pesticides or natural remedies"
+    },
+    {
+      "id": "Science_74",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Photosynthesis",
+      "question": "Which of the following is NOT required for photosynthesis?",
+      "options": ["Chlorophyll", "Sunlight", "Oxygen", "Carbon dioxide"],
+      "answer": "Oxygen"
+    },
+    {
+      "id": "Science_75",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "The process by which plants make their own food is called:",
+      "options": ["Respiration", "Germination", "Transpiration", "Photosynthesis"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "id": "Science_76",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Root Types",
+      "question": "Which of the following plants has fibrous roots?",
+      "options": ["Carrot", "Radish", "Wheat", "Mango"],
+      "answer": "Wheat"
+    },
+    {
+      "id": "Science_77",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Leaf Functions",
+      "question": "Stomata are primarily responsible for:",
+      "options": [
+        "Absorbing nutrients from the soil",
+        "Gas exchange in leaves",
+        "Supporting the plant",
+        "Reproduction"
+      ],
+      "answer": "Gas exchange in leaves"
+    },
+    {
+      "id": "Science_78",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "Which part of the plant holds it upright and transports water and nutrients?",
+      "options": ["Stem", "Leaf", "Flower", "Root"],
+      "answer": "Stem"
+    },
+    {
+      "id": "Science_79",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Seed Types",
+      "question": "An example of a monocot seed is:",
+      "options": ["Pea", "Maize", "Bean", "Gram"],
+      "answer": "Maize"
+    },
+    {
+      "id": "Science_80",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Classification",
+      "question": "Which of these is an example of a shrub?",
+      "options": ["Banyan", "Rose", "Grass", "Mint"],
+      "answer": "Rose"
+    },
+    {
+      "id": "Science_81",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Structures",
+      "question": "The broad, flat part of a leaf is called the:",
+      "options": ["Vein", "Blade", "Petiole", "Midrib"],
+      "answer": "Blade"
+    },
+    {
+      "id": "Science_82",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Growth",
+      "question": "Which of the following is a function of the stem?",
+      "options": [
+        "Anchoring the plant in soil",
+        "Producing seeds",
+        "Transporting water and minerals",
+        "Absorbing sunlight"
+      ],
+      "answer": "Transporting water and minerals"
+    },
+    {
+      "id": "Science_83",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "The colorful part of the plant that attracts insects is the:",
+      "options": ["Leaf", "Stem", "Flower", "Root"],
+      "answer": "Flower"
+    },
+    {
+      "id": "Science_84",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Reproduction",
+      "question": "Seeds develop from which part of the plant?",
+      "options": ["Leaves", "Flowers", "Stems", "Roots"],
+      "answer": "Flowers"
+    },
+    {
+      "id": "Science_85",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Classification",
+      "question": "Which of these is a herb?",
+      "options": ["Neem", "Spinach", "Hibiscus", "Grapevine"],
+      "answer": "Spinach"
+    },
+    {
+      "id": "Science_86",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Types",
+      "question": "Creepers are plants that:",
+      "options": [
+        "Have thick woody stems",
+        "Climb using support",
+        "Grow along the ground",
+        "Have many thin stems near the ground"
+      ],
+      "answer": "Grow along the ground"
+    },
+    {
+      "id": "Science_87",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "Transpiration in plants occurs mainly through the:",
+      "options": ["Stems", "Roots", "Flowers", "Leaves"],
+      "answer": "Leaves"
+    },
+    {
+      "id": "Science_88",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Photosynthesis",
+      "question": "Plants take in carbon dioxide through:",
+      "options": ["Roots", "Stomata", "Flowers", "Stem"],
+      "answer": "Stomata"
+    },
+    {
+      "id": "Science_89",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "Which part of the plant is known as the 'kitchen of the plant'?",
+      "options": ["Flower", "Root", "Stem", "Leaf"],
+      "answer": "Leaf"
+    },
+    {
+      "id": "Science_90",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Classification",
+      "question": "Which of the following is NOT a function of roots?",
+      "options": [
+        "Absorbing water and minerals",
+        "Anchoring the plant",
+        "Making food",
+        "Storing food"
+      ],
+      "answer": "Making food"
+    },
+    {
+      "id": "Science_91",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Seed Types",
+      "question": "Peas are an example of a:",
+      "options": ["Monocot seed", "Fibrous root", "Dicot seed", "Taproot"],
+      "answer": "Dicot seed"
+    },
+    {
+      "id": "Science_92",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Life Cycle",
+      "question": "The first part of the seedling to emerge from a germinating seed is the:",
+      "options": ["Leaf", "Stem", "Root", "Flower"],
+      "answer": "Root"
+    },
+    {
+      "id": "Science_93",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "The small openings on the underside of a leaf are called:",
+      "options": ["Veins", "Stomata", "Guard cells", "Midrib"],
+      "answer": "Stomata"
+    },
+    {
+      "id": "Science_94",
+      "chapter": "Plants in the Surroundings",
+      "topic": "True or False",
+      "question": "Climbers have strong, woody stems that can support themselves.",
+      "options": ["False", "True"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_95",
+      "chapter": "Plants in the Surroundings",
+      "topic": "True or False",
+      "question": "Roots help in storing food in some plants.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_96",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "Which part of the plant absorbs water and minerals from the soil?",
+      "options": ["Leaf", "Stem", "Flower", "Root"],
+      "answer": "Root"
+    },
+    {
+      "id": "Science_97",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Structures",
+      "question": "The stalk that attaches the leaf blade to the stem is called the:",
+      "options": ["Midrib", "Petiole", "Vein", "Node"],
+      "answer": "Petiole"
+    },
+    {
+      "id": "Science_98",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Classification",
+      "question": "Which of these plants is a climber?",
+      "options": ["Pumpkin", "Watermelon", "Money plant", "Mint"],
+      "answer": "Money plant"
+    },
+    {
+      "id": "Science_99",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Photosynthesis",
+      "question": "The green pigment present in leaves is called:",
+      "options": ["Chlorophyll", "Carotene", "Xanthophyll", "Anthocyanin"],
+      "answer": "Chlorophyll"
+    },
+    {
+      "id": "Science_100",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Life Cycle",
+      "question": "Which of the following conditions is NOT necessary for seed germination?",
+      "options": ["Water", "Sunlight", "Air", "Warmth"],
+      "answer": "Sunlight"
+    },
+    {
+      "id": "Science_101",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "Which part of the plant is responsible for producing fruits?",
+      "options": ["Stem", "Root", "Leaf", "Flower"],
+      "answer": "Flower"
+    },
+    {
+      "id": "Science_102",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Structures",
+      "question": "Which of these is NOT a type of root?",
+      "options": ["Taproot", "Fibrous root", "Aerial root", "Petiole"],
+      "answer": "Petiole"
+    },
+    {
+      "id": "Science_103",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "The process of water vapor loss from plants through stomata is called:",
+      "options": ["Photosynthesis", "Respiration", "Transpiration", "Germination"],
+      "answer": "Transpiration"
+    },
+    {
+      "id": "Science_104",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Classification",
+      "question": "Which of these plants has a taproot system?",
+      "options": ["Grass", "Rice", "Carrot", "Maize"],
+      "answer": "Carrot"
+    },
+    {
+      "id": "Science_105",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "Which part of the plant is mainly involved in reproduction?",
+      "options": ["Stem", "Leaf", "Flower", "Root"],
+      "answer": "Flower"
+    },
+    {
+      "id": "Science_106",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "Which of these is a spice obtained from plants?",
+      "options": ["Apple", "Cinnamon", "Rice", "Almond"],
+      "answer": "Cinnamon"
+    },
+    {
+      "id": "Science_107",
+      "chapter": "Food we get from plants",
+      "topic": "Beverages",
+      "question": "We get coffee from which part of the plant?",
+      "options": ["Roots", "Seeds", "Leaves", "Flowers"],
+      "answer": "Seeds"
+    },
+    {
+      "id": "Science_108",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Leaves",
+      "question": "Which of these leaves is commonly used in cooking for its flavor?",
+      "options": ["Rose leaves", "Curry leaves", "Banana leaves", "Maple leaves"],
+      "answer": "Curry leaves"
+    },
+    {
+      "id": "Science_109",
+      "chapter": "Food we get from plants",
+      "topic": "Oilseeds",
+      "question": "Which of the following is a source of vegetable oil?",
+      "options": ["Groundnut", "Sugarcane", "Cucumber", "Grapes"],
+      "answer": "Groundnut"
+    },
+    {
+      "id": "Science_110",
+      "chapter": "Food we get from plants",
+      "topic": "Cereals",
+      "question": "Which of these is not a cereal?",
+      "options": ["Wheat", "Rice", "Carrot", "Corn"],
+      "answer": "Carrot"
+    },
+    {
+      "id": "Science_111",
+      "chapter": "Food we get from plants",
+      "topic": "Pulses",
+      "question": "Which of these is a pulse?",
+      "options": ["Apple", "Kidney beans", "Banana", "Cabbage"],
+      "answer": "Kidney beans"
+    },
+    {
+      "id": "Science_112",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Flowers",
+      "question": "Which flower is commonly eaten as a vegetable?",
+      "options": ["Rose", "Broccoli", "Sunflower", "Lily"],
+      "answer": "Broccoli"
+    },
+    {
+      "id": "Science_113",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Stems",
+      "question": "Which of these is a stem that we eat?",
+      "options": ["Spinach", "Celery", "Carrot", "Apple"],
+      "answer": "Celery"
+    },
+    {
+      "id": "Science_114",
+      "chapter": "Food we get from plants",
+      "topic": "Fruits",
+      "question": "Which of these is a fruit that we eat as a vegetable?",
+      "options": ["Tomato", "Potato", "Lettuce", "Cabbage"],
+      "answer": "Tomato"
+    },
+    {
+      "id": "Science_115",
+      "chapter": "Food we get from plants",
+      "topic": "Nuts",
+      "question": "Which of the following is considered a nut?",
+      "options": ["Peach", "Grapes", "Orange", "Almond"],
+      "answer": "Almond"
+    },
+    {
+      "id": "Science_116",
+      "chapter": "Food we get from plants",
+      "topic": "Beverages",
+      "question": "Tea is obtained from the _______ of the plant.",
+      "options": ["Flowers", "Leaves", "Roots", "Seeds"],
+      "answer": "Leaves"
+    },
+    {
+      "id": "Science_117",
+      "chapter": "Food we get from plants",
+      "topic": "Sugar Source",
+      "question": "Sugar is mainly obtained from which plant?",
+      "options": ["Cotton", "Sugarcane", "Neem", "Tulsi"],
+      "answer": "Sugarcane"
+    },
+    {
+      "id": "Science_118",
+      "chapter": "Food we get from plants",
+      "topic": "Medicinal Plants",
+      "question": "Which of these plants is known for its medicinal properties?",
+      "options": ["Neem", "Mango", "Lettuce", "Rice"],
+      "answer": "Neem"
+    },
+    {
+      "id": "Science_119",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Roots",
+      "question": "Which of these is a root vegetable?",
+      "options": ["Apple", "Spinach", "Radish", "Corn"],
+      "answer": "Radish"
+    },
+    {
+      "id": "Science_120",
+      "chapter": "Food we get from plants",
+      "topic": "Herbs",
+      "question": "Which of the following is an example of a herb?",
+      "options": ["Banyan", "Mint", "Rose", "Coconut"],
+      "answer": "Mint"
+    },
+    {
+      "id": "Science_121",
+      "chapter": "Food we get from plants",
+      "topic": "Oilseeds",
+      "question": "Which plant gives us mustard oil?",
+      "options": ["Groundnut", "Sunflower", "Olive", "Mustard plant"],
+      "answer": "Mustard plant"
+    },
+    {
+      "id": "Science_122",
+      "chapter": "Food we get from plants",
+      "topic": "Spices",
+      "question": "Black pepper is obtained from which part of the plant?",
+      "options": ["Seed", "Root", "Leaf", "Flower"],
+      "answer": "Seed"
+    },
+    {
+      "id": "Science_123",
+      "chapter": "Food we get from plants",
+      "topic": "Cereals",
+      "question": "Which of these is the staple food of a large part of the world's population?",
+      "options": ["Broccoli", "Apple", "Rice", "Carrot"],
+      "answer": "Rice"
+    },
+    {
+      "id": "Science_124",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Seeds",
+      "question": "Which of the following seeds is used to make chocolate?",
+      "options": ["Sunflower seeds", "Cocoa beans", "Pumpkin seeds", "Sesame seeds"],
+      "answer": "Cocoa beans"
+    },
+    {
+      "id": "Science_125",
+      "chapter": "Food we get from plants",
+      "topic": "Pulses",
+      "question": "Lentils are a type of:",
+      "options": ["Pulse", "Fruit", "Cereal", "Spice"],
+      "answer": "Pulse"
+    },
+    {
+      "id": "Science_126",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Stems",
+      "question": "Which of these plants has an edible stem that is commonly eaten?",
+      "options": ["Broccoli", "Carrot", "Potato", "Sugarcane"],
+      "answer": "Sugarcane"
+    },
+    {
+      "id": "Science_127",
+      "chapter": "Food we get from plants",
+      "topic": "True or False",
+      "question": "Cabbage is a flower that we eat.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_128",
+      "chapter": "Food we get from plants",
+      "topic": "True or False",
+      "question": "We get oil from coconut and sunflower seeds.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_129",
+      "chapter": "Food we get from plants",
+      "topic": "Plant Products",
+      "question": "Which of these is used as a natural sweetener and comes from a plant?",
+      "options": ["Sugar", "Honey", "Salt", "Vinegar"],
+      "answer": "Sugar"
+    },
+    {
+      "id": "Science_130",
+      "chapter": "Food we get from plants",
+      "topic": "Medicinal Plants",
+      "question": "Which plant is known as 'holy basil' and used in traditional medicine?",
+      "options": ["Mint", "Basil", "Tulsi", "Neem"],
+      "answer": "Tulsi"
+    },
+    {
+      "id": "Science_131",
+      "chapter": "Food we get from plants",
+      "topic": "Spices",
+      "question": "Which of these is a spice made from the bark of a tree?",
+      "options": ["Clove", "Cardamom", "Pepper", "Cinnamon"],
+      "answer": "Cinnamon"
+    },
+    {
+      "id": "Science_132",
+      "chapter": "Food we get from plants",
+      "topic": "Beverages",
+      "question": "Which beverage is made from roasted and ground seeds of a tropical plant?",
+      "options": ["Coffee", "Tea", "Milk", "Juice"],
+      "answer": "Coffee"
+    },
+    {
+      "id": "Science_133",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Flowers",
+      "question": "Cauliflower is which part of the plant?",
+      "options": ["Leaf", "Flower", "Root", "Stem"],
+      "answer": "Flower"
+    },
+    {
+      "id": "Science_134",
+      "chapter": "Food we get from plants",
+      "topic": "Oilseeds",
+      "question": "Sunflower oil is extracted from which part of the sunflower plant?",
+      "options": ["Seeds", "Roots", "Leaves", "Petals"],
+      "answer": "Seeds"
+    },
+    {
+      "id": "Science_135",
+      "chapter": "Food we get from plants",
+      "topic": "Edible Fruits",
+      "question": "Which of these is a fruit that we eat?",
+      "options": ["Carrot", "Banana", "Potato", "Spinach"],
+      "answer": "Banana"
     }
   ]
 }
