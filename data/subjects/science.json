@@ -304,6 +304,380 @@
         "A big plant with thick woody stem."
       ],
       "answer": "A plant that grows along the ground due to weak stems."
+    },
+    {
+      "id": "Science_36",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "The part of the plant that absorbs nutrients and water from the soil is the:",
+      "options": ["Stem", "Flower", "Root", "Leaf"],
+      "answer": "Root"
+    },
+    {
+      "id": "Science_37",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "The main part of the shoot is the:",
+      "options": ["Leaf", "Root", "Stem", "Flower"],
+      "answer": "Stem"
+    },
+    {
+      "id": "Science_38",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "These help the plant to take in air:",
+      "options": ["Stomata", "Roots", "Flowers", "Seeds"],
+      "answer": "Stomata"
+    },
+    {
+      "id": "Science_39",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "The part of the plant that changes into fruit is the:",
+      "options": ["Root", "Flower", "Leaf", "Stem"],
+      "answer": "Flower"
+    },
+    {
+      "id": "Science_40",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Photosynthesis",
+      "question": "The gas given out by leaves is:",
+      "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "answer": "Oxygen"
+    },
+    {
+      "id": "Science_41",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "The part of the plant generally found below the ground is the:",
+      "options": ["Shoot", "Leaf", "Root", "Fruit"],
+      "answer": "Root"
+    },
+    {
+      "id": "Science_42",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Root Functions",
+      "question": "Which of these is a function of the root?",
+      "options": [
+        "It changes into fruits",
+        "It helps the plant to stay fixed in the soil",
+        "It makes food",
+        "It changes into flowers"
+      ],
+      "answer": "It helps the plant to stay fixed in the soil"
+    },
+    {
+      "id": "Science_43",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Root Types",
+      "question": "Which of the following has fibrous roots?",
+      "options": ["Mango", "Rice", "Carrot", "Radish"],
+      "answer": "Rice"
+    },
+    {
+      "id": "Science_44",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Root Types",
+      "question": "Which of the following plants has a taproot?",
+      "options": ["Rice", "Grass", "Mango", "Wheat"],
+      "answer": "Mango"
+    },
+    {
+      "id": "Science_45",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Leaf Structure",
+      "question": "What is the long tube running through the middle of a leaf called?",
+      "options": ["Seed", "Vein", "Midrib", "Stalk"],
+      "answer": "Midrib"
+    },
+    {
+      "id": "Science_46",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Photosynthesis",
+      "question": "Which of these are needed by a green leaf to make food?",
+      "options": [
+        "Sunlight and chlorophyll",
+        "Carbon dioxide and water",
+        "All of these",
+        "Soil nutrients"
+      ],
+      "answer": "All of these"
+    },
+    {
+      "id": "Science_47",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "Stomata are present in roots.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_48",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Food Storage",
+      "question": "Spinach leaves store food.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_49",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Transport",
+      "question": "The stem transports water from the leaves to the roots.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_50",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Fruits",
+      "question": "An apple has a few seeds.",
+      "options": ["False", "True"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_51",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Seed Types",
+      "question": "The gram is a dicot seed.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_52",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "Most fruits contain ________.",
+      "options": ["Roots", "Seeds"],
+      "answer": "Seeds"
+    },
+    {
+      "id": "Science_53",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Photosynthesis",
+      "question": "__________ is needed for photosynthesis.",
+      "options": ["Oxygen", "Sunlight"],
+      "answer": "Sunlight"
+    },
+    {
+      "id": "Science_54",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Fruits",
+      "question": "Mango has ________ seeds.",
+      "options": ["One", "Many"],
+      "answer": "One"
+    },
+    {
+      "id": "Science_55",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Structure",
+      "question": "A grapevine has a weak ________.",
+      "options": ["Leaf", "Stem"],
+      "answer": "Stem"
+    },
+    {
+      "id": "Science_56",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Life Cycle",
+      "question": "The life of a plant starts with a ________.",
+      "options": ["Seed", "Stalk"],
+      "answer": "Seed"
+    },
+    {
+      "id": "Science_57",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "Match the following: Fibrous root",
+      "options": ["Wheat", "Maize", "Leaves", "Stem"],
+      "answer": "Wheat"
+    },
+    {
+      "id": "Science_58",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "Match the following: Leaves",
+      "options": ["Carry food to all parts", "Kitchen of the plant", "Grow into new plants", "Monocot seed"],
+      "answer": "Kitchen of the plant"
+    },
+    {
+      "id": "Science_59",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "Match the following: Stem",
+      "options": ["Carry food from leaves to all parts", "Fibrous root", "Grows into new plants", "Monocot seed"],
+      "answer": "Carry food from leaves to all parts"
+    },
+    {
+      "id": "Science_60",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Seed Types",
+      "question": "Match the following: Monocot seed",
+      "options": ["Seed", "Maize", "Wheat", "Gram"],
+      "answer": "Maize"
+    },
+    {
+      "id": "Science_61",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Life Cycle",
+      "question": "Match the following: Seed",
+      "options": ["Grows into new plants", "Kitchen of the plant", "Carry food to all parts", "Fibrous root"],
+      "answer": "Grows into new plants"
+    },
+    {
+      "id": "Science_62",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Structures",
+      "question": "Chlorophyll is:",
+      "options": [
+        "The process by which plants make food",
+        "A green pigment in leaves",
+        "Tiny openings in leaves",
+        "A type of root"
+      ],
+      "answer": "A green pigment in leaves"
+    },
+    {
+      "id": "Science_63",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Seed Types",
+      "question": "Dicot seeds are seeds that:",
+      "options": [
+        "Have two seed leaves (cotyledons)",
+        "Have one seed leaf (cotyledon)",
+        "Do not germinate",
+        "Are always large in size"
+      ],
+      "answer": "Have two seed leaves (cotyledons)"
+    },
+    {
+      "id": "Science_64",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "The root is:",
+      "options": [
+        "The part of the plant that makes food",
+        "The part that absorbs water and nutrients from the soil",
+        "The main part of the shoot",
+        "The reproductive part of the plant"
+      ],
+      "answer": "The part that absorbs water and nutrients from the soil"
+    },
+    {
+      "id": "Science_65",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Parts",
+      "question": "The shoot is:",
+      "options": [
+        "The part of the plant below the ground",
+        "The part that absorbs water",
+        "The part of the plant above the ground",
+        "The seed of the plant"
+      ],
+      "answer": "The part of the plant above the ground"
+    },
+    {
+      "id": "Science_66",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Life Cycle",
+      "question": "Germination is:",
+      "options": [
+        "The process by which a seed grows into a new plant",
+        "The process of making food",
+        "The loss of water from leaves",
+        "The transfer of pollen from anther to stigma"
+      ],
+      "answer": "The process by which a seed grows into a new plant"
+    },
+    {
+      "id": "Science_67",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Functions",
+      "question": "Stomata are:",
+      "options": [
+        "Tiny openings on leaves for gas exchange",
+        "Cells that make chlorophyll",
+        "Roots that store food",
+        "Parts of the flower"
+      ],
+      "answer": "Tiny openings on leaves for gas exchange"
+    },
+    {
+      "id": "Science_68",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Root Types",
+      "question": "What is a taproot?",
+      "options": [
+        "A root system with one main root and smaller side roots",
+        "A root system with many similar-sized roots",
+        "A root that stores food",
+        "A type of aerial root"
+      ],
+      "answer": "A root system with one main root and smaller side roots"
+    },
+    {
+      "id": "Science_69",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Structures",
+      "question": "What makes the leaves green?",
+      "options": [
+        "Sunlight",
+        "Chlorophyll",
+        "Water",
+        "Carbon dioxide"
+      ],
+      "answer": "Chlorophyll"
+    },
+    {
+      "id": "Science_70",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Seed Types",
+      "question": "Define a monocot seed.",
+      "options": [
+        "A seed with two seed leaves",
+        "A seed that does not germinate",
+        "A seed with one seed leaf",
+        "A seed that is always large"
+      ],
+      "answer": "A seed with one seed leaf"
+    },
+    {
+      "id": "Science_71",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Support",
+      "question": "What gives support to the plant?",
+      "options": [
+        "Roots",
+        "Leaves",
+        "Stem",
+        "Flowers"
+      ],
+      "answer": "Stem"
+    },
+    {
+      "id": "Science_72",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Reproduction",
+      "question": "Which part of the plant contains seeds?",
+      "options": [
+        "Root",
+        "Stem",
+        "Flower",
+        "Fruit"
+      ],
+      "answer": "Fruit"
+    },
+    {
+      "id": "Science_73",
+      "chapter": "Plants in the Surroundings",
+      "topic": "Plant Care",
+      "question": "What should be done when plants are attacked by insects?",
+      "options": [
+        "Water them more",
+        "Apply pesticides or natural remedies",
+        "Expose them to more sunlight",
+        "Ignore the problem"
+      ],
+      "answer": "Apply pesticides or natural remedies"
     }
   ]
 }
