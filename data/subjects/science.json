@@ -2253,6 +2253,307 @@
         "Living things cannot move"
       ],
       "answer": "Living things can sense their environment"
+    },
+    {
+      "id": "Science_249",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Solar Energy",
+      "question": "The energy given by the sun is called:",
+      "options": ["Wind energy", "Solar energy", "Hydro energy", "Thermal energy"],
+      "answer": "Solar energy"
+    },
+    {
+      "id": "Science_250",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Seasons",
+      "question": "The season when it rains the most is:",
+      "options": ["Summer", "Rainy season", "Winter", "Autumn"],
+      "answer": "Rainy season"
+    },
+    {
+      "id": "Science_251",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Solar Cells",
+      "question": "Solar cells produce electricity by converting:",
+      "options": [
+        "Wind energy into electricity",
+        "Light energy into electricity",
+        "Chemical energy into electricity",
+        "Heat energy into electricity"
+      ],
+      "answer": "Light energy into electricity"
+    },
+    {
+      "id": "Science_252",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Seasons",
+      "question": "The hottest season of the year is:",
+      "options": ["Monsoon", "Winter", "Summer", "Spring"],
+      "answer": "Summer"
+    },
+    {
+      "id": "Science_253",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "True or False",
+      "question": "The sun gives us wind energy.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_254",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Photosynthesis",
+      "question": "Sunlight helps in photosynthesis.",
+      "options": ["False", "True"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_255",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Solar Devices",
+      "question": "A solar geyser is used to cook food.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": "Science_256",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Seasons",
+      "question": "The sun affects the changes in seasons.",
+      "options": ["False", "True"],
+      "answer": "True"
+    },
+    {
+      "id": "Science_257",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Solar Devices",
+      "question": "A solar cooker is used for:",
+      "options": [
+        "Generating wind energy",
+        "Heating water",
+        "Cooking food using the sun",
+        "Lighting up homes"
+      ],
+      "answer": "Cooking food using the sun"
+    },
+    {
+      "id": "Science_258",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Renewable Energy",
+      "question": "Solar cells convert light energy into:",
+      "options": ["Heat", "Sound", "Electricity", "Motion"],
+      "answer": "Electricity"
+    },
+    {
+      "id": "Science_259",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Renewable Energy",
+      "question": "Which of the following is a renewable energy source?",
+      "options": ["Natural gas", "Coal", "Wind", "Petrol"],
+      "answer": "Wind"
+    },
+    {
+      "id": "Science_260",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Types",
+      "question": "Which of the following is NOT a renewable energy source?",
+      "options": ["Solar energy", "Hydro energy", "Wind energy", "Natural gas"],
+      "answer": "Natural gas"
+    },
+    {
+      "id": "Science_261",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Sources",
+      "question": "The sun gives out:",
+      "options": ["Light only", "Neither heat nor light", "Heat and light", "Heat only"],
+      "answer": "Heat and light"
+    },
+    {
+      "id": "Science_262",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Photosynthesis",
+      "question": "What do plants need for photosynthesis?",
+      "options": ["Water and minerals", "Sunlight and carbon dioxide", "Soil and air", "All of these"],
+      "answer": "Sunlight and carbon dioxide"
+    },
+    {
+      "id": "Science_263",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Seasons",
+      "question": "Which season brings rain?",
+      "options": ["Autumn", "Monsoon", "Winter", "Summer"],
+      "answer": "Monsoon"
+    },
+    {
+      "id": "Science_264",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Renewable Energy",
+      "question": "Which of the following is an example of renewable energy?",
+      "options": ["All of these", "Wind energy", "Solar energy", "Hydro energy"],
+      "answer": "All of these"
+    },
+    {
+      "id": "Science_265",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Devices",
+      "question": "Which device uses wind energy?",
+      "options": ["Solar cooker", "Windmill", "Solar cells", "Geyser"],
+      "answer": "Windmill"
+    },
+    {
+      "id": "Science_266",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Renewable vs Non-renewable",
+      "question": "Which of these is a non-renewable energy source?",
+      "options": ["Water", "Wind", "Natural gas", "Solar"],
+      "answer": "Natural gas"
+    },
+    {
+      "id": "Science_267",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Conservation",
+      "question": "Energy conservation means:",
+      "options": [
+        "Using more non-renewable resources",
+        "Wasting energy whenever possible",
+        "Saving and using energy efficiently",
+        "Ignoring renewable energy sources"
+      ],
+      "answer": "Saving and using energy efficiently"
+    },
+    {
+      "id": "Science_268",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Photosynthesis",
+      "question": "Sunlight helps plants in the process of:",
+      "options": ["Respiration", "Digestion", "Photosynthesis", "Transpiration"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "id": "Science_269",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Seasons",
+      "question": "Changes in seasons occur due to:",
+      "options": [
+        "The sun's effect on Earth",
+        "Wind patterns",
+        "Ocean currents",
+        "Human activities"
+      ],
+      "answer": "The sun's effect on Earth"
+    },
+    {
+      "id": "Science_270",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Solar Devices",
+      "question": "Which of these devices is used to heat water using solar energy?",
+      "options": ["Windmill", "Solar geyser", "Solar cooker", "Electric heater"],
+      "answer": "Solar geyser"
+    },
+    {
+      "id": "Science_271",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Sources",
+      "question": "Hydro energy is generated from:",
+      "options": ["Sunlight", "Wind", "Water", "Coal"],
+      "answer": "Water"
+    },
+    {
+      "id": "Science_272",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Types",
+      "question": "Which of these is NOT an effect of the sun?",
+      "options": [
+        "It helps in photosynthesis",
+        "It affects seasonal changes",
+        "It gives us wind energy",
+        "It provides natural gas"
+      ],
+      "answer": "It provides natural gas"
+    },
+    {
+      "id": "Science_273",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Conservation",
+      "question": "Which of the following is a method of energy conservation?",
+      "options": [
+        "Leaving lights on when not needed",
+        "Using renewable energy sources",
+        "Wasting water",
+        "Burning fossil fuels excessively"
+      ],
+      "answer": "Using renewable energy sources"
+    },
+    {
+      "id": "Science_274",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Renewable Energy",
+      "question": "An example of using solar energy is:",
+      "options": [
+        "Driving petrol cars",
+        "Using a solar cooker to cook food",
+        "Burning coal for heat",
+        "Using natural gas stoves"
+      ],
+      "answer": "Using a solar cooker to cook food"
+    },
+    {
+      "id": "Science_275",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Seasons",
+      "question": "Which season is known for being cold?",
+      "options": ["Summer", "Monsoon", "Winter", "Spring"],
+      "answer": "Winter"
+    },
+    {
+      "id": "Science_276",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Devices",
+      "question": "Solar panels are used to:",
+      "options": [
+        "Generate wind energy",
+        "Produce electricity from sunlight",
+        "Store coal",
+        "Heat food using gas"
+      ],
+      "answer": "Produce electricity from sunlight"
+    },
+    {
+      "id": "Science_277",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Sources",
+      "question": "Which of these is a non-renewable energy source?",
+      "options": ["Wind", "Solar", "Coal", "Hydro"],
+      "answer": "Coal"
+    },
+    {
+      "id": "Science_278",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Photosynthesis",
+      "question": "Plants use sunlight to make food through a process called:",
+      "options": ["Digestion", "Photosynthesis", "Respiration", "Fermentation"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "id": "Science_279",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Types",
+      "question": "Wind energy is harnessed using:",
+      "options": ["Solar panels", "Windmills", "Batteries", "Hydroelectric dams"],
+      "answer": "Windmills"
+    },
+    {
+      "id": "Science_280",
+      "chapter": "Sun as a Natural Resource",
+      "topic": "Energy Conservation",
+      "question": "One way to conserve energy is to:",
+      "options": [
+        "Use energy-efficient appliances",
+        "Leave appliances on standby",
+        "Use non-renewable resources",
+        "Waste water"
+      ],
+      "answer": "Use energy-efficient appliances"
     }
   ]
 }
