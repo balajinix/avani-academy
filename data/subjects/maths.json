@@ -1,334 +1,652 @@
 {
   "questions": [
     {
-      "id": "Maths_1",
-      "question": "What is 2 + 2?",
-      "options": ["3", "4", "5", "6"],
+      "id": "Math_40",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 2 x 2?",
+      "options": ["2", "4", "6", "8"],
       "answer": "4"
     },
     {
-      "id": "Maths_2",
-      "question": "What is 5 x 3?",
-      "options": ["15", "10", "8", "20"],
-      "answer": "15"
+      "id": "Math_41",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 2 x 3.",
+      "options": ["5", "6", "4", "8"],
+      "answer": "6"
     },
     {
-      "id": "Math_1",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Conversion",
-      "question": "One ₹5 coin can be changed for ________ ₹1 coins.",
-      "options": ["4", "10", "2", "5"],
-      "answer": "5"
+      "id": "Math_42",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 2 x 4.",
+      "options": ["6", "8", "10", "12"],
+      "answer": "8"
     },
     {
-      "id": "Math_2",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Conversion",
-      "question": "One ₹20 note can be changed for _________ ₹5 coins.",
-      "options": ["5", "4", "2", "10"],
-      "answer": "4"
-    },
-    {
-      "id": "Math_3",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Conversion",
-      "question": "The number of ₹20 notes needed to make ₹100 is ________.",
-      "options": ["4", "10", "5", "2"],
-      "answer": "5"
-    },
-    {
-      "id": "Math_4",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Conversion",
-      "question": "One ₹100 note can be changed for _______ ₹10 coins.",
-      "options": ["5", "4", "10", "20"],
+      "id": "Math_43",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 2 x 5?",
+      "options": ["12", "8", "10", "14"],
       "answer": "10"
     },
     {
-      "id": "Math_5",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Transactions",
-      "question": "Ashok bought a chocolate for ₹120 and gave a ₹100 and a ₹50 note. How much change should he get?",
-      "options": ["₹20", "₹40", "₹30", "₹25"],
-      "answer": "₹30"
+      "id": "Math_44",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 2 x 6.",
+      "options": ["10", "12", "8", "14"],
+      "answer": "12"
     },
     {
-      "id": "Math_6",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Transactions",
-      "question": "Anita bought balloons for ₹55 and gave a ₹100 note. How much change should she get?",
-      "options": ["₹55", "₹35", "₹45", "₹40"],
-      "answer": "₹45"
+      "id": "Math_45",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 2 x 7?",
+      "options": ["14", "12", "16", "10"],
+      "answer": "14"
     },
     {
-      "id": "Math_7",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Transactions",
-      "question": "Bhola paid ₹120 for chocolate and ₹285 for a cake. How much money did he spend in all?",
-      "options": ["₹410", "₹405", "₹395", "₹425"],
-      "answer": "₹405"
-    },
-    {
-      "id": "Math_8",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Transactions",
-      "question": "Priti bought two music albums on iTunes, one for ₹99 and the other for ₹111. How much money did she spend in all?",
-      "options": ["₹220", "₹210", "₹200", "₹215"],
-      "answer": "₹210"
-    },
-    {
-      "id": "Math_9",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Transactions",
-      "question": "Mary has ₹15, Tara has ₹28, and Babu has ₹19. How much money do they have together?",
-      "options": ["₹62", "₹58", "₹60", "₹64"],
-      "answer": "₹62"
-    },
-    {
-      "id": "Math_10",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Transactions",
-      "question": "Ria needs only ₹90 to make her money up to ₹200. How much money does she have now?",
-      "options": ["₹90", "₹110", "₹100", "₹115"],
-      "answer": "₹110"
-    },
-    {
-      "id": "Math_11",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Transactions",
-      "question": "Joe has ₹12. Peter has ₹16 more than Joe. How much money do they have together?",
-      "options": ["₹40", "₹38", "₹35", "₹28"],
-      "answer": "₹40"
-    },
-    {
-      "id": "Math_12",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Notation",
-      "question": "₹100 and 5 paise is written as:",
-      "options": ["₹100.05", "₹1005", "₹100.5", "₹105"],
-      "answer": "₹100.05"
-    },
-    {
-      "id": "Math_13",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Coin Values",
-      "question": "Which of these coins has the highest value?",
-      "options": ["₹10", "₹5", "₹1", "50p"],
-      "answer": "₹10"
-    },
-    {
-      "id": "Math_14",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "Money Notation",
-      "question": "5 paise is written as:",
-      "options": ["₹0.05", "₹5", "₹0.50", "₹0.5"],
-      "answer": "₹0.05"
-    },
-    {
-      "id": "Math_15",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "True or False",
-      "question": "Four coins of 1-rupee are equal to ₹5.",
-      "options": ["True", "False"],
-      "answer": "False"
-    },
-    {
-      "id": "Math_16",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "True or False",
-      "question": "50 paise + 100 paise + 50 paise = ₹2.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "Math_17",
-      "chapter": "Addition and Subtraction of Money",
-      "topic": "True or False",
-      "question": "100 coins of 50 paise make ₹50.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "Math_18",
-      "chapter": "Addition of Three-Digit Numbers",
-      "topic": "Story Sums",
-      "question": "In a school there are 386 boys and 424 girls. How many children study in the school?",
-      "options": ["800", "820", "810", "840"],
-      "answer": "810"
-    },
-    {
-      "id": "Math_19",
-      "chapter": "Addition of Three-Digit Numbers",
-      "topic": "Story Sums",
-      "question": "Vinita read three books during her holidays. The books had 332 pages, 464 pages, and 160 pages. How many pages did Vinita read in all?",
-      "options": ["946", "936", "966", "956"],
-      "answer": "956"
-    },
-    {
-      "id": "Math_20",
-      "chapter": "Addition of Three-Digit Numbers",
-      "topic": "Story Sums",
-      "question": "In a village, there are 436 men, 418 women, and 142 children. How many people are there in the village?",
-      "options": ["1006", "986", "996", "976"],
-      "answer": "996"
-    },
-    {
-      "id": "Math_21",
-      "chapter": "4-Digit Numbers",
-      "topic": "Number Properties",
-      "question": "The largest 4-digit number is:",
-      "options": ["4000", "9999", "9000", "10000"],
-      "answer": "9999"
-    },
-    {
-      "id": "Math_22",
-      "chapter": "4-Digit Numbers",
-      "topic": "Place Value",
-      "question": "The place value of 6 in 5769 is:",
-      "options": ["6000", "60", "600", "6"],
-      "answer": "60"
-    },
-    {
-      "id": "Math_23",
-      "chapter": "4-Digit Numbers",
-      "topic": "Smallest Number Formation",
-      "question": "The smallest 4-digit number formed by the digits 6, 0, 7, 9 is:",
-      "options": ["6079", "679", "9760", "9067"],
-      "answer": "6079"
-    },
-    {
-      "id": "Math_24",
-      "chapter": "4-Digit Numbers",
-      "topic": "Face Value",
-      "question": "The face value of 5 in 5400 is:",
-      "options": ["5", "5000", "500", "50"],
-      "answer": "5"
-    },
-    {
-      "id": "Math_25",
-      "chapter": "4-Digit Numbers",
-      "topic": "Place Value",
-      "question": "The place value of 5 in 5400 is:",
-      "options": ["5000", "50", "5", "500"],
-      "answer": "5000"
-    },
-    {
-      "id": "Math_26",
-      "chapter": "4-Digit Numbers",
-      "topic": "Number Comparison",
-      "question": "Jiya has written the biggest 4-digit number. Mithun has written the biggest 4-digit number having all different digits. Who has written the biggest number?",
-      "options": ["Jiya", "Mithun"],
-      "answer": "Jiya"
-    },
-    {
-      "id": "Math_27",
-      "chapter": "Addition of 3-Digit Numbers",
-      "topic": "Story Sums",
-      "question": "On a Sunday, 870 people came to watch a cricket match. On Monday 129 came to watch. How many people in all watched the match in 2 days?",
-      "options": ["870", "999", "1000", "950"],
-      "answer": "999"
-    },
-    {
-      "id": "Math_28",
-      "chapter": "Addition of 3-Digit Numbers",
-      "topic": "Story Sums",
-      "question": "Children of a school went for a picnic in three buses. There were 112 children in the first bus, 96 children in the second, and 109 children in the third bus. How many children went for the picnic?",
-      "options": ["300", "315", "317", "325"],
-      "answer": "317"
-    },
-    {
-      "id": "Math_29",
-      "chapter": "Addition of 3-Digit Numbers",
-      "topic": "Estimation",
-      "question": "Estimate the sum of 268 + 379.",
-      "options": ["560", "1000", "700", "500"],
-      "answer": "700"
-    },
-    {
-      "id": "Math_30",
-      "chapter": "Addition of 3-Digit Numbers",
-      "topic": "Basic Addition",
-      "question": "The sum of a number and 0 is:",
-      "options": ["the number before", "the same number", "0"],
-      "answer": "the same number"
-    },
-    {
-      "id": "Math_31",
-      "chapter": "Subtraction of 3-Digit Numbers",
-      "topic": "Story Sums",
-      "question": "There are 664 people in a stadium. 338 of them are boys. How many are girls?",
-      "options": ["328", "334", "336", "326"],
-      "answer": "326"
-    },
-    {
-      "id": "Math_32",
-      "chapter": "Subtraction of 3-Digit Numbers",
-      "topic": "Estimation",
-      "question": "Estimate the value of 845 - 250.",
-      "options": ["600", "700", "550", "595"],
-      "answer": "600"
-    },
-    {
-      "id": "Math_33",
-      "chapter": "Subtraction of 3-Digit Numbers",
-      "topic": "Story Sums",
-      "question": "Manav has 256 stamps. Rati has 345 stamps. How many more stamps does Rati have than Manav?",
-      "options": [
-        "345 - 256",
-        "256 + 345",
-        "256 - 345",
-        "345 + 256"
-      ],
-      "answer": "345 - 256"
-    },
-    {
-      "id": "Math_34",
-      "chapter": "Subtraction of 3-Digit Numbers",
-      "topic": "Story Sums",
-      "question": "Amith bought 298 apples. He bought 109 less oranges than apples. How many oranges did he buy?",
-      "options": ["189", "200", "90", "190"],
-      "answer": "189"
-    },
-    {
-      "id": "Math_35",
-      "chapter": "Subtraction of 3-Digit Numbers",
-      "topic": "Subtraction with Letters",
-      "question": "Given that BAT = 435, solve the subtraction sum: TAA - BAT = ?",
-      "options": ["TBA", "098", "200", "ATB"],
-      "answer": "098"
-    },
-    {
-      "id": "Math_36",
-      "chapter": "Patterns",
-      "topic": "Letter Patterns",
-      "question": "A, B, A, B, A, B, ____, ____",
-      "options": ["B, A", "A, A", "A, B", "B, B"],
-      "answer": "A, B"
-    },
-    {
-      "id": "Math_37",
-      "chapter": "Patterns",
-      "topic": "Number Patterns",
-      "question": "1, 3, 9, ____, 81",
-      "options": ["27", "12", "54"],
-      "answer": "27"
-    },
-    {
-      "id": "Math_38",
-      "chapter": "Patterns",
-      "topic": "Square Numbers",
-      "question": "1, 4, 9, ___, 25",
-      "options": ["16", "12", "20"],
+      "id": "Math_46",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 2 x 8.",
+      "options": ["16", "14", "18", "12"],
       "answer": "16"
     },
     {
-      "id": "Math_39",
-      "chapter": "Patterns",
-      "topic": "Number Patterns",
-      "question": "3, 6, 9, ____, 15",
-      "options": ["12", "10", "18"],
+      "id": "Math_47",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 2 x 9.",
+      "options": ["18", "16", "20", "14"],
+      "answer": "18"
+    },
+    {
+      "id": "Math_48",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 2 x 10?",
+      "options": ["22", "18", "20", "16"],
+      "answer": "20"
+    },
+    {
+      "id": "Math_49",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 3 x 2.",
+      "options": ["6", "5", "4", "7"],
+      "answer": "6"
+    },
+    {
+      "id": "Math_50",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 3 x 3?",
+      "options": ["9", "6", "12", "15"],
+      "answer": "9"
+    },
+    {
+      "id": "Math_51",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 3 x 4.",
+      "options": ["9", "12", "15", "6"],
       "answer": "12"
+    },
+    {
+      "id": "Math_52",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 3 x 5.",
+      "options": ["18", "12", "15", "9"],
+      "answer": "15"
+    },
+    {
+      "id": "Math_53",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 3 x 6?",
+      "options": ["15", "18", "21", "12"],
+      "answer": "18"
+    },
+    {
+      "id": "Math_54",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 3 x 7.",
+      "options": ["24", "18", "21", "15"],
+      "answer": "21"
+    },
+    {
+      "id": "Math_55",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 3 x 8?",
+      "options": ["21", "24", "27", "18"],
+      "answer": "24"
+    },
+    {
+      "id": "Math_56",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 3 x 9.",
+      "options": ["24", "27", "30", "21"],
+      "answer": "27"
+    },
+    {
+      "id": "Math_57",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 3 x 10.",
+      "options": ["33", "27", "30", "24"],
+      "answer": "30"
+    },
+    {
+      "id": "Math_58",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 4 x 2?",
+      "options": ["6", "8", "10", "12"],
+      "answer": "8"
+    },
+    {
+      "id": "Math_59",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 4 x 3.",
+      "options": ["12", "9", "15", "6"],
+      "answer": "12"
+    },
+    {
+      "id": "Math_60",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 4 x 4?",
+      "options": ["12", "16", "20", "14"],
+      "answer": "16"
+    },
+    {
+      "id": "Math_61",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 4 x 5.",
+      "options": ["16", "20", "24", "18"],
+      "answer": "20"
+    },
+    {
+      "id": "Math_62",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 4 x 6.",
+      "options": ["20", "24", "28", "18"],
+      "answer": "24"
+    },
+    {
+      "id": "Math_63",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 4 x 7?",
+      "options": ["24", "28", "32", "20"],
+      "answer": "28"
+    },
+    {
+      "id": "Math_64",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 4 x 8.",
+      "options": ["28", "32", "36", "24"],
+      "answer": "32"
+    },
+    {
+      "id": "Math_65",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 4 x 9?",
+      "options": ["32", "36", "40", "28"],
+      "answer": "36"
+    },
+    {
+      "id": "Math_66",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 4 x 10.",
+      "options": ["44", "40", "36", "32"],
+      "answer": "40"
+    },
+    {
+      "id": "Math_67",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 5 x 2.",
+      "options": ["10", "12", "8", "14"],
+      "answer": "10"
+    },
+    {
+      "id": "Math_68",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 5 x 3?",
+      "options": ["15", "12", "18", "9"],
+      "answer": "15"
+    },
+    {
+      "id": "Math_69",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 5 x 4.",
+      "options": ["20", "15", "25", "18"],
+      "answer": "20"
+    },
+    {
+      "id": "Math_70",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 5 x 5?",
+      "options": ["20", "25", "30", "15"],
+      "answer": "25"
+    },
+    {
+      "id": "Math_71",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 5 x 6.",
+      "options": ["25", "30", "35", "20"],
+      "answer": "30"
+    },
+    {
+      "id": "Math_72",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 5 x 7.",
+      "options": ["30", "35", "40", "25"],
+      "answer": "35"
+    },
+    {
+      "id": "Math_73",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 5 x 8?",
+      "options": ["35", "40", "45", "30"],
+      "answer": "40"
+    },
+    {
+      "id": "Math_74",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 5 x 9.",
+      "options": ["40", "45", "50", "35"],
+      "answer": "45"
+    },
+    {
+      "id": "Math_75",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 5 x 10?",
+      "options": ["45", "50", "55", "40"],
+      "answer": "50"
+    },
+    {
+      "id": "Math_76",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 6 x 2.",
+      "options": ["10", "12", "14", "16"],
+      "answer": "12"
+    },
+    {
+      "id": "Math_77",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 6 x 3.",
+      "options": ["15", "18", "21", "12"],
+      "answer": "18"
+    },
+    {
+      "id": "Math_78",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 6 x 4?",
+      "options": ["20", "24", "28", "18"],
+      "answer": "24"
+    },
+    {
+      "id": "Math_79",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 6 x 5.",
+      "options": ["30", "25", "35", "20"],
+      "answer": "30"
+    },
+    {
+      "id": "Math_80",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 6 x 6?",
+      "options": ["36", "30", "42", "48"],
+      "answer": "36"
+    },
+    {
+      "id": "Math_81",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 6 x 7.",
+      "options": ["42", "36", "48", "54"],
+      "answer": "42"
+    },
+    {
+      "id": "Math_82",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 6 x 8.",
+      "options": ["48", "54", "42", "36"],
+      "answer": "48"
+    },
+    {
+      "id": "Math_83",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 6 x 9?",
+      "options": ["54", "48", "60", "42"],
+      "answer": "54"
+    },
+    {
+      "id": "Math_84",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 6 x 10.",
+      "options": ["60", "66", "54", "48"],
+      "answer": "60"
+    },
+    {
+      "id": "Math_85",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 7 x 2?",
+      "options": ["12", "14", "16", "18"],
+      "answer": "14"
+    },
+    {
+      "id": "Math_86",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 7 x 3.",
+      "options": ["18", "21", "24", "15"],
+      "answer": "21"
+    },
+    {
+      "id": "Math_87",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 7 x 4.",
+      "options": ["24", "28", "32", "20"],
+      "answer": "28"
+    },
+    {
+      "id": "Math_88",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 7 x 5?",
+      "options": ["30", "35", "40", "25"],
+      "answer": "35"
+    },
+    {
+      "id": "Math_89",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 7 x 6.",
+      "options": ["42", "36", "48", "54"],
+      "answer": "42"
+    },
+    {
+      "id": "Math_90",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 7 x 7?",
+      "options": ["49", "42", "56", "63"],
+      "answer": "49"
+    },
+    {
+      "id": "Math_91",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 7 x 8.",
+      "options": ["56", "63", "49", "70"],
+      "answer": "56"
+    },
+    {
+      "id": "Math_92",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 7 x 9.",
+      "options": ["63", "56", "70", "77"],
+      "answer": "63"
+    },
+    {
+      "id": "Math_93",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 7 x 10?",
+      "options": ["70", "77", "63", "80"],
+      "answer": "70"
+    },
+    {
+      "id": "Math_94",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 8 x 2.",
+      "options": ["14", "16", "18", "20"],
+      "answer": "16"
+    },
+    {
+      "id": "Math_95",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 8 x 3?",
+      "options": ["24", "21", "18", "27"],
+      "answer": "24"
+    },
+    {
+      "id": "Math_96",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 8 x 4.",
+      "options": ["28", "32", "36", "24"],
+      "answer": "32"
+    },
+    {
+      "id": "Math_97",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 8 x 5.",
+      "options": ["35", "40", "45", "30"],
+      "answer": "40"
+    },
+    {
+      "id": "Math_98",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 8 x 6?",
+      "options": ["48", "54", "42", "36"],
+      "answer": "48"
+    },
+    {
+      "id": "Math_99",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 8 x 7.",
+      "options": ["49", "56", "63", "42"],
+      "answer": "56"
+    },
+    {
+      "id": "Math_100",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 8 x 8?",
+      "options": ["64", "56", "72", "80"],
+      "answer": "64"
+    },
+    {
+      "id": "Math_101",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 8 x 9.",
+      "options": ["72", "64", "80", "88"],
+      "answer": "72"
+    },
+    {
+      "id": "Math_102",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 8 x 10.",
+      "options": ["80", "88", "72", "96"],
+      "answer": "80"
+    },
+    {
+      "id": "Math_103",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 9 x 2?",
+      "options": ["18", "16", "20", "22"],
+      "answer": "18"
+    },
+    {
+      "id": "Math_104",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 9 x 3.",
+      "options": ["27", "24", "21", "30"],
+      "answer": "27"
+    },
+    {
+      "id": "Math_105",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 9 x 4?",
+      "options": ["36", "32", "28", "40"],
+      "answer": "36"
+    },
+    {
+      "id": "Math_106",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 9 x 5.",
+      "options": ["40", "45", "50", "35"],
+      "answer": "45"
+    },
+    {
+      "id": "Math_107",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 9 x 6.",
+      "options": ["54", "48", "60", "66"],
+      "answer": "54"
+    },
+    {
+      "id": "Math_108",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 9 x 7?",
+      "options": ["63", "56", "70", "77"],
+      "answer": "63"
+    },
+    {
+      "id": "Math_109",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 9 x 8.",
+      "options": ["72", "64", "80", "88"],
+      "answer": "72"
+    },
+    {
+      "id": "Math_110",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 9 x 9?",
+      "options": ["81", "72", "90", "99"],
+      "answer": "81"
+    },
+    {
+      "id": "Math_111",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 9 x 10.",
+      "options": ["90", "81", "99", "100"],
+      "answer": "90"
+    },
+    {
+      "id": "Math_112",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 10 x 2.",
+      "options": ["20", "22", "18", "24"],
+      "answer": "20"
+    },
+    {
+      "id": "Math_113",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 10 x 3?",
+      "options": ["30", "27", "33", "36"],
+      "answer": "30"
+    },
+    {
+      "id": "Math_114",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 10 x 4.",
+      "options": ["44", "40", "36", "48"],
+      "answer": "40"
+    },
+    {
+      "id": "Math_115",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 10 x 5?",
+      "options": ["50", "55", "45", "60"],
+      "answer": "50"
+    },
+    {
+      "id": "Math_116",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Calculate 10 x 6.",
+      "options": ["66", "60", "54", "70"],
+      "answer": "60"
+    },
+    {
+      "id": "Math_117",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Find the product of 10 x 7.",
+      "options": ["70", "77", "63", "80"],
+      "answer": "70"
+    },
+    {
+      "id": "Math_118",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 10 x 8?",
+      "options": ["88", "80", "70", "90"],
+      "answer": "80"
+    },
+    {
+      "id": "Math_119",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "Compute 10 x 9.",
+      "options": ["90", "80", "100", "110"],
+      "answer": "90"
+    },
+    {
+      "id": "Math_120",
+      "chapter": "Multiplication Tables",
+      "topic": "Multiplying Numbers",
+      "question": "What is 10 x 10?",
+      "options": ["100", "90", "110", "120"],
+      "answer": "100"
     }
   ]
 }
-
