@@ -2,21 +2,27 @@
     "users": [
         {
             "username": "Avani",
+            "role": "student",
             "scores": {
-                "Maths": 2,
-                "English": 74
+                "Maths": 22,
+                "English": 155,
+                "Social Studies": 40,
+                "Computer Science": 20
             }
         },
         {
             "username": "Shradha",
+            "role": "tutor",
             "scores": {}
         },
         {
             "username": "Balaji",
+            "role": "student",
             "scores": {
                 "English": 34,
                 "Maths": 2,
-                "Social Studies": 1
+                "Social Studies": 1,
+                "Computer Science": 3
             }
         }
     ]

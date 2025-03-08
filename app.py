@@ -5,40 +5,12 @@ import json
 import os
 import random
 import pandas as pd
-import threading
+import streamlit.components.v1 as components
 
 # Enable wide mode
-st.set_page_config(page_title="Avani Academy", page_icon='./data/logo.ico', layout="wide")
-
-import streamlit as st
-
-def show_video_list():
-    st.write("Computer Science")
-    
-    chapters = {
-        "How a computer works": {
-            "Working of a Computer": "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter1/tb3ch1svid1/master.m3u8",
-            "Hardware and Software" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter1/tb3ch1svid2/master.m3u8"
-        },
-        "Windows 10 Operating System": {
-            "Operating System" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2svid1/master.m3u8",
-            "Desktop and its components" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2anm1/master.m3u8",
-            "Parts of a program Window" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter2/tb3ch2svid2/master.m3u8"
-        },
-        "Enhance a Drawing with Paint tools" : {
-            "Working with paint tools" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter3/tb3ch3sr1/master.m3u8",
-            "Rotating a picture" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter3/tb3ch3sr2/master.m3u8",
-            "Printing a picture" : "https://qrassets.s3.ap-south-1.amazonaws.com/videoplayertemplate/index.html?videofile=https://qrassets.s3.ap-south-1.amazonaws.com/Terabytes/TB3/Chapter3/tb3ch3svid1/master.m3u8"
-        }
-    }
-    
-    for chapter, videos in chapters.items():
-        st.markdown(f"### {chapter}")
-        for name, url in videos.items():
-            st.markdown(
-                f'<a href="{url}" target="_blank">{name}</a>',
-                unsafe_allow_html=True
-            )
+st.set_page_config(page_title="Avani Academy", 
+                   page_icon='./data/logo.ico', 
+                   layout="wide")
 
 # Function to play audio using base64 encoding
 def autoplay_audio(file_path: str):
@@ -58,13 +30,141 @@ SUBJECTS_DIR = './data/subjects/'
 USER_PROGRESS_DIR = './data/user_progress/'
 AVATAR_FILE = './data/avatar.png'
 
-# Ensure necessary directories exist
 os.makedirs(SUBJECTS_DIR, exist_ok=True)
 os.makedirs(USER_PROGRESS_DIR, exist_ok=True)
 
+def load_users():
+    if not os.path.exists(USERS_FILE):
+        return []
+    with open(USERS_FILE, 'r') as file:
+        return json.load(file)["users"]
+
+def save_users(users):
+    with open(USERS_FILE, 'w') as file:
+        json.dump({"users": users}, file, indent=4)
+
+def user_is_tutor(username):
+    """Return True if the user has role == 'tutor' in users.json."""
+    users = load_users()
+    for u in users:
+        if u["username"] == username:
+            return u.get("role", "").lower() == "tutor"
+    return False
+
+def generate_worksheet_html(questions, subject):
+    """
+    Builds an HTML snippet with up to 20 questions of two different types:
+    1. Multiple choice (10 questions) - options displayed horizontally
+    2. Fill in the blanks (10 questions)
+    This is for printing on paper (does not show correct answers).
+    """
+    # Separate questions into the two types
+    total_questions = len(questions)
+    mc_count = min(10, total_questions)
+    blank_count = min(10, max(0, total_questions - mc_count))
+    
+    mc_questions = questions[:mc_count]
+    blank_questions = questions[mc_count:mc_count + blank_count]
+    
+    html_parts = []
+    html_parts.append(f"<h2 class='worksheet-title'>Worksheet - {subject}</h2>")
+    html_parts.append("<p>Please complete all questions in each section.</p>")
+    
+    # Section 1: Multiple Choice with horizontal options
+    if mc_questions:
+        html_parts.append("<hr><h3>Section 1: Choose the correct option</h3>")
+        for i, q in enumerate(mc_questions, start=1):
+            question_text = q.get("question", "")
+            options = q.get("options", [])
+            chapter = q.get("chapter", "Unknown Chapter")
+            html_parts.append(f"<div class='question'><p><b>Q{i}. ({chapter})</b> {question_text}</p>")
+            
+            if isinstance(options, list) and len(options) > 0:
+                # Create horizontal options with flexbox
+                html_parts.append("<div class='options-container' style='display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; margin-bottom: 15px;'>")
+                for idx, opt in enumerate(options):
+                    option_letter = chr(97 + idx)  # Convert 0, 1, 2, 3 to a, b, c, d
+                    html_parts.append(f"<div class='option'><span style='font-weight: bold;'>{option_letter})</span> {opt}</div>")
+                html_parts.append("</div>")
+            
+            html_parts.append("</div>")
+    
+    # Section 2: Fill in the blanks
+    if blank_questions:
+        html_parts.append("<hr><h3>Section 2: Fill in the blanks</h3>")
+        for i, q in enumerate(blank_questions, start=1):
+            question_text = q.get("question", "")
+            chapter = q.get("chapter", "Unknown Chapter")
+            html_parts.append(f"<div class='question'><p><b>Q{i}. ({chapter})</b> {question_text}</p>")
+            html_parts.append("<p>Answer: ____________________</p>")
+            html_parts.append("</div>")
+    
+    # Add some basic styling for print
+    html_parts.append("""
+    <style>
+        @media print {
+            body { 
+                font-family: Arial, sans-serif; 
+            }
+            /* Only apply page break for h2 that are NOT the first one */
+            h2:not(:first-of-type) { 
+                page-break-before: always; 
+            }
+            .worksheet-title {
+                page-break-before: avoid !important; /* Specifically prevent page break before title */
+                page-break-after: avoid;
+                margin-top: 0;
+            }
+            .question { 
+                margin-bottom: 20px; 
+            }
+            hr { 
+                border: 0.5px solid #ddd; 
+            }
+            .options-container { 
+                break-inside: avoid; /* Prevents option lists from breaking across pages */
+            }
+            .option {
+                min-width: 120px; /* Ensures options have a minimum width */
+            }
+        }
+    </style>
+    """)
+    
+    html_parts.append("<hr>")
+    return "\n".join(html_parts)
+
+def generate_worksheet_html2(questions, subject):
+    """
+    Builds an HTML snippet with up to 20 questions (and their options).
+    This is for printing on paper (does not show correct answers).
+    """
+    html_parts = []
+    html_parts.append(f"<h2>Worksheet - {subject}</h2>")
+    html_parts.append("<p>Please answer the following questions:</p>")
+
+    for i, q in enumerate(questions, start=1):
+        question_text = q.get("question", "")
+        options = q.get("options", [])
+        chapter = q.get("chapter", "Unknown Chapter")
+
+        html_parts.append(f"<hr><h3>Q{i}. ({chapter})</h3>")
+        html_parts.append(f"<p><b>{question_text}</b></p>")
+        if isinstance(options, list) and len(options) > 0:
+            html_parts.append("<ul>")
+            for opt in options:
+                html_parts.append(f"<li>{opt}</li>")
+            html_parts.append("</ul>")
+        else:
+            # If there's no options list, you could do a blank line
+            html_parts.append("<p>__________</p>")
+
+    html_parts.append("<hr>")
+    return "\n".join(html_parts)
+
 def show_left_rail():
     logo_path = './data/logo.png'
-    st.sidebar.image(logo_path, caption="Avani Academy", use_column_width=True)
+    st.sidebar.image(logo_path, caption="Avani Academy", use_container_width=True)
     if "logged_in_user" in st.session_state:
         user = st.session_state["logged_in_user"]
         st.sidebar.subheader(f"User: {user}")
@@ -81,24 +181,6 @@ def show_left_rail():
             if user_data:
                 score = user_data.get("scores", {}).get(subject, 0)
                 st.sidebar.markdown(f"**{subject} Score: {score}**")
-
-def load_users():
-    if not os.path.exists(USERS_FILE):
-        return []
-    with open(USERS_FILE, 'r') as file:
-        return json.load(file)["users"]
-
-def save_users(users):
-    with open(USERS_FILE, 'w') as file:
-        json.dump({"users": users}, file, indent=4)
-
-def signup_user(new_user):
-    users = load_users()
-    users.append({"username": new_user, "scores": {}})
-    save_users(users)
-    st.success(f"User {new_user} signed up successfully!")
-    st.session_state["logged_in_user"] = new_user
-    st.rerun()  # Trigger a rerun after signup
 
 def load_subject_questions(subject):
     subject_file_name = subject.lower().replace(" ", "_")
@@ -154,8 +236,6 @@ def login_screen():
                         st.success(f"Welcome back, {user['username']}!")
                         st.rerun()
 
-    show_video_list()
-
 
 def subject_selection_screen():
     show_left_rail()
@@ -173,28 +253,90 @@ def subject_selection_screen():
 
     subjects = ["English", "Maths", "Science", "Social Studies", "Computer Science", "Hindi", "Kannada"]
     selected_subject = st.selectbox("Choose a subject", options=subjects)
-    
-    if st.button("Start Learning"):
-        st.session_state["selected_subject"] = selected_subject
-        st.session_state["question_attempts"] = 0  # Reset attempt counter
-        st.session_state["current_question"] = None
-        st.rerun()
 
-    scores = user_data.get("scores", {})
+    if user_is_tutor(user):
+        st.subheader("Tutor Mode - Generate Worksheet")
+        if st.button("Create Worksheet"):
+            all_questions = load_subject_questions(selected_subject)
+            # Pick up to 20 questions randomly
+            chosen_20 = random.sample(all_questions, min(20, len(all_questions)))
+            # Build HTML and save it in session_state
+            st.session_state["worksheet_html"] = generate_worksheet_html(chosen_20, selected_subject)
+            st.session_state["show_worksheet"] = True
+        
+        # If we have generated a worksheet, display it + print button
+        if st.session_state.get("show_worksheet"):
+            
+            component_height = st.slider("Adjust preview height", min_value=600, max_value=2000, value=800, step=100)
+            
+            components.html(
+                f"""
+                <html>
+                <head>
+                    <style>
+                        body {{
+                            font-family: Arial, sans-serif;
+                            padding: 20px;
+                        }}
+                        .print-button {{
+                            position: sticky;
+                            bottom: 20px;
+                            background-color: #4CAF50;
+                            color: white;
+                            padding: 10px 20px;
+                            border: none;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            margin-top: 20px;
+                            z-index: 1000;
+                        }}
+                        .print-button:hover {{
+                            background-color: #45a049;
+                        }}
+                        @media print {{
+                            .print-button {{
+                                display: none;
+                            }}
+                        }}
+                    </style>
+                </head>
+                <body>
+                    {st.session_state["worksheet_html"]}
+                    <button class="print-button" onclick="window.print()">Print Worksheet</button>
+                </body>
+                </html>
+                """,
+                height=component_height,
+                scrolling=True
+            )
+        
+        if st.button("Logout", key="logout_tutor"):
+            st.session_state.clear()
+            st.rerun()
+    else:
+        # If user is a student -> show the old "Start Learning" flow
+        st.subheader("Student Mode")
+        if st.button("Start Learning"):
+            st.session_state["selected_subject"] = selected_subject
+            st.session_state["question_attempts"] = 0  # Reset attempt counter
+            st.session_state["current_question"] = None
+            st.rerun()
 
-    # Create a DataFrame for the table
-    score_data = {
-        "Subject": subjects,
-        "Points": [scores.get(subject, 0) for subject in subjects]
-    }
-    score_df = pd.DataFrame(score_data)
-    st.sidebar.subheader("Your Scores:")
-    st.sidebar.table(score_df)
+        scores = user_data.get("scores", {})
 
-    if st.sidebar.button("Logout"):
-        st.session_state.clear()
-        st.rerun()
+        # Create a DataFrame for the table
+        score_data = {
+            "Subject": subjects,
+            "Points": [scores.get(subject, 0) for subject in subjects]
+        }
+        score_df = pd.DataFrame(score_data)
+        st.sidebar.subheader("Your Scores:")
+        st.sidebar.table(score_df)
 
+        if st.sidebar.button("Logout", key="logout_student"):
+            st.session_state.clear()
+            st.rerun()
 
 # Function to get the next question
 def get_next_question(username, subject):
@@ -277,6 +419,7 @@ def question_screen():
 
     # Add 'Home' and 'Logout' buttons
     col1, col2 = st.columns(2)
+
     with col1:
         if st.button("Home"):
             st.session_state.pop("selected_subject", None)
@@ -284,12 +427,13 @@ def question_screen():
             st.session_state.pop("question_attempts", None)
             st.session_state.pop("question_completed", None)
             st.rerun()
+
     with col2:
         if st.button("Logout"):
             st.session_state.clear()
             st.rerun()
 
-    # Define a list of color options
+    # Define a list of color options for question background
     color_options = ['#FFDDC1', '#C1E1C1', '#C1D3FF', '#FFCCCC', '#FFEB99']
 
     # Load user progress
@@ -297,18 +441,17 @@ def question_screen():
     subject_progress = progress.get(subject, {"attempted": {}})
     attempted_questions = subject_progress["attempted"]
 
-    # Initialize a flag to control button state if not set
+    # Initialize some flags
     if 'button_disabled' not in st.session_state:
         st.session_state['button_disabled'] = False
     if 'question_answered' not in st.session_state:
         st.session_state['question_answered'] = False
     if 'correct_answer' not in st.session_state:
-        st.session_state['correct_answer'] = False  # Track if the current answer is correct
+        st.session_state['correct_answer'] = False
 
-    # Get the current question or fetch a new one
+    # Get or set current question
     if st.session_state.get("current_question") is None:
         question = get_next_question(user, subject)
-        
         if question is None:
             st.write("No more questions available for this subject.")
             st.write("Session is over. You have completed all available questions.")
@@ -317,16 +460,14 @@ def question_screen():
 
         st.session_state["current_question"] = question
         st.session_state["question_attempts"] = 0
-        st.session_state['button_disabled'] = False  # Enable the button for the new question
-        st.session_state['question_answered'] = False  # Reset answer flag
-        st.session_state['correct_answer'] = False  # Reset correctness flag
-
-        # Select a random background color for the next question
+        st.session_state['button_disabled'] = False
+        st.session_state['question_answered'] = False
+        st.session_state['correct_answer'] = False
         st.session_state["bg_color"] = random.choice(color_options)
     else:
         question = st.session_state["current_question"]
 
-    # Apply the background color to the question area
+    # Apply a random background color to the question area
     bg_color = st.session_state.get("bg_color", "#FFFFFF")
     st.markdown(
         f"""
@@ -340,7 +481,6 @@ def question_screen():
         """, unsafe_allow_html=True
     )
 
-    # Display the question inside the question area
     st.markdown('<div class="question-area">', unsafe_allow_html=True)
     st.write(f"**Chapter:** {question.get('chapter', 'Unknown Chapter')}")
     st.markdown(
@@ -370,11 +510,11 @@ def question_screen():
     )
     
     st.markdown("<div class='radio-label'>Choose an option:</div>", unsafe_allow_html=True)
-    user_choice = st.radio("Choose an option:", options, key=st.session_state["question_attempts"], label_visibility="collapsed")
+    user_choice = st.radio("Choose an option:", options, 
+                           key=st.session_state["question_attempts"], 
+                           label_visibility="collapsed")
 
-    # Handle the submit button logic
     if st.session_state['question_answered']:
-        # Show the success/failure message and play the appropriate sound, then move to the next question
         if st.session_state['correct_answer']:
             st.success("Bravo! That is correct.")
             autoplay_audio('./sounds/correct_answer.mp3')
@@ -382,9 +522,9 @@ def question_screen():
             st.error("That is not correct. Let's come back to this later.")
             autoplay_audio('./sounds/incorrect_answer.mp3')
 
-        time.sleep(3)  # Pause for 3 seconds
+        time.sleep(3)
 
-        # Only update user's score and progress if the answer is correct
+        # Update score only if correct
         if st.session_state['correct_answer']:
             users = load_users()
             for u in users:
@@ -399,15 +539,14 @@ def question_screen():
             progress[subject] = {"attempted": attempted_questions}
             save_user_progress(user, progress)
         else:
-            attempted_questions[question['id']] = False  # Mark the question as incorrect
+            attempted_questions[question['id']] = False
 
         # Move to the next question
         st.session_state["current_question"] = None
         st.session_state["question_attempts"] = 0
-        st.session_state['question_count'] += 1  # Increment question count
-        st.session_state['question_answered'] = False  # Reset flag
+        st.session_state['question_count'] += 1
+        st.session_state['question_answered'] = False
         st.rerun()
-
     else:
         if st.button("Submit Answer"):
             # Check if the selected answer is correct
@@ -418,7 +557,7 @@ def question_screen():
 
             # Set the flag and rerun to display the result
             st.session_state['question_answered'] = True
-            st.session_state['button_disabled'] = True  # Disable button immediately
+            st.session_state['button_disabled'] = True
             st.rerun()
 
 # Main app flow
