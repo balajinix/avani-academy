@@ -197,6 +197,211 @@
         "Right-click the title bar and select 'Close', or type 'Stop' and click Execute"
       ],
       "answer": "Click 'File' and then 'Exit', or type 'Bye' and click Execute"
+    },
+    {
+      "id": "CS_22",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Basic Movement Commands",
+      "question": "The ____________ command is used to move the turtle forwards with the specified number of steps.",
+      "options": ["BACK", "PENDOWN", "FORWARD", "Right"],
+      "answer": "FORWARD"
+    },
+    {
+      "id": "CS_23",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Basic Movement Commands",
+      "question": "The ______ command is used to move the turtle backward with the specified number of steps.",
+      "options": ["FORWARD", "BACK", "Left", "PENDOWN"],
+      "answer": "BACK"
+    },
+    {
+      "id": "CS_24",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Rotation Commands",
+      "question": "RT 90 will turn the turtle to ___________ by 90 steps.",
+      "options": ["Left", "BACK", "Right", "PENDOWN"],
+      "answer": "Right"
+    },
+    {
+      "id": "CS_25",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Rotation Commands",
+      "question": "LT 50 will turn the turtle to ________________ by 50 steps.",
+      "options": ["FORWARD", "Right", "Left", "BACK"],
+      "answer": "Left"
+    },
+    {
+      "id": "CS_26",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Pen Commands",
+      "question": "The ________ command is used to bring the MSWLogo turtle back to the drawing mode.",
+      "options": ["PENDOWN", "Left", "FORWARD", "BACK"],
+      "answer": "PENDOWN"
+    },
+    {
+      "id": "CS_27",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Rotation Commands",
+      "question": "Which MSWLogo command turns the turtle in the clockwise direction?",
+      "options": ["SETPENSIZE", "SETH", "PENUP", "PENERASE"],
+      "answer": "SETH"
+    },
+    {
+      "id": "CS_28",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Pen Commands",
+      "question": "Which MSWLogo command is used to draw invisible lines?",
+      "options": ["PENERASE", "SETPENCOLOR", "PENUP", "CLEARSCREEN"],
+      "answer": "PENUP"
+    },
+    {
+      "id": "CS_29",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Pen Commands",
+      "question": "Which MSWLogo command is used to erase unwanted lines?",
+      "options": ["PENUP", "SETPENSIZE", "CLEARSCREEN", "PENERASE"],
+      "answer": "PENERASE"
+    },
+    {
+      "id": "CS_30",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Pen Commands",
+      "question": "Which MSWLogo command changes pen size?",
+      "options": ["SETPENCOLOR", "PENUP", "SETPENSIZE", "CLEARSCREEN"],
+      "answer": "SETPENSIZE"
+    },
+    {
+      "id": "CS_31",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Pen Commands",
+      "question": "Which MSWLogo command changes pen colour?",
+      "options": ["SETPENSIZE", "SETPENCOLOR", "PENUP", "PENERASE"],
+      "answer": "SETPENCOLOR"
+    },
+    {
+      "id": "CS_32",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Screen Commands",
+      "question": "Which MSWLogo command erases drawing and background?",
+      "options": ["CLEARSCREEN", "SETPENCOLOR", "PENUP", "SETPENSIZE"],
+      "answer": "CLEARSCREEN"
+    },
+    {
+      "id": "CS_33",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Relationships",
+      "question": "What is the relationship between PU and PD commands in MSWLogo?",
+      "options": [
+        "PU lifts the pen to draw invisible lines, PD puts the pen down to draw visible lines",
+        "PU moves the turtle up, PD moves the turtle down",
+        "PU prints text upward, PD prints text downward",
+        "PU powers up the turtle, PD powers down the turtle"
+      ],
+      "answer": "PU lifts the pen to draw invisible lines, PD puts the pen down to draw visible lines"
+    },
+    {
+      "id": "CS_34",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Relationships",
+      "question": "What is the relationship between HT and ST commands in MSWLogo?",
+      "options": [
+        "HT sets the turtle to home position, ST sets the turtle to start position",
+        "HT handles text input, ST shows text output",
+        "HT hides the turtle, ST shows the turtle",
+        "HT halts the turtle movement, ST starts the turtle movement"
+      ],
+      "answer": "HT hides the turtle, ST shows the turtle"
+    },
+    {
+      "id": "CS_35",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Relationships",
+      "question": "What is the relationship between PE and PPT commands in MSWLogo?",
+      "options": [
+        "PE erases lines, PPT draws lines",
+        "PE powers the engine, PPT pauses the turtle",
+        "PE prints errors, PPT prints text",
+        "PE performs equations, PPT plots points"
+      ],
+      "answer": "PE erases lines, PPT draws lines"
+    },
+    {
+      "id": "CS_36",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Functions",
+      "question": "What does the SETSCREENCOLOR command do in MSWLogo?",
+      "options": [
+        "Brings the turtle to the centre of the screen",
+        "Erases text in the Recall List Box",
+        "Changes the size of pen",
+        "Changes background colour of the screen"
+      ],
+      "answer": "Changes background colour of the screen"
+    },
+    {
+      "id": "CS_37",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Functions",
+      "question": "What does the FORWARD command do in MSWLogo?",
+      "options": [
+        "Changes the size of pen",
+        "Moves the turtle forward",
+        "Turns the turtle clockwise",
+        "Erases text in the Recall List Box"
+      ],
+      "answer": "Moves the turtle forward"
+    },
+    {
+      "id": "CS_38",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Functions",
+      "question": "What does the SETPENSIZE command do in MSWLogo?",
+      "options": [
+        "Changes the size of pen",
+        "Changes background colour of the screen",
+        "Brings the turtle to the centre of the screen",
+        "Turns the turtle clockwise"
+      ],
+      "answer": "Changes the size of pen"
+    },
+    {
+      "id": "CS_39",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Functions",
+      "question": "What does the CLEANTEXT command do in MSWLogo?",
+      "options": [
+        "Brings the turtle to the centre of the screen",
+        "Changes background colour of the screen",
+        "Erases text in the Recall List Box",
+        "Turns the turtle clockwise"
+      ],
+      "answer": "Erases text in the Recall List Box"
+    },
+    {
+      "id": "CS_40",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Functions",
+      "question": "What does the SETH command do in MSWLogo?",
+      "options": [
+        "Erases text in the Recall List Box",
+        "Turns the turtle clockwise",
+        "Changes the size of pen",
+        "Brings the turtle to the centre of the screen"
+      ],
+      "answer": "Turns the turtle clockwise"
+    },
+    {
+      "id": "CS_41",
+      "chapter": "Walking with Logo Turtle",
+      "topic": "Command Functions",
+      "question": "What does the HOME command do in MSWLogo?",
+      "options": [
+        "Changes background colour of the screen",
+        "Brings the turtle to the centre of the screen",
+        "Changes the size of pen",
+        "Erases text in the Recall List Box"
+      ],
+      "answer": "Brings the turtle to the centre of the screen"
     }
   ]
 }
