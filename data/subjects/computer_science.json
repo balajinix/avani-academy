@@ -402,6 +402,322 @@
         "Erases text in the Recall List Box"
       ],
       "answer": "Brings the turtle to the centre of the screen"
+    },
+    {
+      "id": "CS_42",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "The ___________ contains buttons for the commonly used options such as Save, Undo and Redo.",
+      "options": ["Document1", ".docx", "Quick Access Toolbar", "Rulers"],
+      "answer": "Quick Access Toolbar"
+    },
+    {
+      "id": "CS_43",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "________ is the default file name of the few new document.",
+      "options": ["Quick Access Toolbar", "Document1", "Save", "Rulers"],
+      "answer": "Document1"
+    },
+    {
+      "id": "CS_44",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "The __________ shows the page margins.",
+      "options": [".docx", "Document1", "Save", "Rulers"],
+      "answer": "Rulers"
+    },
+    {
+      "id": "CS_45",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "File Management",
+      "question": "________ is the extension of the file save in Microsoft Word.",
+      "options": ["Save", ".docx", "Rulers", "Document1"],
+      "answer": ".docx"
+    },
+    {
+      "id": "CS_46",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "File Management",
+      "question": "Press Ctrl + S to ________ a document.",
+      "options": [".docx", "Document1", "Save", "Rulers"],
+      "answer": "Save"
+    },
+    {
+      "id": "CS_47",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "The number of scroll bars in Word 2016 document are ___________",
+      "options": ["Five", "Three", "Two", "Four"],
+      "answer": "Two"
+    },
+    {
+      "id": "CS_48",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Keyboard Shortcuts",
+      "question": "Which of the following keys will you press to open a document?",
+      "options": ["Ctrl + S", "Ctrl + A", "Ctrl + O", "Ctrl + P"],
+      "answer": "Ctrl + O"
+    },
+    {
+      "id": "CS_49",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "What is the vertical line that appears in the Work Area called?",
+      "options": ["Shadow", "Arrow", "Cursor", "Pointer"],
+      "answer": "Cursor"
+    },
+    {
+      "id": "CS_50",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "Where do you find Maximize button in Word 2016?",
+      "options": ["Status Bar", "Menu Bar", "Title Bar", "Scroll Bar"],
+      "answer": "Title Bar"
+    },
+    {
+      "id": "CS_51",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "Which view gives the various options to save, open, print and share files in Word 2016?",
+      "options": ["Outstage view", "Frontstage view", "Backstage view", "Mainstage view"],
+      "answer": "Backstage view"
+    },
+    {
+      "id": "CS_52",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface Components",
+      "question": "Which of the following is NOT a component of Microsoft Word Window?",
+      "options": [
+        "Ribbon containing tabs with commands",
+        "Quick Access Toolbar with common commands",
+        "Status Bar showing document information",
+        "Command Prompt for entering text commands"
+      ],
+      "answer": "Command Prompt for entering text commands"
+    },
+    {
+      "id": "CS_53",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "What is a cursor in Microsoft Word?",
+      "options": [
+        "A blinking vertical line that shows where text will appear when you type",
+        "A tool used to measure margins and page dimensions",
+        "The mouse pointer icon that changes based on the task",
+        "A horizontal line that shows the end of a paragraph"
+      ],
+      "answer": "A blinking vertical line that shows where text will appear when you type"
+    },
+    {
+      "id": "CS_54",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Word Interface",
+      "question": "Which information is NOT typically displayed on the Status Bar in Word 2016?",
+      "options": [
+        "Page number and total pages",
+        "Word count",
+        "Document language",
+        "Document author's name"
+      ],
+      "answer": "Document author's name"
+    },
+    {
+      "id": "CS_55",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "File Management",
+      "question": "Which of the following is the correct sequence of steps to open an existing document in Word 2016?",
+      "options": [
+        "Click Home tab > Select Open > Browse files > Select document > Click Open",
+        "Click File tab > Select Open > Browse files > Select document > Click Open",
+        "Click Edit tab > Select Open > Browse files > Select document > Click Open",
+        "Click View tab > Select Open > Browse files > Select document > Click Open"
+      ],
+      "answer": "Click File tab > Select Open > Browse files > Select document > Click Open"
+    },
+    {
+      "id": "CS_56",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "File Management",
+      "question": "Which of the following is the correct sequence of steps to close a document in Word 2016?",
+      "options": [
+        "Click the X button on the Title Bar of the document window",
+        "Press Alt+F4 to close the document",
+        "Click File tab > Select Close",
+        "All of the above are correct methods"
+      ],
+      "answer": "All of the above are correct methods"
+    },
+    {
+      "id": "CS_57",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "File Management",
+      "question": "What will happen if you click the File tab and then select the Save as option in the drop-down list?",
+      "options": [
+        "The document will be saved with its current name",
+        "A dialog box will appear allowing you to save the document with a new name or in a different location",
+        "The document will be automatically saved to OneDrive",
+        "The document will be saved and closed"
+      ],
+      "answer": "A dialog box will appear allowing you to save the document with a new name or in a different location"
+    },
+    {
+      "id": "CS_58",
+      "chapter": "Creating a document: Word 2016",
+      "topic": "Document Creation",
+      "question": "What will happen if you follow these steps: Click File tab > Select New > Click Blank document > Type content > Click close button on Title Bar?",
+      "options": [
+        "The document will close without saving and you will lose your content",
+        "The document will be automatically saved with a default name",
+        "A dialog box will appear asking if you want to save the document before closing",
+        "Word will crash and restart"
+      ],
+      "answer": "A dialog box will appear asking if you want to save the document before closing"
+    },
+    {
+      "id": "CS_59",
+      "chapter": "Play with Text",
+      "topic": "Text Editing",
+      "question": "To delete a paragraph, select the paragraph and then press ________key.",
+      "options": ["Cursor", "Clipboard", "Delete", "Undo"],
+      "answer": "Delete"
+    },
+    {
+      "id": "CS_60",
+      "chapter": "Play with Text",
+      "topic": "Text Navigation",
+      "question": "When you start typing, the text appears where the blinking _________ is located.",
+      "options": ["Redo", "Delete", "Cursor", "Clipboard"],
+      "answer": "Cursor"
+    },
+    {
+      "id": "CS_61",
+      "chapter": "Play with Text",
+      "topic": "Word Interface",
+      "question": "In the Home tab, the ___________ group contains the cut, copy and paste options.",
+      "options": ["Undo", "Clipboard", "Delete", "Redo"],
+      "answer": "Clipboard"
+    },
+    {
+      "id": "CS_62",
+      "chapter": "Play with Text",
+      "topic": "Keyboard Shortcuts",
+      "question": "Press Ctrl + Z to ______ a command.",
+      "options": ["Delete", "Redo", "Undo", "Clipboard"],
+      "answer": "Undo"
+    },
+    {
+      "id": "CS_63",
+      "chapter": "Play with Text",
+      "topic": "Keyboard Shortcuts",
+      "question": "Press Ctrl + Y to __________ a command.",
+      "options": ["Redo", "Delete", "Cursor", "Undo"],
+      "answer": "Redo"
+    },
+    {
+      "id": "CS_64",
+      "chapter": "Play with Text",
+      "topic": "Text Selection",
+      "question": "Pressing Shift + _________ will select the text till the beginning.",
+      "options": ["End", "Backspace", "Home", "Enter"],
+      "answer": "Home"
+    },
+    {
+      "id": "CS_65",
+      "chapter": "Play with Text",
+      "topic": "Keyboard Shortcuts",
+      "question": "Shortcut key to cut the selected text in a document is:",
+      "options": ["Shift + right arrow", "Ctrl + Y", "Shift + Ctrl", "Ctrl + X"],
+      "answer": "Ctrl + X"
+    },
+    {
+      "id": "CS_66",
+      "chapter": "Play with Text",
+      "topic": "Keyboard Shortcuts",
+      "question": "To paste text, you press:",
+      "options": ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + N"],
+      "answer": "Ctrl + V"
+    },
+    {
+      "id": "CS_67",
+      "chapter": "Play with Text",
+      "topic": "Text Selection",
+      "question": "In which color is the selected text highlighted?",
+      "options": ["Grey band", "Red band", "Yellow band", "White band"],
+      "answer": "Yellow band"
+    },
+    {
+      "id": "CS_68",
+      "chapter": "Play with Text",
+      "topic": "Word Interface",
+      "question": "Where do you find Undo and Redo buttons?",
+      "options": ["Status bar", "Work Area", "Scroll bar", "Quick Access Toolbar"],
+      "answer": "Quick Access Toolbar"
+    },
+    {
+      "id": "CS_69",
+      "chapter": "Play with Text",
+      "topic": "Text Selection",
+      "question": "Why do you need to select text in Microsoft Word?",
+      "options": [
+        "To specify which text you want to format, copy, cut, or delete",
+        "To increase the font size automatically",
+        "To check spelling and grammar only in that section",
+        "To lock that section from being edited"
+      ],
+      "answer": "To specify which text you want to format, copy, cut, or delete"
+    },
+    {
+      "id": "CS_70",
+      "chapter": "Play with Text",
+      "topic": "Clipboard Operations",
+      "question": "What is the difference between Cut and Copy commands?",
+      "options": [
+        "Cut removes the selected text from its original location while Copy keeps the original text in place",
+        "Cut can only be used once while Copy can be used multiple times",
+        "Cut is only for text while Copy works for text and images",
+        "Cut is for moving text to another document while Copy is for moving text within the same document"
+      ],
+      "answer": "Cut removes the selected text from its original location while Copy keeps the original text in place"
+    },
+    {
+      "id": "CS_71",
+      "chapter": "Play with Text",
+      "topic": "Text Editing",
+      "question": "If you want to repeat the last action by using a command, which command will you use?",
+      "options": [
+        "Redo (Ctrl+Y)",
+        "Repeat (F4)",
+        "Reuse (Ctrl+R)",
+        "Restore (Alt+R)"
+      ],
+      "answer": "Repeat (F4)"
+    },
+    {
+      "id": "CS_72",
+      "chapter": "Play with Text",
+      "topic": "Word Interface",
+      "question": "Which of the following is NOT a command in the Clipboard group?",
+      "options": [
+        "Cut",
+        "Copy",
+        "Paste",
+        "Undo"
+      ],
+      "answer": "Undo"
+    },
+    {
+      "id": "CS_73",
+      "chapter": "Play with Text",
+      "topic": "Keyboard Shortcuts",
+      "question": "What is the shortcut key to open Print pane in Word?",
+      "options": [
+        "Ctrl + S",
+        "Ctrl + O",
+        "Ctrl + P",
+        "Ctrl + N"
+      ],
+      "answer": "Ctrl + P"
     }
   ]
 }
