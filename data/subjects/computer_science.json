@@ -2,703 +2,201 @@
   "questions": [
     {
       "id": "CS_1",
-      "chapter": "How A Computer Works",
-      "topic": "Input-Process-Output",
-      "question": "A computer follows the input - __________ - Output cycle.",
-      "options": ["Operating", "Printout", "Process", "Software"],
-      "answer": "Process"
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Window Components",
+      "question": "Commander window and ___________________ are the parts of MSWLogo Window.",
+      "options": ["Main Screen", "Primitives", "Menu", "Execute"],
+      "answer": "Main Screen"
     },
     {
       "id": "CS_2",
-      "chapter": "How A Computer Works",
-      "topic": "Software",
-      "question": "__________ refers to the set of instructions given to a computer.",
-      "options": ["Software", "Microphone", "Operating", "Process"],
-      "answer": "Software"
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Commands",
+      "question": "_____________ are the commands in MSWLogo.",
+      "options": ["Menu", "Primitives", "Execute", "Halt"],
+      "answer": "Primitives"
     },
     {
       "id": "CS_3",
-      "chapter": "How A Computer Works",
-      "topic": "Output",
-      "question": "The printed paper is called __________.",
-      "options": ["Printout", "Software", "Microphone", "Operating"],
-      "answer": "Printout"
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Interface",
+      "question": "File option is present in _________ bar of MSWLogo.",
+      "options": ["Execute", "Main Screen", "Menu", "Primitives"],
+      "answer": "Menu"
     },
     {
       "id": "CS_4",
-      "chapter": "How A Computer Works",
-      "topic": "Input Devices",
-      "question": "A _________________ is used to record different sounds into the computer.",
-      "options": ["Operating", "Microphone", "Printout", "Process"],
-      "answer": "Microphone"
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Buttons",
+      "question": "The _________ button permanently stops the execution of commands.",
+      "options": ["Main Screen", "Halt", "Menu", "Execute"],
+      "answer": "Halt"
     },
     {
       "id": "CS_5",
-      "chapter": "How A Computer Works",
-      "topic": "Operating Systems",
-      "question": "Microsoft Windows is an example of an ______________ system.",
-      "options": ["Process", "Operating", "Printout", "Software"],
-      "answer": "Operating"
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Buttons",
+      "question": "The ________ button executes the command typed in the command input box.",
+      "options": ["Halt", "Primitives", "Execute", "Menu"],
+      "answer": "Execute"
     },
     {
       "id": "CS_6",
-      "chapter": "How A Computer Works",
-      "topic": "Input Devices",
-      "question": "It is used to take live photos and videos.",
-      "options": ["Printer", "Joystick", "Scanner", "Web camera"],
-      "answer": "Web camera"
+      "chapter": "MSWLogo",
+      "topic": "Programming Concepts",
+      "question": "The process of removing mistakes from the commands is called ___________",
+      "options": ["executing", "debugging", "delete", "backspace"],
+      "answer": "debugging"
     },
     {
       "id": "CS_7",
-      "chapter": "How A Computer Works",
-      "topic": "Output Devices",
-      "question": "It looks like a television and it is also known as VDU.",
-      "options": ["Monitor", "Printer", "Scanner", "Microphone"],
-      "answer": "Monitor"
+      "chapter": "MSWLogo",
+      "topic": "Turtle Graphics",
+      "question": "_________ is the pointed top of the turtle.",
+      "options": ["Point", "Head", "Top", "Tail"],
+      "answer": "Head"
     },
     {
       "id": "CS_8",
-      "chapter": "How A Computer Works",
-      "topic": "Output Devices",
-      "question": "It is used to project an image onto a large surface, such as a white screen or wall.",
-      "options": ["Projector", "Speaker", "Printer", "Microphone"],
-      "answer": "Projector"
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Buttons",
+      "question": "Which button finds the errors in the commands?",
+      "options": ["Halt", "Execute", "Trace", "Recall"],
+      "answer": "Trace"
     },
     {
       "id": "CS_9",
-      "chapter": "How A Computer Works",
-      "topic": "Storage Devices",
-      "question": "It is inside the CPU box and can store a large amount of information.",
-      "options": ["Hard disk", "DVD", "CD", "Speakers"],
-      "answer": "Hard disk"
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Commands",
+      "question": "This button clears the screen and places the turtle in the centre of the screen.",
+      "options": ["reset", "recall", "resize", "redo"],
+      "answer": "reset"
     },
     {
       "id": "CS_10",
-      "chapter": "How A Computer Works",
-      "topic": "Storage Devices",
-      "question": "It is also known as a flash drive.",
-      "options": ["Pen drive", "DVD drive", "USB", "CD drive"],
-      "answer": "Pen drive"
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Commands",
+      "question": "What do you need to type in the input box to exit MSWLogo?",
+      "options": ["Bye Bye", "Bye", "Good Day", "Byes"],
+      "answer": "Bye"
     },
     {
       "id": "CS_11",
-      "chapter": "How A Computer Works",
-      "topic": "Storage Devices",
-      "question": "What is a CD used for?",
-      "options": [
-        "It is used to play games.",
-        "It is used to store information.",
-        "It is used to record sound.",
-        "It is used to take printouts."
-      ],
-      "answer": "It is used to store information."
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Interface",
+      "question": "Which part of MSWLogo is where the turtle is seen?",
+      "options": ["Command Input Box", "Drawing Area", "Reset Button", "Trace Button"],
+      "answer": "Drawing Area"
     },
     {
       "id": "CS_12",
-      "chapter": "How A Computer Works",
-      "topic": "Output Devices",
-      "question": "What are speakers used for?",
-      "options": [
-        "They are used to store information.",
-        "They are used to record sound.",
-        "They are used to listen to music.",
-        "They are used to play games."
-      ],
-      "answer": "They are used to listen to music."
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Interface",
+      "question": "Where are all the commands typed in MSWLogo?",
+      "options": ["Drawing Area", "Execute Button", "Command Input Box", "Trace Button"],
+      "answer": "Command Input Box"
     },
     {
       "id": "CS_13",
-      "chapter": "How A Computer Works",
-      "topic": "Output Devices",
-      "question": "What is a printer used for?",
-      "options": [
-        "It is used to take printouts.",
-        "It is used to store information.",
-        "It is used to listen to music.",
-        "It is used to record sound."
-      ],
-      "answer": "It is used to take printouts."
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Buttons",
+      "question": "Which button in MSWLogo finds the errors in the program?",
+      "options": ["Execute Button", "Reset Button", "Drawing Area", "Trace Button"],
+      "answer": "Trace Button"
     },
     {
       "id": "CS_14",
-      "chapter": "How A Computer Works",
-      "topic": "Input Devices",
-      "question": "What is a microphone used for?",
-      "options": [
-        "It is used to record sound.",
-        "It is used to take printouts.",
-        "It is used to store information.",
-        "It is used to listen to music."
-      ],
-      "answer": "It is used to record sound."
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Buttons",
+      "question": "Which button clears the Main Screen and places the turtle back in the centre?",
+      "options": ["Trace Button", "Reset Button", "Command Input Box", "Execute Button"],
+      "answer": "Reset Button"
     },
     {
       "id": "CS_15",
-      "chapter": "How A Computer Works",
-      "topic": "Input Devices",
-      "question": "What is a joystick used for?",
-      "options": [
-        "It is used to play games.",
-        "It is used to listen to music.",
-        "It is used to store information.",
-        "It is used to take printouts."
-      ],
-      "answer": "It is used to play games."
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Buttons",
+      "question": "Which button executes the command typed in the command input box?",
+      "options": ["Reset Button", "Command Input Box", "Execute Button", "Drawing Area"],
+      "answer": "Execute Button"
     },
     {
       "id": "CS_16",
-      "chapter": "How A Computer Works",
-      "topic": "Storage Devices",
-      "question": "What does a pen drive do?",
+      "chapter": "MSWLogo",
+      "topic": "Logo Basics",
+      "question": "What are primitives?",
       "options": [
-        "It works when inserted into the USB port.",
-        "It is used to listen to music.",
-        "It is used to record sound.",
-        "It is used to take printouts."
+        "Built-in commands in MSWLogo that perform specific functions",
+        "The basic shapes that can be drawn in MSWLogo",
+        "Additional tools that can be downloaded for MSWLogo",
+        "The color palette options available in the drawing area"
       ],
-      "answer": "It works when inserted into the USB port."
+      "answer": "Built-in commands in MSWLogo that perform specific functions"
     },
     {
       "id": "CS_17",
-      "chapter": "How A Computer Works",
-      "topic": "Processing Devices",
-      "question": "What is the CPU?",
+      "chapter": "MSWLogo",
+      "topic": "Turtle Graphics",
+      "question": "What is the shape of MSWLogo turtle?",
       "options": [
-        "It is the brain of the computer.",
-        "It is used to record sound.",
-        "It works when inserted into the USB port.",
-        "It is used to take printouts."
+        "A circle with an arrow",
+        "A triangular shape",
+        "A square with a pointer",
+        "A small turtle icon"
       ],
-      "answer": "It is the brain of the computer."
+      "answer": "A triangular shape"
     },
     {
       "id": "CS_18",
-      "chapter": "How A Computer Works",
-      "topic": "Device Types",
-      "question": "What type of device is a CD?",
+      "chapter": "MSWLogo",
+      "topic": "Turtle Graphics",
+      "question": "Why is the turtle called the pen of the logo?",
       "options": [
-        "Storage device",
-        "Input device",
-        "Output device",
-        "Processing device"
+        "Because it leaves a trail like a pen when it moves",
+        "Because it was originally designed to look like a pen",
+        "Because it can be lifted up or put down like a real pen",
+        "Because the original Logo creator owned a turtle-shaped pen"
       ],
-      "answer": "Storage device"
+      "answer": "Because it leaves a trail like a pen when it moves"
     },
     {
       "id": "CS_19",
-      "chapter": "How A Computer Works",
-      "topic": "Device Types",
-      "question": "What type of device is a speaker?",
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Interface",
+      "question": "Which of the following is NOT a component of the Main Screen in MSWLogo?",
       "options": [
-        "Output device",
-        "Storage device",
-        "Input device",
-        "Processing device"
+        "Drawing area",
+        "Title bar",
+        "Command input box",
+        "Scroll bars"
       ],
-      "answer": "Output device"
+      "answer": "Command input box"
     },
     {
       "id": "CS_20",
-      "chapter": "How A Computer Works",
-      "topic": "Device Types",
-      "question": "What type of device is a printer?",
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Interface",
+      "question": "Which of the following is NOT a component of the Commander Window in MSWLogo?",
       "options": [
-        "Output device",
-        "Processing device",
-        "Input device",
-        "Storage device"
+        "Control buttons",
+        "Command input box",
+        "Recall list box",
+        "Drawing area"
       ],
-      "answer": "Output device"
+      "answer": "Drawing area"
     },
     {
       "id": "CS_21",
-      "chapter": "How A Computer Works",
-      "topic": "Device Types",
-      "question": "What type of device is a microphone?",
+      "chapter": "MSWLogo",
+      "topic": "MSWLogo Commands",
+      "question": "What are the two ways to exit MSWLogo?",
       "options": [
-        "Input device",
-        "Storage device",
-        "Output device",
-        "Processing device"
+        "Click 'File' and then 'Exit', or type 'Bye' and click Execute",
+        "Press Alt+F4, or type 'Quit' and click Execute",
+        "Click 'File' and then 'Close', or type 'Exit' and click Execute",
+        "Right-click the title bar and select 'Close', or type 'Stop' and click Execute"
       ],
-      "answer": "Input device"
-    },
-    {
-      "id": "CS_22",
-      "chapter": "How A Computer Works",
-      "topic": "Device Types",
-      "question": "What type of device is a joystick?",
-      "options": [
-        "Input device",
-        "Output device",
-        "Processing device",
-        "Storage device"
-      ],
-      "answer": "Input device"
-    },
-    {
-      "id": "CS_23",
-      "chapter": "How A Computer Works",
-      "topic": "Device Types",
-      "question": "What type of device is a pen drive?",
-      "options": [
-        "Storage device",
-        "Processing device",
-        "Input device",
-        "Output device"
-      ],
-      "answer": "Storage device"
-    },
-    {
-      "id": "CS_24",
-      "chapter": "How A Computer Works",
-      "topic": "Device Types",
-      "question": "What type of device is the CPU?",
-      "options": [
-        "Processing device",
-        "Storage device",
-        "Output device",
-        "Input device"
-      ],
-      "answer": "Processing device"
-    },
-    {
-      "id": "CS_25",
-      "chapter": "How A Computer Works",
-      "topic": "Input-Process-Output",
-      "question": "Explain the IPO cycle of the computer with the help of an example.",
-      "options": [
-        "Input devices capture data from the user and send it to the CPU for processing. Devices such as a webcam, microphone, and scanner enable users to input different types of data like images, sound, or commands, which are then processed to produce meaningful outputs.",
-        "A computer follows the Input-Process-Output (IPO) cycle. First, input devices such as a keyboard or a mouse send data to the computer. The CPU, which acts as the brain of the computer, processes this data. Finally, the output is displayed through devices like a monitor or printed through a printer. For example, when you type a document on a keyboard (input), the CPU processes the data, and the monitor displays the typed document (output).",
-        "The CPU (Central Processing Unit) is responsible for processing the data that comes from input devices. It performs all the calculations and logical operations required by the computer.",
-        "Storage devices are used to save and store data so that it can be accessed later. Common examples of storage devices include hard disks, CDs, DVDs, and pen drives."
-      ],
-      "answer": "A computer follows the Input-Process-Output (IPO) cycle. First, input devices such as a keyboard or a mouse send data to the computer. The CPU, which acts as the brain of the computer, processes this data. Finally, the output is displayed through devices like a monitor or printed through a printer. For example, when you type a document on a keyboard (input), the CPU processes the data, and the monitor displays the typed document (output)."
-    },
-    {
-      "id": "CS_26",
-      "chapter": "How A Computer Works",
-      "topic": "Input Devices",
-      "question": "Describe the function of input devices.",
-      "options": [
-        "The CPU processes the input data and performs complex calculations. It coordinates between the input and output devices, ensuring that data flows smoothly through the system.",
-        "Software provides the instructions that tell the hardware what to do. For example, without the operating system (software), hardware devices like the keyboard and monitor would not know how to interact with the computer.",
-        "Input devices allow users to interact with the computer by providing data. Examples include the keyboard, mouse, and joystick. These devices send signals to the CPU, which processes the information. For instance, a scanner can input a picture into the computer for further processing.",
-        "Storage devices are used to save and store data so that it can be accessed later. I often use a pen drive to store files and transfer data between computers."
-      ],
-      "answer": "Input devices allow users to interact with the computer by providing data. Examples include the keyboard, mouse, and joystick. These devices send signals to the CPU, which processes the information. For instance, a scanner can input a picture into the computer for further processing."
-    },
-    {
-      "id": "CS_27",
-      "chapter": "How A Computer Works",
-      "topic": "CPU",
-      "question": "What is the function of CPU?",
-      "options": [
-        "The CPU (Central Processing Unit) is responsible for processing the data that comes from input devices. It performs all the calculations and logical operations required by the computer. The CPU is considered the brain of the computer because it controls all the activities and executes instructions.",
-        "A computer follows the Input-Process-Output (IPO) cycle. Input devices such as a keyboard send data to the CPU, which processes the data.",
-        "Input devices allow users to interact with the computer by providing data. Examples include the keyboard, mouse, and joystick.",
-        "Software refers to the set of instructions given to a computer to process data and generate output."
-      ],
-      "answer": "The CPU (Central Processing Unit) is responsible for processing the data that comes from input devices. It performs all the calculations and logical operations required by the computer. The CPU is considered the brain of the computer because it controls all the activities and executes instructions."
-    },
-    {
-      "id": "CS_28",
-      "chapter": "How A Computer Works",
-      "topic": "Software and Hardware",
-      "question": "Software and Hardware are dependent on each other. Is this statement true? If yes, why?",
-      "options": [
-        "Input devices allow users to interact with the computer by providing data. Examples include the keyboard, mouse, and joystick.",
-        "The CPU processes the input data and performs complex calculations. It coordinates between the input and output devices.",
-        "Yes, this statement is true. Hardware and software work together to make a computer function. Hardware refers to the physical parts of the computer, like the keyboard, monitor, and CPU. Software provides the instructions that tell the hardware what to do. For example, without the operating system (software), hardware devices like the keyboard and monitor would not know how to interact with the computer.",
-        "Storage devices are used to save and store data so that it can be accessed later. Examples include pen drives, hard disks, and CDs."
-      ],
-      "answer": "Yes, this statement is true. Hardware and software work together to make a computer function. Hardware refers to the physical parts of the computer, like the keyboard, monitor, and CPU. Software provides the instructions that tell the hardware what to do. For example, without the operating system (software), hardware devices like the keyboard and monitor would not know how to interact with the computer."
-    },
-    {
-      "id": "CS_29",
-      "chapter": "How A Computer Works",
-      "topic": "Storage Devices",
-      "question": "What is the use of a storage device? Name a storage device that you often use.",
-      "options": [
-        "The CPU is the brain of the computer. It processes data from input devices and controls the flow of information between components.",
-        "Storage devices are used to save and store data so that it can be accessed later. Common examples of storage devices include hard disks, CDs, DVDs, and pen drives. I often use a pen drive to store files and transfer data between computers.",
-        "Input devices allow users to interact with the computer by providing data. These include the keyboard, mouse, and scanner.",
-        "Software provides the set of instructions for the CPU to process data and generate meaningful output."
-      ],
-      "answer": "Storage devices are used to save and store data so that it can be accessed later. Common examples of storage devices include hard disks, CDs, DVDs, and pen drives. I often use a pen drive to store files and transfer data between computers."
-    },
-    {
-      "id": "CS_30",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Operating System",
-      "question": "_______________ operating system allows only one user to log onto the computer at a time.",
-      "options": ["Recycle Bin", "Ribbon", "Single-user", "Shut Down"],
-      "answer": "Single-user"
-    },
-    {
-      "id": "CS_31",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Power Options",
-      "question": "____________ option turns off your computer completely.",
-      "options": ["Recycle Bin", "Shut Down", "Single-user", "Ribbon"],
-      "answer": "Shut Down"
-    },
-    {
-      "id": "CS_32",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Recycle Bin",
-      "question": "___________ stores all your deleted files and folders.",
-      "options": ["Status Bar", "Ribbon", "Recycle Bin", "Single-user"],
-      "answer": "Recycle Bin"
-    },
-    {
-      "id": "CS_33",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Status Bar",
-      "question": "_______________ provides information about the task being done.",
-      "options": ["Recycle Bin", "Single-user", "Shut Down", "Status Bar"],
-      "answer": "Status Bar"
-    },
-    {
-      "id": "CS_34",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Ribbon",
-      "question": "_______________ consists of tabs and groups.",
-      "options": ["Ribbon", "Recycle Bin", "Status Bar", "Shut Down"],
-      "answer": "Ribbon"
-    },
-    {
-      "id": "CS_35",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Taskbar Features",
-      "question": "This is a rectangular bar at the very end of the Taskbar.",
-      "options": ["Show desktop", "Aero peek", "Shut down", "Status bar"],
-      "answer": "Show desktop"
-    },
-    {
-      "id": "CS_36",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Aero Peek",
-      "question": "Which of the following shows the live preview of open windows?",
-      "options": ["Aero peek", "Sneek peak", "Nice peak", "Sneak peek"],
-      "answer": "Aero peek"
-    },
-    {
-      "id": "CS_37",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Desktop Icons",
-      "question": "What are the little pictures of programs displayed on the desktop called?",
-      "options": ["Icons", "Middle section", "Bullets", "Calendar"],
-      "answer": "Icons"
-    },
-    {
-      "id": "CS_38",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Operating System Type",
-      "question": "Microsoft Windows is a ____________ operating system.",
-      "options": ["Single user", "Multi-user", "One time user", "One location user"],
-      "answer": "Single user"
-    },
-    {
-      "id": "CS_39",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Restart Option",
-      "question": "This option turns off your computer and starts it again.",
-      "options": ["Restart", "Shut Down", "Sleep", "Active start"],
-      "answer": "Restart"
-    },
-    {
-      "id": "CS_40",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Operating Systems",
-      "question": "Mac is an example of multi-user operating system.",
-      "options": ["False", "True"],
-      "answer": "False"
-    },
-    {
-      "id": "CS_41",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Acronyms",
-      "question": "GUI stands for Graphical User Interface.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_42",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Launch Dates",
-      "question": "Windows 10 was launched in 2018.",
-      "options": ["False", "True"],
-      "answer": "False"
-    },
-    {
-      "id": "CS_43",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Taskbar",
-      "question": "Clock is displayed on the right-hand side of the task bar.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_44",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Ribbon",
-      "question": "Ribbon appears below the title bar and consists of tabs and groups.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_45",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Task View",
-      "question": "You can point to the Task View button to see a live preview of its active windows. It is called Adam's Peek.",
-      "options": ["False", "True"],
-      "answer": "False"
-    },
-    {
-      "id": "CS_46",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Status Bar",
-      "question": "Status Bar provides the information about the task being done.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_47",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Scroll Bars",
-      "question": "Scroll Bars appear when all the contents of a window cannot be seen at the same time.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_48",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Scroll Bars",
-      "question": "There are three types of scroll bars: Horizontal Scroll Bar, Vertical Scroll Bar, Diagonal Scroll Bar.",
-      "options": ["False", "True"],
-      "answer": "False"
-    },
-    {
-      "id": "CS_49",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Work Area",
-      "question": "Work Area is the main working space which displays whatever you do. In paint, the work area is known as drawing area.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_50",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Taskbar",
-      "question": "What is the Taskbar?",
-      "options": [
-        "A bar that is displayed at the bottom of the Desktop screen.",
-        "A bar that displays the name of the document and the software program.",
-        "It provides information about the task being done.",
-        "Move your mouse over any icon on the Taskbar to see its thumbnail preview."
-      ],
-      "answer": "A bar that is displayed at the bottom of the Desktop screen."
-    },
-    {
-      "id": "CS_51",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Taskbar Features",
-      "question": "What is Live Taskbar Preview?",
-      "options": [
-        "Move your mouse over any icon on the Taskbar to see its thumbnail preview.",
-        "It provides information about the task being done.",
-        "A bar that is displayed at the bottom of the Desktop screen.",
-        "A bar that displays the name of the document and the software program."
-      ],
-      "answer": "Move your mouse over any icon on the Taskbar to see its thumbnail preview."
-    },
-    {
-      "id": "CS_52",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Status Bar",
-      "question": "What does the Status Bar do?",
-      "options": [
-        "It provides information about the task being done.",
-        "Move your mouse over any icon on the Taskbar to see its thumbnail preview.",
-        "A bar that is displayed at the bottom of the Desktop screen.",
-        "A bar that displays the name of the document and the software program."
-      ],
-      "answer": "It provides information about the task being done."
-    },
-    {
-      "id": "CS_53",
-      "chapter": "Windows 10 Operating System",
-      "topic": "Title Bar",
-      "question": "What does the Title Bar display?",
-      "options": [
-        "A bar that displays the name of the document and the software program.",
-        "A bar that is displayed at the bottom of the Desktop screen.",
-        "Move your mouse over any icon on the Taskbar to see its thumbnail preview.",
-        "It provides information about the task being done."
-      ],
-      "answer": "A bar that displays the name of the document and the software program."
-    },
-    {
-      "id": "CS_54",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Symmetry",
-      "question": "A picture having the same shape or size on both halves is _______________.",
-      "options": ["asymmetric", "crooked", "symmetric", "skewed"],
-      "answer": "symmetric"
-    },
-    {
-      "id": "CS_55",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "3D",
-      "question": "What does 3D stand for?",
-      "options": ["3 dimensions", "D, D, D", "3 Dalmatians", "3 diagrams"],
-      "answer": "3 dimensions"
-    },
-    {
-      "id": "CS_56",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Free-form Drawing",
-      "question": "On the Home tab, in the _________ group, click a callout to draw callouts.",
-      "options": ["Gridlines", "Shapes", "Free-form", "Upside"],
-      "answer": "Free-form"
-    },
-    {
-      "id": "CS_57",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Selection Tools",
-      "question": "To select an irregularly shaped part of the picture, choose ____________ selection.",
-      "options": ["Gridlines", "Free-form", "Shapes", "Print"],
-      "answer": "Shapes"
-    },
-    {
-      "id": "CS_58",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Flip Functionality",
-      "question": "Flip vertical will turn the picture ____________ down.",
-      "options": ["Upside", "Free-form", "Print", "Gridlines"],
-      "answer": "Upside"
-    },
-    {
-      "id": "CS_59",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Gridlines",
-      "question": "___________ make the screen look like a graph sheet.",
-      "options": ["Shapes", "Gridlines", "Upside", "Print"],
-      "answer": "Gridlines"
-    },
-    {
-      "id": "CS_60",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Print Function",
-      "question": "You can press Ctrl + P to ________ a picture.",
-      "options": ["Free-form", "Upside", "Gridlines", "Print"],
-      "answer": "Print"
-    },
-    {
-      "id": "CS_61",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Image Formats",
-      "question": "What is the full form of PNG?",
-      "options": [
-        "Pixelated Network Graphics",
-        "Portable Network Graphics",
-        "Printable Network Graphics",
-        "Pilot Network Graphics"
-      ],
-      "answer": "Portable Network Graphics"
-    },
-    {
-      "id": "CS_62",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Drawing Tools",
-      "question": "Which of these options help in making precise drawings?",
-      "options": [
-        "Gridlines",
-        "Print preview",
-        "Zoom slide",
-        "Callouts"
-      ],
-      "answer": "Gridlines"
-    },
-    {
-      "id": "CS_63",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Shapes Group",
-      "question": "In which group do you find the callout option?",
-      "options": [
-        "Shapes",
-        "Tools",
-        "Clipboard",
-        "Image"
-      ],
-      "answer": "Shapes"
-    },
-    {
-      "id": "CS_64",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Selection Tools",
-      "question": "Click _________ to select everything in the picture except for the current selection.",
-      "options": [
-        "Invert selection",
-        "Rulers",
-        "Zoom",
-        "Convert selection"
-      ],
-      "answer": "Invert selection"
-    },
-    {
-      "id": "CS_65",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Magnifier Tool",
-      "question": "What is the function of Magnifier tool?",
-      "options": [
-        "To zoom a picture",
-        "To rotate a picture",
-        "To flip a picture",
-        "To cut a picture"
-      ],
-      "answer": "To zoom a picture"
-    },
-    {
-      "id": "CS_66",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "File Formats",
-      "question": "GIF stands for Graphics Interchange Format.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_67",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Display Settings",
-      "question": "On the view tab, in the Display group, click Full screen to view the picture in full screen.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_68",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Zoom Tools",
-      "question": "To zoom a picture, choose Rulers tool.",
-      "options": ["False", "True"],
-      "answer": "False"
-    },
-    {
-      "id": "CS_69",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Gridlines",
-      "question": "To show gridlines, click the Gridlines checkbox.",
-      "options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": "CS_70",
-      "chapter": "Enhance a Drawing with Paint Tools",
-      "topic": "Full Screen View",
-      "question": "You cannot make changes to pictures in full screen view.",
-      "options": ["True", "False"],
-      "answer": "True"
+      "answer": "Click 'File' and then 'Exit', or type 'Bye' and click Execute"
     }
   ]
 }
