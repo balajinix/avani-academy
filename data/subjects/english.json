@@ -2,879 +2,443 @@
   "questions": [
     {
       "id": "English_1",
-      "chapter": "A Faithful Act",
-      "question": "having a very pleasant taste or smell",
-      "options": ["delicous", "delicious", "deliciuos", "delisious"],
-      "answer": "delicious"
+      "chapter": "Verbs",
+      "topic": "Using Verbs",
+      "question": "It is difficult to _______ a cake.",
+      "options": ["washes", "bake", "stop", "talk"],
+      "answer": "bake"
     },
     {
       "id": "English_2",
-      "chapter": "A Faithful Act",
-      "question": "a person in authority, especially over a body of troops or a military operation",
-      "options": ["commmander", "comander", "commander", "commader"],
-      "answer": "commander"
+      "chapter": "Verbs",
+      "topic": "Using Verbs",
+      "question": "Always ________ when the traffic light turns red.",
+      "options": ["buying", "is cooking", "stop", "playing"],
+      "answer": "stop"
     },
     {
       "id": "English_3",
-      "chapter": "A Faithful Act",
-      "question": "to move rapidly downward through the air",
-      "options": ["swoope", "swoop", "swop", "swoopt"],
-      "answer": "swoop"
+      "chapter": "Verbs",
+      "topic": "Progressive Tense",
+      "question": "I am ____________ flowers for my mother.",
+      "options": ["buying", "washes", "throws", "talk"],
+      "answer": "buying"
     },
     {
       "id": "English_4",
-      "chapter": "A Faithful Act",
-      "question": "resting in a high place",
-      "options": ["perchd", "perched", "percheed", "percht"],
-      "answer": "perched"
+      "chapter": "Verbs",
+      "topic": "Simple Present Tense",
+      "question": "Rohan __________ the ball for his dog.",
+      "options": ["bake", "is cooking", "playing", "throws"],
+      "answer": "throws"
     },
     {
       "id": "English_5",
-      "chapter": "A Faithful Act",
-      "question": "a situation involving exposure to danger",
-      "options": ["risck", "risk", "risq", "risc"],
-      "answer": "risk"
+      "chapter": "Verbs",
+      "topic": "Simple Present Tense",
+      "question": "Neeut _________ her hands before eating.",
+      "options": ["talk", "washes", "playing", "buying"],
+      "answer": "washes"
     },
     {
       "id": "English_6",
-      "chapter": "A Faithful Act",
-      "question": "make (someone) feel annoyed or dissatisfied",
-      "options": ["displese", "displease", "displeas", "displeese"],
-      "answer": "displease"
+      "chapter": "Verbs",
+      "topic": "Progressive Tense",
+      "question": "Mother ___________ my favorite meal.",
+      "options": ["playing", "stop", "is cooking", "throws"],
+      "answer": "is cooking"
     },
     {
       "id": "English_7",
-      "chapter": "A Faithful Act",
-      "question": "a gesture of respect or polite recognition, especially one made to or by a person when arriving or departing",
-      "options": ["salute", "salut", "salue", "saloot"],
-      "answer": "salute"
-    },{
-  "id": "English_8",
-      "chapter": "A Faithful Act",
-  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
-  "question": "Write the collective noun for soldiers.",
-  "options": ["Team", "Army", "Fleet", "Class"],
-  "answer": "Army"
-},
-{
-  "id": "English_9",
-      "chapter": "A Faithful Act",
-  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
-  "question": "Write the collective noun for players.",
-  "options": ["School", "Fleet", "Team", "Bunch"],
-  "answer": "Team"
-},
-{
-  "id": "English_10",
-      "chapter": "A Faithful Act",
-  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
-  "question": "Write the collective noun for students.",
-  "options": ["Class", "Bunch", "Fleet", "Army"],
-  "answer": "Class"
-},
-{
-  "id": "English_11",
-      "chapter": "A Faithful Act",
-  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
-  "question": "Write the collective noun for grapes.",
-  "options": ["Class", "Bunch", "School", "Team"],
-  "answer": "Bunch"
-},
-{
-  "id": "English_12",
-      "chapter": "A Faithful Act",
-  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
-  "question": "Write the collective noun for fish.",
-  "options": ["Fleet", "School", "Army", "Team"],
-  "answer": "School"
-},
-{
-  "id": "English_13",
-      "chapter": "A Faithful Act",
-  "reference": "Collective nouns are nouns which refer to a group of people, animals, or things of the same type",
-  "question": "Write the collective noun for ships.",
-  "options": ["Class", "Army", "Fleet", "Bunch"],
-  "answer": "Fleet"
-},
+      "chapter": "Verbs",
+      "topic": "Past Progressive Tense",
+      "question": "They were ________ together.",
+      "options": ["is cooking", "washes", "playing", "buying"],
+      "answer": "playing"
+    },
+    {
+      "id": "English_8",
+      "chapter": "Verbs",
+      "topic": "Imperative Verbs",
+      "question": "Do not _________ loudly in class.",
+      "options": ["talk", "throws", "bake", "stop"],
+      "answer": "talk"
+    },
+    {
+      "id": "English_9",
+      "chapter": "Verbs",
+      "topic": "Identifying Verbs",
+      "question": "Identify the verb in the sentence: 'Rama eats chocolates.'",
+      "options": ["Rama", "eats", "chocolates", "Rama chocolates"],
+      "answer": "eats"
+    },
+    {
+      "id": "English_10",
+      "chapter": "Verbs",
+      "topic": "Identifying Verbs",
+      "question": "Identify the verb in the sentence: 'The beggar is asking for money.'",
+      "options": ["The beggar", "is asking", "money", "for money"],
+      "answer": "is asking"
+    },
+    {
+      "id": "English_11",
+      "chapter": "Verbs",
+      "topic": "Identifying Verbs",
+      "question": "Identify the verb in the sentence: 'They boys play in the field.'",
+      "options": ["They boys", "in the field", "play", "they"],
+      "answer": "play"
+    },
+    {
+      "id": "English_12",
+      "chapter": "Verbs",
+      "topic": "Identifying Verbs",
+      "question": "Identify the verb in the sentence: 'She is teaching the students.'",
+      "options": ["She", "the students", "teaching", "is teaching"],
+      "answer": "is teaching"
+    },
+    {
+      "id": "English_13",
+      "chapter": "Verbs",
+      "topic": "Identifying Verbs",
+      "question": "Identify the verb in the sentence: 'The mouse eats cheese.'",
+      "options": ["The mouse", "eats", "cheese", "mouse cheese"],
+      "answer": "eats"
+    },
     {
       "id": "English_14",
-      "chapter": "A Faithful Act",
-      "question": "Generate the binomial pair for buyer.",
-      "options": ["manager", "seller", "worker", "owner"],
-      "answer": "seller"
+      "chapter": "Verbs",
+      "topic": "Identifying Verbs",
+      "question": "Identify the verb in the sentence: 'My friends are coming for dinner.'",
+      "options": ["My friends", "are coming", "for dinner", "dinner"],
+      "answer": "are coming"
     },
     {
       "id": "English_15",
-      "chapter": "A Faithful Act",
-      "question": "Generate the binomial pair for husband.",
-      "options": ["wife", "daughter", "mother", "sister"],
-      "answer": "wife"
+      "chapter": "Verbs",
+      "topic": "Identifying Verbs",
+      "question": "Identify the verb in the sentence: 'Meena is blowing a balloon.'",
+      "options": ["Meena", "a balloon", "blowing", "is blowing"],
+      "answer": "is blowing"
     },
     {
       "id": "English_16",
-      "chapter": "A Faithful Act",
-      "question": "Generate the binomial pair for parent.",
-      "options": ["teacher", "child", "adult", "brother"],
-      "answer": "child"
+      "chapter": "Verbs",
+      "topic": "Identifying Verbs",
+      "question": "Identify the verb in the sentence: 'My mother bakes cakes for me.'",
+      "options": ["My mother", "cakes", "for me", "bakes"],
+      "answer": "bakes"
     },
     {
       "id": "English_17",
-      "chapter": "A Faithful Act",
-      "question": "Generate the binomial pair for teacher.",
-      "options": ["parent", "worker", "child", "student"],
-      "answer": "student"
+      "chapter": "Am, Is, Are",
+      "topic": "Verbs",
+      "question": "Choose the correct verb for the sentence: \"She ____ a good student.\"",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": "is"
     },
     {
       "id": "English_18",
-      "chapter": "A Faithful Act",
-      "question": "Generate the binomial pair for brother.",
-      "options": ["father", "sister", "teacher", "aunt"],
-      "answer": "sister"
+      "chapter": "Am, Is, Are",
+      "topic": "Verbs",
+      "question": "Fill in the blank: \"I ____ in Dehradun today.\"",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "were"
+      ],
+      "answer": "am"
     },
     {
       "id": "English_19",
-      "chapter": "A Faithful Act",
-      "question": "Generate the binomial pair for doctor.",
-      "options": ["nurse", "surgeon", "patient", "teacher"],
-      "answer": "patient"
+      "chapter": "Am, Is, Are",
+      "topic": "Verbs",
+      "question": "Which verb is correct in the question: \"_____ you a fan of Virat Kohli?\"",
+      "options": [
+        "Am",
+        "Is",
+        "Are",
+        "Was"
+      ],
+      "answer": "Are"
     },
     {
       "id": "English_20",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nGopal eats two bananas every day.",
-      "options": ["eats", "Gopal", "bananas", "every day"],
-      "answer": "Gopal"
+      "chapter": "Am, Is, Are",
+      "topic": "Verbs",
+      "question": "Complete the sentence: \"Where ____ they?\"",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer": "are"
     },
     {
       "id": "English_21",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nTom ran after Jerry.",
-      "options": ["ran", "Tom", "Jerry", "after"],
-      "answer": "Tom"
+      "chapter": "Am, Is, Are",
+      "topic": "Verbs",
+      "question": "Which verb completes this sentence correctly: \"This toy ____ broken.\"",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": "is"
     },
     {
       "id": "English_22",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nMama Bear brought honey for Baby Bear.",
-      "options": ["Mama Bear", "brought", "honey", "Baby Bear"],
-      "answer": "Mama Bear"
+      "chapter": "Was, Were",
+      "topic": "Past Tense Verbs",
+      "question": "Fill in the blank: \"It _____ a fun trip.\"",
+      "options": [
+        "is",
+        "was",
+        "were",
+        "are"
+      ],
+      "answer": "was"
     },
     {
       "id": "English_23",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nAlice went to Wonderland.",
-      "options": ["went", "Alice", "Wonderland", "to"],
-      "answer": "Alice"
+      "chapter": "Was, Were",
+      "topic": "Past Tense Verbs",
+      "question": "Choose the correct past tense verb: \"We _____ lost in the woods.\"",
+      "options": [
+        "was",
+        "were",
+        "are",
+        "is"
+      ],
+      "answer": "were"
     },
     {
       "id": "English_24",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nAnts collect food for winter.",
-      "options": ["collect", "Ants", "food", "for winter"],
-      "answer": "Ants"
+      "chapter": "Was, Were",
+      "topic": "Past Tense Verbs",
+      "question": "Complete the sentence: \"I ____ hungry. So I ate a cake.\"",
+      "options": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": "was"
     },
     {
       "id": "English_25",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nWe like to read books.",
-      "options": ["We", "like", "read", "books"],
-      "answer": "We"
+      "chapter": "Has, Have, Had",
+      "topic": "Verbs",
+      "question": "Fill in the blank: \"I _____ a new idea for my project.\"",
+      "options": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
+      "answer": "have"
     },
     {
       "id": "English_26",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nI can make tea.",
-      "options": ["tea", "make", "I", "can"],
-      "answer": "I"
+      "chapter": "Has, Have, Had",
+      "topic": "Verbs",
+      "question": "Choose the correct verb for the past tense sentence: \"Yesterday, they _____ no food to eat.\"",
+      "options": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
+      "answer": "had"
     },
     {
       "id": "English_27",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nPinku broke my doll yesterday.",
-      "options": ["broke", "my doll", "Pinku", "yesterday"],
-      "answer": "Pinku"
+      "chapter": "Has, Have, Had",
+      "topic": "Verbs",
+      "question": "Select the correct verb: \"Anne ____ a new doll.\"",
+      "options": [
+        "have",
+        "has",
+        "had",
+        "having"
+      ],
+      "answer": "has"
     },
     {
       "id": "English_28",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nHarry Potter defeated the evil wizard.",
-      "options": ["the", "Harry Potter", "defeated", "evil wizard"],
-      "answer": "Harry Potter"
+      "chapter": "Has, Have, Had",
+      "topic": "Verbs",
+      "question": "Which verb correctly completes the nursery rhyme: \"Ba-ba Black sheep, ______ you any wool?\"",
+      "options": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
+      "answer": "have"
     },
     {
       "id": "English_29",
-      "chapter": "The Subject and the Predicate",
-      "question": "The subject in the following sentence is:\n\nA dragon was guarding the treasure.",
-      "options": ["guarding", "was", "dragon", "treasure"],
-      "answer": "dragon"
+      "chapter": "Has, Have, Had",
+      "topic": "Verbs",
+      "question": "Identify the correct verb usage:",
+      "options": [
+        "The swans has long necks.",
+        "The swans have long necks.",
+        "The swan have long necks.",
+        "The swans having long necks."
+      ],
+      "answer": "The swans have long necks."
     },
     {
       "id": "English_30",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nGopal eats two bananas every day.",
-      "options": ["Gopal", "eats two bananas every day", "bananas", "two"],
-      "answer": "eats two bananas every day"
+      "chapter": "Has, Have, Had",
+      "topic": "Verbs",
+      "question": "Select the correct sentence:",
+      "options": [
+        "He have a fever.",
+        "He has a fever.",
+        "He had a fever now.",
+        "He having a fever."
+      ],
+      "answer": "He has a fever."
     },
     {
       "id": "English_31",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nTom ran after Jerry.",
-      "options": ["Tom", "ran after Jerry", "Jerry", "after"],
-      "answer": "ran after Jerry"
+      "chapter": "Tenses",
+      "topic": "Verb Tenses",
+      "question": "Choose the correct tense word to fill in the blank: \"The boy _____ in cold water.\"",
+      "options": [
+        "bathing",
+        "bath",
+        "bathes",
+        "bathed"
+      ],
+      "answer": "bathes"
     },
     {
       "id": "English_32",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nMama Bear brought honey for Baby Bear.",
-      "options": ["Mama Bear", "brought honey for Baby Bear", "honey", "Baby Bear"],
-      "answer": "brought honey for Baby Bear"
+      "chapter": "Tenses",
+      "topic": "Verb Tenses",
+      "question": "Complete the sentence with the correct verb form: \"I was _______ on the phone.\"",
+      "options": [
+        "speaking",
+        "speak",
+        "spoke",
+        "speaks"
+      ],
+      "answer": "speaking"
     },
     {
       "id": "English_33",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nAlice went to Wonderland.",
-      "options": ["Alice", "went to Wonderland", "Wonderland", "to"],
-      "answer": "went to Wonderland"
+      "chapter": "Tenses",
+      "topic": "Verb Tenses",
+      "question": "Fill in the blank with the correct verb form: \"The horse is ________ on the field.\"",
+      "options": [
+        "galloping",
+        "gallop",
+        "galloped",
+        "gallops"
+      ],
+      "answer": "galloping"
     },
     {
       "id": "English_34",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nAnts collect food for winter.",
-      "options": ["Ants", "collect food for winter", "food", "for winter"],
-      "answer": "collect food for winter"
+      "chapter": "Tenses",
+      "topic": "Past Tense Forms",
+      "question": "What is the past tense of \"eat\"?",
+      "options": [
+        "eating",
+        "ate",
+        "eated",
+        "ating"
+      ],
+      "answer": "ate"
     },
     {
       "id": "English_35",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nWe like to read books.",
-      "options": ["We", "like to read books", "books", "read"],
-      "answer": "like to read books"
+      "chapter": "Tenses",
+      "topic": "Past Tense Forms",
+      "question": "Select the past tense of \"go\":",
+      "options": [
+        "going",
+        "goed",
+        "went",
+        "will go"
+      ],
+      "answer": "went"
     },
     {
       "id": "English_36",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nI can make tea.",
-      "options": ["I", "can make tea", "tea", "make"],
-      "answer": "can make tea"
+      "chapter": "Tenses",
+      "topic": "Simple Past Tense",
+      "question": "Identify the simple past tense version of the sentence: \"She draws well.\"",
+      "options": [
+        "She drawing well.",
+        "She will draw well.",
+        "She is drawing well.",
+        "She drew well."
+      ],
+      "answer": "She drew well."
     },
     {
       "id": "English_37",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nPinku broke my doll yesterday.",
-      "options": ["Pinku", "broke my doll yesterday", "my doll", "yesterday"],
-      "answer": "broke my doll yesterday"
+      "chapter": "Tenses",
+      "topic": "Changing Tenses",
+      "question": "Which is the correct simple past tense version of \"Rama is driving the blue car\"?",
+      "options": [
+        "Rama was driving the blue car.",
+        "Rama drove the blue car.",
+        "Rama drives the blue car.",
+        "Rama will drive the blue car."
+      ],
+      "answer": "Rama was driving the blue car."
     },
     {
       "id": "English_38",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nHarry Potter defeated the evil wizard.",
-      "options": ["Harry Potter", "defeated the evil wizard", "evil wizard", "defeated"],
-      "answer": "defeated the evil wizard"
+      "chapter": "Tenses",
+      "topic": "Present Continuous Tense",
+      "question": "Convert \"I drink soup\" to present continuous tense:",
+      "options": [
+        "I drank soup.",
+        "I am drinking soup.",
+        "I will drink soup.",
+        "I drinks soup."
+      ],
+      "answer": "I am drinking soup."
     },
     {
       "id": "English_39",
-      "chapter": "The Subject and the Predicate",
-      "question": "The predicate in the following sentence is:\n\nA dragon was guarding the treasure.",
-      "options": ["A dragon", "was guarding the treasure", "guarding", "treasure"],
-      "answer": "was guarding the treasure"
+      "chapter": "Tenses",
+      "topic": "Future Tense",
+      "question": "Which sentence shows the correct future tense of \"They acted in the play\"?",
+      "options": [
+        "They act in the play.",
+        "They are acting in the play.",
+        "They will act in the play.",
+        "They have acted in the play."
+      ],
+      "answer": "They will act in the play."
     },
     {
       "id": "English_40",
-      "chapter": "Grammar Preliminaries",
-      "question": "____________ will watch a film.",
-      "options": ["us", "ourselves", "we", "ours"],
-      "answer": "we"
-    },
-    {
-      "id": "English_41",
-      "chapter": "Grammar Preliminaries",
-      "question": "_______________ have a pet dog.",
-      "options": ["he", "she", "us", "I"],
-      "answer": "I"
-    },
-    {
-      "id": "English_42",
-      "chapter": "Grammar Preliminaries",
-      "question": "________________ are coming to our house on Sunday.",
-      "options": ["us", "they", "them", "it"],
-      "answer": "they"
-    },
-    {
-      "id": "English_43",
-      "chapter": "Grammar Preliminaries",
-      "question": "Whose pencil is this? I found ___________ on the floor.",
-      "options": ["he", "she", "them", "it"],
-      "answer": "it"
-    },
-    {
-      "id": "English_44",
-      "chapter": "Grammar Preliminaries",
-      "question": "Do ___________ like dancing?",
-      "options": ["you", "he", "them", "us"],
-      "answer": "you"
-    },
-    {
-      "id": "English_45",
-      "chapter": "The Sentence",
-      "question": "Rearrange the following words to form a meaningful sentence:\n\ntoys of full The is bag",
-      "options": ["is full bag toys of The", "The bag is full of toys", "toys bag full The is of", "full is The toys bag of"],
-      "answer": "The bag is full of toys"
-    },
-    {
-      "id": "English_46",
-      "chapter": "Questions",
-      "question": "Rearrange the following words to form a meaningful question:\n\nbook Henu is a reading?",
-      "options": ["Henu is reading a book?", "Is reading Henu a book?", "book Henu is reading a?", "Is Henu reading a book?"],
-      "answer": "Is Henu reading a book?"
-    },
-    {
-      "id": "English_47",
-      "chapter": "Questions",
-      "question": "Rearrange the following words to form a meaningful question:\n\nthe ships harbour in are the?",
-      "options": ["The ships are in the harbour?", "Are in the harbour ships the?", "Are the ships in the harbour?", "Harbour the are ships in?"],
-      "answer": "Are the ships in the harbour?"
-    },
-    {
-      "id": "English_48",
-      "chapter": "Questions",
-      "question": "Rearrange the following words to form a meaningful question:\n\nfor they party a going are?",
-      "options": ["Are they going for a party?", "They are going for a party?", "For a party they going are?", "Going they for a party are?"],
-      "answer": "Are they going for a party?"
-    },
-    {
-      "id": "English_49",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Common Nouns",
-      "question": "Identify the word that is NOT a common noun.",
-      "options": ["bag", "bed", "biscuit", "Maya"],
-      "answer": "Maya"
-    },
-    {
-      "id": "English_50",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Common Nouns",
-      "question": "Identify the word that is NOT a common noun.",
-      "options": ["cup", "plate", "China", "spoon"],
-      "answer": "China"
-    },
-    {
-      "id": "English_51",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Common Nouns",
-      "question": "Identify the word that is NOT a common noun.",
-      "options": ["bread", "butter", "cheese", "Amul"],
-      "answer": "Amul"
-    },
-    {
-      "id": "English_52",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Common Nouns",
-      "question": "Identify the word that is NOT a common noun.",
-      "options": ["break", "chocolate", "cake", "Safal"],
-      "answer": "Safal"
-    },
-    {
-      "id": "English_53",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Common Nouns",
-      "question": "Identify the word that is NOT a common noun.",
-      "options": ["boy", "Mumbai", "girl", "man"],
-      "answer": "Mumbai"
-    },
-    {
-      "id": "English_54",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Common Nouns",
-      "question": "Identify the word that is NOT a common noun.",
-      "options": ["dog", "mouse", "Tommy", "cat"],
-      "answer": "Tommy"
-    },
-    {
-      "id": "English_55",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Collective Nouns",
-      "question": "a pair of ________",
-      "options": ["cards", "trousers", "eggs", "lions"],
-      "answer": "trousers"
-    },
-    {
-      "id": "English_56",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Collective Nouns",
-      "question": "a pack of ______",
-      "options": ["sticks", "cards", "players", "eggs"],
-      "answer": "cards"
-    },
-    {
-      "id": "English_57",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Collective Nouns",
-      "question": "a team of ______",
-      "options": ["people", "bees", "players", "lions"],
-      "answer": "players"
-    },
-    {
-      "id": "English_58",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Collective Nouns",
-      "question": "a pride of __________",
-      "options": ["eggs", "cards", "lions", "people"],
-      "answer": "lions"
-    },
-    {
-      "id": "English_59",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Collective Nouns",
-      "question": "a crowd of ____________",
-      "options": ["lions", "players", "people", "trousers"],
-      "answer": "people"
-    },
-    {
-      "id": "English_60",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Collective Nouns",
-      "question": "a clutch of ______",
-      "options": ["cards", "eggs", "sticks", "people"],
-      "answer": "eggs"
-    },
-    {
-      "id": "English_61",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Collective Nouns",
-      "question": "a swarm of ________",
-      "options": ["sticks", "players", "eggs", "bees"],
-      "answer": "bees"
-    },
-    {
-      "id": "English_62",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Collective Nouns",
-      "question": "a bundle of _______",
-      "options": ["lions", "people", "sticks", "cards"],
-      "answer": "sticks"
-    },
-    {
-      "id": "English_63",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Proper Nouns",
-      "question": "What is the common noun for Venus?",
-      "options": ["girl", "planet", "building", "country"],
-      "answer": "planet"
-    },
-    {
-      "id": "English_64",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Proper Nouns",
-      "question": "What is the common noun for State Bank of India?",
-      "options": ["bank", "city", "planet", "ocean"],
-      "answer": "bank"
-    },
-    {
-      "id": "English_65",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Proper Nouns",
-      "question": "What is the common noun for Sunderbans?",
-      "options": ["forest", "girl", "building", "country"],
-      "answer": "forest"
-    },
-    {
-      "id": "English_66",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Proper Nouns",
-      "question": "What is the common noun for Mysore Palace?",
-      "options": ["planet", "building", "city", "ocean"],
-      "answer": "building"
-    },
-    {
-      "id": "English_67",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Proper Nouns",
-      "question": "What is the common noun for Padmini?",
-      "options": ["girl", "country", "building", "city"],
-      "answer": "girl"
-    },
-    {
-      "id": "English_68",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Proper Nouns",
-      "question": "What is the common noun for Bangladesh?",
-      "options": ["ocean", "country", "building", "city"],
-      "answer": "country"
-    },
-    {
-      "id": "English_69",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Proper Nouns",
-      "question": "What is the common noun for Indore?",
-      "options": ["city", "girl", "forest", "ocean"],
-      "answer": "city"
-    },
-    {
-      "id": "English_70",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Proper Nouns",
-      "question": "What is the common noun for Indian Ocean?",
-      "options": ["ocean", "country", "building", "planet"],
-      "answer": "ocean"
-    },
-    {
-      "id": "English_71",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Sentences vs Questions",
-      "question": "The boy is sitting on the couch. _______________",
-      "options": ["Sentence", "Question"],
-      "answer": "Sentence"
-    },
-    {
-      "id": "English_72",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Sentences vs Questions",
-      "question": "Cats like to drink milk. _________________",
-      "options": ["Sentence", "Question"],
-      "answer": "Sentence"
-    },
-    {
-      "id": "English_73",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Sentences vs Questions",
-      "question": "Do you write with a pencil or pen? _______________",
-      "options": ["Sentence", "Question"],
-      "answer": "Question"
-    },
-    {
-      "id": "English_74",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Sentences vs Questions",
-      "question": "Isn’t the sky looking beautiful? ___________________",
-      "options": ["Sentence", "Question"],
-      "answer": "Question"
-    },
-    {
-      "id": "English_75",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Sentences vs Questions",
-      "question": "The iron is hot. _________________",
-      "options": ["Sentence", "Question"],
-      "answer": "Sentence"
-    },
-    {
-      "id": "English_76",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Forming Questions with 'Is'",
-      "question": "Change the sentence into a question:\n\nThe Earth is round.",
+      "chapter": "Tenses",
+      "topic": "Future Tense",
+      "question": "Fill in the blank with the correct future tense: \"Avani is a young girl. After ten years, she _________ a teenager.\"",
       "options": [
-        "Round the Earth is?", 
-        "Is the Earth round?", 
-        "The Earth is round is?", 
-        "Is round the Earth?"
+        "is",
+        "was",
+        "will be",
+        "has been"
       ],
-      "answer": "Is the Earth round?"
-    },
-    {
-      "id": "English_77",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Forming Questions with 'Is'",
-      "question": "Change the sentence into a question:\n\nThe ice cream is too cold to eat.",
-      "options": [
-        "Is too cold to eat the ice cream?", 
-        "Too cold is the ice cream to eat?", 
-        "Is the ice cream too cold to eat?", 
-        "The ice cream is too cold to eat is?"
-      ],
-      "answer": "Is the ice cream too cold to eat?"
-    },
-    {
-      "id": "English_78",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Forming Questions with 'Is'",
-      "question": "Change the sentence into a question:\n\nGrandfather is telling Raju a story.",
-      "options": [
-        "Is Grandfather telling Raju a story?", 
-        "Telling Raju a story is Grandfather?", 
-        "Is a story Raju telling Grandfather?", 
-        "Is telling Grandfather a story Raju?"
-      ],
-      "answer": "Is Grandfather telling Raju a story?"
-    },
-    {
-      "id": "English_79",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Forming Questions with 'Is'",
-      "question": "Change the sentence into a question:\n\nBetty is going to the mall in the evening.",
-      "options": [
-        "Is Betty going to the mall in the evening?", 
-        "Betty is going in the evening to the mall?", 
-        "Going is Betty to the mall in the evening?", 
-        "Is to the mall in the evening Betty going?"
-      ],
-      "answer": "Is Betty going to the mall in the evening?"
-    },
-    {
-      "id": "English_80",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Forming Questions with 'Is'",
-      "question": "Change the sentence into a question:\n\nParul is crying because she hurt her hand.",
-      "options": [
-        "Is Parul crying because she hurt her hand?", 
-        "Is Parul hurt her hand because crying?", 
-        "Because she hurt her hand Parul is crying?", 
-        "Crying Parul is because she hurt her hand?"
-      ],
-      "answer": "Is Parul crying because she hurt her hand?"
-    },
-    {
-      "id": "English_81",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Uncountable Nouns",
-      "question": "Pick the uncountable noun in the sentence:\n\nMother, could you please pass me the salt.",
-      "options": ["salt", "Mother", "bus", "floor"],
-      "answer": "salt",
-      "reference": "Examples of countable nouns: bus, floor, Mother"
-    },
-    {
-      "id": "English_82",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Uncountable Nouns",
-      "question": "Pick the uncountable noun in the sentence:\n\nMen and women stood in a line at the bus stop.",
-      "options": ["line", "bus", "stop", "Men"],
-      "answer": "line",
-      "reference": "Examples of countable nouns: bus, stop, Men, women"
-    },
-    {
-      "id": "English_83",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Uncountable Nouns",
-      "question": "Pick the uncountable noun in the sentence:\n\nThe papers lay in a heap on the floor.",
-      "options": ["heap", "papers", "floor", "bus"],
-      "answer": "heap",
-      "reference": "Examples of countable nouns: papers, floor, bus"
-    },
-    {
-      "id": "English_84",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Uncountable Nouns",
-      "question": "Pick the uncountable noun in the sentence:\n\nSeawater is too salty to drink.",
-      "options": ["Seawater", "salt", "drink", "floor"],
-      "answer": "Seawater",
-      "reference": "Examples of countable nouns: drink, floor"
-    },
-    {
-      "id": "English_85",
-      "chapter": "Nouns: Common, Proper, Collective",
-      "topic": "Uncountable Nouns",
-      "question": "Pick the uncountable noun in the sentence:\n\nAdd more milk to the tea.",
-      "options": ["milk", "tea", "Mother", "bus"],
-      "answer": "milk",
-      "reference": "Examples of countable nouns: tea, Mother, bus"
-    },
-    {
-      "id": "English_86",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks with Phrasal Verbs",
-      "question": "I love to ____________________ my cousin. She reads to me from my favourite books and plays with me.",
-      "options": ["in season", "went off", "spend time with", "take a nap"],
-      "answer": "spend time with"
-    },
-    {
-      "id": "English_87",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks with Phrasal Verbs",
-      "question": "When mangoes are _______________, my mother makes delicious kheer with them.",
-      "options": ["polished off", "in season", "went off", "spend time with"],
-      "answer": "in season"
-    },
-    {
-      "id": "English_88",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks with Phrasal Verbs",
-      "question": "___________________ now, if you want to be awake for the cartoon show in the evening.",
-      "options": ["went off", "spend time with", "take a nap", "polished off"],
-      "answer": "take a nap"
-    },
-    {
-      "id": "English_89",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks with Phrasal Verbs",
-      "question": "The cat ____________________ the milk I gave it.",
-      "options": ["went off", "polished off", "spend time with", "take a nap"],
-      "answer": "polished off"
-    },
-    {
-      "id": "English_90",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks with Phrasal Verbs",
-      "question": "Sahil _____________________ to school after having his breakfast of cornflakes and milk.",
-      "options": ["went off", "polished off", "spend time with", "in season"],
-      "answer": "went off"
-    },
-    {
-      "id": "English_91",
-      "chapter": "Holiday Activities",
-      "topic": "Holiday Activities",
-      "question": "The most important festival of Assam is the ________ festival of Bihu, which is celebrated _____________________ times in a year.",
-      "options": ["spring", "three", "January", "harvest"],
-      "answer": "harvest"
-    },
-    {
-      "id": "English_92",
-      "chapter": "Holiday Activities",
-      "topic": "Holiday Activities",
-      "question": "In winter, Bhogoli or Magh Bihu is celebrated in the month of _____________________.",
-      "options": ["rice", "lamps", "January", "spring"],
-      "answer": "January"
-    },
-    {
-      "id": "English_93",
-      "chapter": "Holiday Activities",
-      "topic": "Holiday Activities",
-      "question": "Rongali or Bohag Bihu marks the beginning of the Assamese New Year during the season of _____________________ in April.",
-      "options": ["three", "harvest", "spring", "January"],
-      "answer": "spring"
-    },
-    {
-      "id": "English_94",
-      "chapter": "Holiday Activities",
-      "topic": "Holiday Activities",
-      "question": "The festival is believed to protect growing crops. People usually light clay _____________________ in the fields to keep away the evil eye.",
-      "options": ["rice", "lamps", "seeds", "folk dances"],
-      "answer": "lamps"
-    },
-    {
-      "id": "English_95",
-      "chapter": "Holiday Activities",
-      "topic": "Holiday Activities",
-      "question": "The traditional food prepared during all three Bihu's are delicious pithas, which are sweet pancakes made with _______________, the most important food crop grown in Assam.",
-      "options": ["three", "folk dances", "rice", "lamps"],
-      "answer": "rice"
-    },
-    {
-      "id": "English_96",
-      "chapter": "Holiday Activities",
-      "topic": "Holiday Activities",
-      "question": "Pithas are usually stuffed with jaggery and coconut or black sesame ________.",
-      "options": ["rice", "seeds", "three", "lamps"],
-      "answer": "seeds"
-    },
-    {
-      "id": "English_97",
-      "chapter": "Holiday Activities",
-      "topic": "Holiday Activities",
-      "question": "During Bihu, people gather in open fields and perform the Bihu dance, one of the most well-known ____________________ of northeast India.",
-      "options": ["folk dances", "seeds", "lamps", "rice"],
-      "answer": "folk dances"
-    },
-    {
-      "id": "English_98",
-      "chapter": "Comparison of Adjectives",
-      "topic": "Adjectives",
-      "question": "The second cake that I baked was _________________ (sweet) than the first.",
-      "options": ["sweetest", "more sweet", "sweeter", "sweet"],
-      "answer": "sweeter"
-    },
-    {
-      "id": "English_99",
-      "chapter": "Comparison of Adjectives",
-      "topic": "Adjectives",
-      "question": "Priya wears the _______________ (bright) colours.",
-      "options": ["more bright", "brighter", "brightest", "bright"],
-      "answer": "brightest"
-    },
-    {
-      "id": "English_100",
-      "chapter": "Comparison of Adjectives",
-      "topic": "Adjectives",
-      "question": "Rohan is __________________ (young) than his brother.",
-      "options": ["more young", "younger", "young", "youngest"],
-      "answer": "younger"
-    },
-    {
-      "id": "English_101",
-      "chapter": "Comparison of Adjectives",
-      "topic": "Adjectives",
-      "question": "Meeta is ______________ (clever) than Dimple.",
-      "options": ["more clever", "clever", "cleverest", "cleverer"],
-      "answer": "cleverer"
-    },
-    {
-      "id": "English_102",
-      "chapter": "Comparison of Adjectives",
-      "topic": "Adjectives",
-      "question": "The cheetah is a _____________ (fast) animal than the elephant.",
-      "options": ["fastest", "faster", "fast", "more fast"],
-      "answer": "faster"
-    },
-    {
-      "id": "English_103",
-      "chapter": "Comparison of Adjectives",
-      "topic": "Adjectives",
-      "question": "This is the __________________ (hard) question in the test.",
-      "options": ["harder", "more hard", "hard", "hardest"],
-      "answer": "hardest"
-    },
-    {
-      "id": "English_104",
-      "chapter": "Comparison of Adjectives",
-      "topic": "Adjectives",
-      "question": "That is the _______________ (ripe) mango in the box.",
-      "options": ["more ripe", "ripest", "riper", "ripe"],
-      "answer": "ripest"
-    },
-    {
-      "id": "English_105",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks",
-      "question": "Last year, five year old Neetu _________________ (visit, simple past) her aunt who lived ______ (preposition) a village.",
-      "options": ["visiting", "visits", "visited", "will visit"],
-      "answer": "visited"
-    },
-    {
-      "id": "English_106",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks",
-      "question": "Last year, five year old Neetu visited her aunt who lived ______ (preposition) a village.",
-      "options": ["on", "by", "from", "in"],
-      "answer": "in"
-    },
-    {
-      "id": "English_107",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks",
-      "question": "______________ (pronoun) had a lot of fun there.",
-      "options": ["Her", "Him", "She", "They"],
-      "answer": "She"
-    },
-    {
-      "id": "English_108",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks",
-      "question": "She learned to swim ______ (preposition) the pond, and how to feed the cows _______________ (conjunction) buffaloes.",
-      "options": ["with", "in", "by", "on"],
-      "answer": "in"
-    },
-    {
-      "id": "English_109",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks",
-      "question": "She learned to swim in the pond, and how to feed the cows _______________ (conjunction) buffaloes.",
-      "options": ["or", "for", "but", "and"],
-      "answer": "and"
-    },
-    {
-      "id": "English_110",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks",
-      "question": "She _____________ (play, simple past) ________________ (preposition) the village children too.",
-      "options": ["played", "playing", "has played", "plays"],
-      "answer": "played"
-    },
-    {
-      "id": "English_111",
-      "chapter": "Grammar Preliminaries",
-      "topic": "Fill in the Blanks",
-      "question": "She played ________________ (preposition) the village children too.",
-      "options": ["from", "by", "to", "with"],
-      "answer": "with"
+      "answer": "will be"
     }
   ]
 }
-
